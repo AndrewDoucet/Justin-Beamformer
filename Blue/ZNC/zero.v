@@ -1,6 +1,6 @@
-module zero(regA,out)
+module zero(regA,out);
     input [15:0]regA;
-    output out;
+    output reg out;
 
     always @(regA)
         if(regA==0)

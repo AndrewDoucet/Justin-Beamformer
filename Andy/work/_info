@@ -1,0 +1,219 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/intelFPGA_lite/20.1
+vADD
+Z0 !s110 1700584466
+!i10b 1
+!s100 cnF=51cN74d8?i><BRd];2
+Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I4a4Fe2zEiddlH9nNC0dGZ2
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+Z3 dC:/Users/andre/OneDrive/Documents/GitHub/Justin-Beamformer/Andy
+w1700581252
+8C:/Users/andre/OneDrive/Documents/GitHub/Justin-Beamformer/Instructions/ADD.v
+FC:/Users/andre/OneDrive/Documents/GitHub/Justin-Beamformer/Instructions/ADD.v
+!i122 97
+L0 6 41
+Z4 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z5 !s108 1700584466.000000
+!s107 C:/Users/andre/OneDrive/Documents/GitHub/Justin-Beamformer/Instructions/ADD.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/andre/OneDrive/Documents/GitHub/Justin-Beamformer/Instructions/ADD.v|
+!i113 1
+Z6 o-work work
+Z7 tCvgOpt 0
+n@a@d@d
+vblue
+R0
+!i10b 1
+!s100 TN>hC<FE[zm=iO?=2A9??0
+R1
+INQaA=1=SWOiZFl9jc`J?>2
+R2
+R3
+w1700584391
+8C:/Users/andre/OneDrive/Documents/GitHub/Justin-Beamformer/Blue/blue.v
+FC:/Users/andre/OneDrive/Documents/GitHub/Justin-Beamformer/Blue/blue.v
+!i122 101
+L0 1 31
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/andre/OneDrive/Documents/GitHub/Justin-Beamformer/Blue/blue.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/andre/OneDrive/Documents/GitHub/Justin-Beamformer/Blue/blue.v|
+!i113 1
+R6
+R7
+vcarry
+Z8 !s110 1700584467
+!i10b 1
+!s100 :[[K0lLjzd<Lc^;]F>1ng2
+R1
+I_8QlEC=4_=JZN<SGg4M0a3
+R2
+R3
+w1700584461
+8C:/Users/andre/OneDrive/Documents/GitHub/Justin-Beamformer/Blue/ZNC/carry.v
+FC:/Users/andre/OneDrive/Documents/GitHub/Justin-Beamformer/Blue/ZNC/carry.v
+!i122 105
+L0 1 24
+R4
+r1
+!s85 0
+31
+Z9 !s108 1700584467.000000
+!s107 C:/Users/andre/OneDrive/Documents/GitHub/Justin-Beamformer/Blue/ZNC/carry.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/andre/OneDrive/Documents/GitHub/Justin-Beamformer/Blue/ZNC/carry.v|
+!i113 1
+R6
+R7
+vfull_adder
+R0
+!i10b 1
+!s100 ]62>_`:YImVNH;hcXl^6i3
+R1
+I]:FG>FIlB_[P3e=j>F4UQ3
+R2
+R3
+w1700579823
+8C:/Users/andre/OneDrive/Documents/GitHub/Justin-Beamformer/Instructions/Submodules/full_adder.v
+FC:/Users/andre/OneDrive/Documents/GitHub/Justin-Beamformer/Instructions/Submodules/full_adder.v
+!i122 98
+L0 5 10
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/andre/OneDrive/Documents/GitHub/Justin-Beamformer/Instructions/Submodules/full_adder.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/andre/OneDrive/Documents/GitHub/Justin-Beamformer/Instructions/Submodules/full_adder.v|
+!i113 1
+R6
+R7
+vhalf_adder
+R0
+!i10b 1
+!s100 ES5B1kzA`IKS]^:jH0NLX1
+R1
+IInSmdU76GhVe0GD>F;9^[1
+R2
+R3
+w1700579824
+8C:/Users/andre/OneDrive/Documents/GitHub/Justin-Beamformer/Instructions/Submodules/half_adder.v
+FC:/Users/andre/OneDrive/Documents/GitHub/Justin-Beamformer/Instructions/Submodules/half_adder.v
+!i122 99
+L0 5 7
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/andre/OneDrive/Documents/GitHub/Justin-Beamformer/Instructions/Submodules/half_adder.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/andre/OneDrive/Documents/GitHub/Justin-Beamformer/Instructions/Submodules/half_adder.v|
+!i113 1
+R6
+R7
+vnegative
+R8
+!i10b 1
+!s100 3j8?7kP<350zok9cRoe:j2
+R1
+I`nFI^;>HPEKGS;5CnDSZO2
+R2
+R3
+w1700583732
+8C:/Users/andre/OneDrive/Documents/GitHub/Justin-Beamformer/Blue/ZNC/negative.v
+FC:/Users/andre/OneDrive/Documents/GitHub/Justin-Beamformer/Blue/ZNC/negative.v
+!i122 103
+L0 1 9
+R4
+r1
+!s85 0
+31
+R9
+!s107 C:/Users/andre/OneDrive/Documents/GitHub/Justin-Beamformer/Blue/ZNC/negative.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/andre/OneDrive/Documents/GitHub/Justin-Beamformer/Blue/ZNC/negative.v|
+!i113 1
+R6
+R7
+vreg16
+R0
+!i10b 1
+!s100 [22ViBFF0H4W2Y>IKV2?G3
+R1
+IF=A7OANoQen<V>9Jh5?Bo0
+R2
+R3
+w1700582099
+8C:/Users/andre/OneDrive/Documents/GitHub/Justin-Beamformer/Blue/reg16.v
+FC:/Users/andre/OneDrive/Documents/GitHub/Justin-Beamformer/Blue/reg16.v
+!i122 100
+Z10 L0 2 9
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/andre/OneDrive/Documents/GitHub/Justin-Beamformer/Blue/reg16.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/andre/OneDrive/Documents/GitHub/Justin-Beamformer/Blue/reg16.v|
+!i113 1
+R6
+R7
+vreg3
+R8
+!i10b 1
+!s100 7ZePkEgGL7dL[o2CJJ13R1
+R1
+INZGPG6^>05k1[gbLImzUL1
+R2
+R3
+w1700583989
+8C:/Users/andre/OneDrive/Documents/GitHub/Justin-Beamformer/Blue/ZNC/reg3.v
+FC:/Users/andre/OneDrive/Documents/GitHub/Justin-Beamformer/Blue/ZNC/reg3.v
+!i122 104
+R10
+R4
+r1
+!s85 0
+31
+R9
+!s107 C:/Users/andre/OneDrive/Documents/GitHub/Justin-Beamformer/Blue/ZNC/reg3.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/andre/OneDrive/Documents/GitHub/Justin-Beamformer/Blue/ZNC/reg3.v|
+!i113 1
+R6
+R7
+vzero
+R8
+!i10b 1
+!s100 356MbT=`g74bXAM34PdgL1
+R1
+I@z4PolL`gB6N3eC@SPQ_K0
+R2
+R3
+w1700582853
+8C:/Users/andre/OneDrive/Documents/GitHub/Justin-Beamformer/Blue/ZNC/zero.v
+FC:/Users/andre/OneDrive/Documents/GitHub/Justin-Beamformer/Blue/ZNC/zero.v
+!i122 102
+L0 1 10
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/andre/OneDrive/Documents/GitHub/Justin-Beamformer/Blue/ZNC/zero.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/andre/OneDrive/Documents/GitHub/Justin-Beamformer/Blue/ZNC/zero.v|
+!i113 1
+R6
+R7
