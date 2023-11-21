@@ -1,13 +1,11 @@
 //Andrew Doucet
 //Spencer Dugas
 
-//OR 
+//SHR
 
-module OR (RA,RB,out);
-	input [15:0] RA, RB;
-	output [15:0] out);
-	wire temp;
-	
+module SHR (RA,out);
+	input [15:0] RA;
+	output [15:0] out;
 	 
 	assign out = RA + RA;
 

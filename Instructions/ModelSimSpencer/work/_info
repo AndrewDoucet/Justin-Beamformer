@@ -1,0 +1,171 @@
+m255
+K4
+z2
+!s11f MIXED_VERSIONS
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Users/spenc/Documents/GitHub/Justin-Beamformer/Instructions/ModelSim
+vADD
+Z0 !s110 1700584212
+!i10b 1
+!s100 H:1dPC`2L3VHKcab?7SmX1
+Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IQFi0O@<zan0RN:KMdI5dU1
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+Z3 dC:/Users/spenc/Documents/GitHub/Justin-Beamformer/Instructions/ModelSimSpencer
+w1700581523
+8../ADD.v
+F../ADD.v
+!i122 30
+Z4 L0 6 7
+Z5 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z6 !s108 1700584212.000000
+Z7 !s107 ../XOR.v|../SUB.v|../SHR.v|../OR.v|../AND.v|../ADD.v|
+Z8 !s90 -reportprogress|300|../ADD.v|../AND.v|../OR.v|../SHR.v|../SUB.v|../XOR.v|
+!i113 1
+Z9 tCvgOpt 0
+n@a@d@d
+vAND
+R0
+!i10b 1
+!s100 70MQb?W]eFkEJgkbbYVhC3
+R1
+I`7<EoTQEbQmN0oT@E<Xe72
+R2
+R3
+w1700581728
+8../AND.v
+F../AND.v
+!i122 30
+R4
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 1
+R9
+n@a@n@d
+vOR
+R0
+!i10b 1
+!s100 HEM@SBcJ7P3`j1ch6XLKc1
+R1
+IcbKiE:jnXa1ARgY5EFZii2
+R2
+R3
+w1700581551
+8../OR.v
+F../OR.v
+!i122 30
+R4
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 1
+R9
+n@o@r
+vSHR
+R0
+!i10b 1
+!s100 YFfiGVaUE3aTR1Nb`VhVJ3
+R1
+IlcgiOY^Ca60_KC]nVk9OD1
+R2
+R3
+w1700581753
+8../SHR.v
+F../SHR.v
+!i122 30
+L0 6 8
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 1
+R9
+n@s@h@r
+vSUB
+R0
+!i10b 1
+!s100 5I3[2bfE:01>hn=5nU@B31
+R1
+IKH?^]lG3MlQOimRjaI<z>2
+R2
+R3
+w1700581295
+8../SUB.v
+F../SUB.v
+!i122 30
+R4
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 1
+R9
+n@s@u@b
+vtestbench
+R0
+!i10b 1
+!s100 mzLhWb2QQL6K1V:kegTOK1
+R1
+IC97_Dj`H^X[]d3@7Q;^zg0
+R2
+R3
+w1700583997
+8testbench.v
+Ftestbench.v
+!i122 31
+L0 3 17
+R5
+r1
+!s85 0
+31
+R6
+!s107 testbench.v|
+!s90 -reportprogress|300|testbench.v|
+!i113 1
+R9
+vXOR
+R0
+!i10b 1
+!s100 EHCJj1;n4>>VnPmboUP^l3
+R1
+IEWh[iSTal[lDjP5fz1zJj2
+R2
+R3
+w1700581665
+8../XOR.v
+F../XOR.v
+!i122 30
+R4
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 1
+R9
+n@x@o@r
