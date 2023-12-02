@@ -1,0 +1,117 @@
+# Load canceled
+# Load canceled
+# Compile of instruction.v was successful.
+# Compile of yellow.v was successful.
+# Compile of carry.v was successful.
+# Compile of negative.v was successful.
+# Compile of reg3.v was successful.
+# Compile of zero.v was successful.
+# Compile of CLR.v was successful.
+# Compile of CMP.v was successful.
+# Compile of DECOY.v was successful.
+# Compile of EXT.v was successful.
+# Compile of INSTY.v was successful.
+# Compile of SET.v was successful.
+# 12 compiles, 0 failed with no errors.
+vsim -gui work.DECOY -t 10ns
+# vsim -gui work.DECOY -t 10ns 
+# Start time: 17:20:56 on Dec 02,2023
+# Loading work.DECOY
+# WARNING: No extended dataflow license exists
+# Compile of instruction.v was successful.
+# Compile of yellow.v was successful.
+# Compile of carry.v was successful.
+# Compile of negative.v was successful.
+# Compile of reg3.v was successful.
+# Compile of zero.v was successful.
+# Compile of CLR.v was successful.
+# Compile of CMP.v was successful.
+# Compile of DECOY.v was successful.
+# Compile of EXT.v was successful.
+# Compile of INSTY.v was successful.
+# Compile of SET.v was successful.
+# 12 compiles, 0 failed with no errors.
+# Load canceled
+# Compile of yellow1.v was successful.
+vsim -gui -t 10ns work.yellow1
+# End time: 18:28:00 on Dec 02,2023, Elapsed time: 1:07:04
+# Errors: 0, Warnings: 11
+# vsim -gui -t 10ns work.yellow1 
+# Start time: 18:28:00 on Dec 02,2023
+# Loading work.yellow1
+# Loading work.INSTY
+# Loading work.EXT
+# Loading work.CMP
+# ** Error: (vsim-3033) Instantiation of 'SUB' failed. The design unit was not found.
+#    Time: 0 ns  Iteration: 0  Instance: /yellow1/M3 File: C:/Users/spenc/Documents/GitHub/Justin-Beamformer/Yellow/instructions/CMP.v Line: 7
+#         Searched libraries:
+#             C:/Users/spenc/Documents/GitHub/Justin-Beamformer/ModelSim/Spencer/work
+# Loading work.zero
+# Loading work.negative
+# Loading work.carry
+# Loading work.SET
+# Loading work.CLR
+# Loading work.DECOY
+# Error loading design
+# End time: 18:28:01 on Dec 02,2023, Elapsed time: 0:00:01
+# Errors: 1, Warnings: 1
+# Compile of yellow.v was successful.
+# Compile of carry.v was successful.
+# Compile of negative.v was successful.
+# Compile of reg3.v was successful.
+# Compile of zero.v was successful.
+# Compile of yellow1.v was successful.
+# Compile of ADD.v was successful.
+# Compile of AND.v was successful.
+# Compile of DECO.v was successful.
+# Compile of EXCH.v was successful.
+# Compile of INST.v was successful.
+# Compile of MOV.v was successful.
+# Compile of OR.v was successful.
+# Compile of SHR.v was successful.
+# Compile of SUB.v was successful.
+# Compile of XOR.v was successful.
+# 16 compiles, 6 failed with no errors.
+vsim -gui -t 10ns work.yellow1
+# vsim -gui -t 10ns work.yellow1 
+# Start time: 18:29:16 on Dec 02,2023
+# Loading work.yellow1
+# Loading work.INSTY
+# Loading work.EXT
+# Loading work.CMP
+# Loading work.SUB
+# Loading work.zero
+# Loading work.negative
+# Loading work.carry
+# Loading work.SET
+# Loading work.CLR
+# Loading work.DECOY
+# WARNING: No extended dataflow license exists
+add wave -position end  sim:/yellow1/RA
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: spenc  Hostname: DESKTOP-8QEKS6A  ProcessID: 8408
+#           Attempting to use alternate WLF file "./wlfthqt478".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlfthqt478
+add wave -position end  sim:/yellow1/RB
+add wave -position end  sim:/yellow1/out
+add wave -position end  sim:/yellow1/ins
+add wave -position end  sim:/yellow1/sel
+add wave -position end  sim:/yellow1/znc
+force -freeze sim:/yellow1/znc 100 0
+force -freeze sim:/yellow1/ins 00100 0
+force -freeze sim:/yellow1/ins 0010000000000000 0
+run
+force -freeze sim:/yellow1/ins 0010001000000000 0
+run
+force -freeze sim:/yellow1/ins 0010001100000000 0
+run
+force -freeze sim:/yellow1/sel 01 0
+run
+force -freeze sim:/yellow1/znc 111 0
+run
+run
+force -freeze sim:/yellow1/ins 0010011100000000 0
+run
+# End time: 18:37:51 on Dec 02,2023, Elapsed time: 0:08:35
+# Errors: 0, Warnings: 5

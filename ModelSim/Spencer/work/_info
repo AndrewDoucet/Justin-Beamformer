@@ -1,0 +1,533 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/intelFPGA_lite/20.1
+vADD
+Z0 !s110 1701556129
+!i10b 1
+!s100 jEMaFZebl;IbZXlLAc@9M3
+Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+ISX0h0O1b47@2Y3I5IK<732
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+Z3 dC:/Users/spenc/Documents/GitHub/Justin-Beamformer/ModelSim/Spencer
+w1701538867
+8C:/Users/spenc/Documents/GitHub/Justin-Beamformer/Blue/Instructions/ADD.v
+FC:/Users/spenc/Documents/GitHub/Justin-Beamformer/Blue/Instructions/ADD.v
+!i122 31
+Z4 L0 5 7
+Z5 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z6 !s108 1701556129.000000
+!s107 C:/Users/spenc/Documents/GitHub/Justin-Beamformer/Blue/Instructions/ADD.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/spenc/Documents/GitHub/Justin-Beamformer/Blue/Instructions/ADD.v|
+!i113 1
+Z7 o-work work
+Z8 tCvgOpt 0
+n@a@d@d
+vAND
+R0
+!i10b 1
+!s100 52GW@k22mAc1i9E<SnlFd2
+R1
+IM_gO0>;K8We66Df@h2`kH0
+R2
+R3
+w1701538920
+8C:/Users/spenc/Documents/GitHub/Justin-Beamformer/Blue/Instructions/AND.v
+FC:/Users/spenc/Documents/GitHub/Justin-Beamformer/Blue/Instructions/AND.v
+!i122 32
+R4
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/Users/spenc/Documents/GitHub/Justin-Beamformer/Blue/Instructions/AND.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/spenc/Documents/GitHub/Justin-Beamformer/Blue/Instructions/AND.v|
+!i113 1
+R7
+R8
+n@a@n@d
+vcarry
+Z9 !s110 1701556120
+!i10b 1
+!s100 :[[K0lLjzd<Lc^;]F>1ng2
+R1
+IWSFS^kzWjb=XlBQagc2M;0
+R2
+R3
+Z10 w1701538845
+8C:/Users/spenc/Documents/GitHub/Justin-Beamformer/ZNC/carry.v
+FC:/Users/spenc/Documents/GitHub/Justin-Beamformer/ZNC/carry.v
+!i122 26
+L0 1 24
+R5
+r1
+!s85 0
+31
+Z11 !s108 1701556120.000000
+!s107 C:/Users/spenc/Documents/GitHub/Justin-Beamformer/ZNC/carry.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/spenc/Documents/GitHub/Justin-Beamformer/ZNC/carry.v|
+!i113 1
+R7
+R8
+vCLR
+Z12 !s110 1701555976
+!i10b 1
+!s100 ;WEBI:Cei@PQPMO:z<YH>1
+R1
+I1HfeFiYA7m7V]_7JSQOHj1
+R2
+R3
+w1701547391
+8C:/Users/spenc/Documents/GitHub/Justin-Beamformer/Yellow/instructions/CLR.v
+FC:/Users/spenc/Documents/GitHub/Justin-Beamformer/Yellow/instructions/CLR.v
+!i122 18
+Z13 L0 4 9
+R5
+r1
+!s85 0
+31
+Z14 !s108 1701555976.000000
+!s107 C:/Users/spenc/Documents/GitHub/Justin-Beamformer/Yellow/instructions/CLR.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/spenc/Documents/GitHub/Justin-Beamformer/Yellow/instructions/CLR.v|
+!i113 1
+R7
+R8
+n@c@l@r
+vCMP
+R12
+!i10b 1
+!s100 Yz;ee85zT7?ANZQma77lN3
+R1
+IdP2X7GiPZ;oWggJ?:AJC03
+R2
+R3
+R10
+8C:/Users/spenc/Documents/GitHub/Justin-Beamformer/Yellow/instructions/CMP.v
+FC:/Users/spenc/Documents/GitHub/Justin-Beamformer/Yellow/instructions/CMP.v
+!i122 19
+L0 3 11
+R5
+r1
+!s85 0
+31
+R14
+!s107 C:/Users/spenc/Documents/GitHub/Justin-Beamformer/Yellow/instructions/CMP.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/spenc/Documents/GitHub/Justin-Beamformer/Yellow/instructions/CMP.v|
+!i113 1
+R7
+R8
+n@c@m@p
+vDECO
+R0
+!i10b 1
+!s100 1ifb1mPmF[Q]ad?NZcGc92
+R1
+I?Hi>i_6KL9_oPm?MEBJUU3
+R2
+R3
+w1701543691
+8C:/Users/spenc/Documents/GitHub/Justin-Beamformer/Blue/Instructions/DECO.v
+FC:/Users/spenc/Documents/GitHub/Justin-Beamformer/Blue/Instructions/DECO.v
+!i122 33
+L0 5 52
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/Users/spenc/Documents/GitHub/Justin-Beamformer/Blue/Instructions/DECO.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/spenc/Documents/GitHub/Justin-Beamformer/Blue/Instructions/DECO.v|
+!i113 1
+R7
+R8
+n@d@e@c@o
+vDECOY
+Z15 !s110 1701555977
+!i10b 1
+!s100 :IN0cg=CZK@fRdRR:o0`Z3
+R1
+Ib5^?]6F3CAZ=VLBo:U?6]2
+R2
+R3
+w1701551679
+8C:/Users/spenc/Documents/GitHub/Justin-Beamformer/Yellow/instructions/DECOY.v
+FC:/Users/spenc/Documents/GitHub/Justin-Beamformer/Yellow/instructions/DECOY.v
+!i122 20
+L0 5 9
+R5
+r1
+!s85 0
+31
+Z16 !s108 1701555977.000000
+!s107 C:/Users/spenc/Documents/GitHub/Justin-Beamformer/Yellow/instructions/DECOY.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/spenc/Documents/GitHub/Justin-Beamformer/Yellow/instructions/DECOY.v|
+!i113 1
+R7
+R8
+n@d@e@c@o@y
+vEXCH
+R0
+!i10b 1
+!s100 HF@5aEHZaf:^<B9XZ][BH1
+R1
+I2fWQF2dY60MU222UmESGV0
+R2
+R3
+w1701538878
+8C:/Users/spenc/Documents/GitHub/Justin-Beamformer/Blue/Instructions/EXCH.v
+FC:/Users/spenc/Documents/GitHub/Justin-Beamformer/Blue/Instructions/EXCH.v
+!i122 34
+L0 5 8
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/Users/spenc/Documents/GitHub/Justin-Beamformer/Blue/Instructions/EXCH.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/spenc/Documents/GitHub/Justin-Beamformer/Blue/Instructions/EXCH.v|
+!i113 1
+R7
+R8
+n@e@x@c@h
+vEXT
+R15
+!i10b 1
+!s100 I9VFXFc3F:B>3KnC@CjfL1
+R1
+IDMkST`hN8`adaNR8kn<j`1
+R2
+R3
+w1701546862
+8C:/Users/spenc/Documents/GitHub/Justin-Beamformer/Yellow/instructions/EXT.v
+FC:/Users/spenc/Documents/GitHub/Justin-Beamformer/Yellow/instructions/EXT.v
+!i122 21
+Z17 L0 3 9
+R5
+r1
+!s85 0
+31
+R16
+!s107 C:/Users/spenc/Documents/GitHub/Justin-Beamformer/Yellow/instructions/EXT.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/spenc/Documents/GitHub/Justin-Beamformer/Yellow/instructions/EXT.v|
+!i113 1
+R7
+R8
+n@e@x@t
+vINST
+R0
+!i10b 1
+!s100 jEGo^T<78z4_M0DV[7^Xd3
+R1
+Ii]kIhC8WnE<kmcWb6]0dh0
+R2
+R3
+w1701542112
+8C:/Users/spenc/Documents/GitHub/Justin-Beamformer/Blue/Instructions/INST.v
+FC:/Users/spenc/Documents/GitHub/Justin-Beamformer/Blue/Instructions/INST.v
+!i122 35
+R17
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/Users/spenc/Documents/GitHub/Justin-Beamformer/Blue/Instructions/INST.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/spenc/Documents/GitHub/Justin-Beamformer/Blue/Instructions/INST.v|
+!i113 1
+R7
+R8
+n@i@n@s@t
+vINSTY
+R15
+!i10b 1
+!s100 i:4Y3^Sa[<;^LfUkk@7Fk3
+R1
+Ib4`gSzG@FnADPl79OE3M_1
+R2
+R3
+w1701551211
+8C:/Users/spenc/Documents/GitHub/Justin-Beamformer/Yellow/instructions/INSTY.v
+FC:/Users/spenc/Documents/GitHub/Justin-Beamformer/Yellow/instructions/INSTY.v
+!i122 22
+L0 3 8
+R5
+r1
+!s85 0
+31
+R16
+!s107 C:/Users/spenc/Documents/GitHub/Justin-Beamformer/Yellow/instructions/INSTY.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/spenc/Documents/GitHub/Justin-Beamformer/Yellow/instructions/INSTY.v|
+!i113 1
+R7
+R8
+n@i@n@s@t@y
+vMOV
+Z18 !s110 1701556130
+!i10b 1
+!s100 A;Zak=6z6e<`[XUE1Q4:k2
+R1
+Ie@;iLzm:e2RN]1nDWj;LW3
+R2
+R3
+w1701538881
+8C:/Users/spenc/Documents/GitHub/Justin-Beamformer/Blue/Instructions/MOV.v
+FC:/Users/spenc/Documents/GitHub/Justin-Beamformer/Blue/Instructions/MOV.v
+!i122 36
+R4
+R5
+r1
+!s85 0
+31
+Z19 !s108 1701556130.000000
+!s107 C:/Users/spenc/Documents/GitHub/Justin-Beamformer/Blue/Instructions/MOV.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/spenc/Documents/GitHub/Justin-Beamformer/Blue/Instructions/MOV.v|
+!i113 1
+R7
+R8
+n@m@o@v
+vnegative
+R9
+!i10b 1
+!s100 3j8?7kP<350zok9cRoe:j2
+R1
+Ij3kDFifV90AGONZPg=cOm2
+R2
+R3
+R10
+8C:/Users/spenc/Documents/GitHub/Justin-Beamformer/ZNC/negative.v
+FC:/Users/spenc/Documents/GitHub/Justin-Beamformer/ZNC/negative.v
+!i122 27
+L0 1 9
+R5
+r1
+!s85 0
+31
+R11
+!s107 C:/Users/spenc/Documents/GitHub/Justin-Beamformer/ZNC/negative.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/spenc/Documents/GitHub/Justin-Beamformer/ZNC/negative.v|
+!i113 1
+R7
+R8
+vOR
+R18
+!i10b 1
+!s100 1;J=P95cGj:UPVPlj88430
+R1
+Ijogfb:9:VC;2eCOUDVoeK2
+R2
+R3
+w1701538930
+8C:/Users/spenc/Documents/GitHub/Justin-Beamformer/Blue/Instructions/OR.v
+FC:/Users/spenc/Documents/GitHub/Justin-Beamformer/Blue/Instructions/OR.v
+!i122 37
+R4
+R5
+r1
+!s85 0
+31
+R19
+!s107 C:/Users/spenc/Documents/GitHub/Justin-Beamformer/Blue/Instructions/OR.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/spenc/Documents/GitHub/Justin-Beamformer/Blue/Instructions/OR.v|
+!i113 1
+R7
+R8
+n@o@r
+vreg3
+R9
+!i10b 1
+!s100 7ZePkEgGL7dL[o2CJJ13R1
+R1
+ImW@GU94gFmm50UhXZZCj53
+R2
+R3
+R10
+8C:/Users/spenc/Documents/GitHub/Justin-Beamformer/ZNC/reg3.v
+FC:/Users/spenc/Documents/GitHub/Justin-Beamformer/ZNC/reg3.v
+!i122 28
+L0 2 9
+R5
+r1
+!s85 0
+31
+R11
+!s107 C:/Users/spenc/Documents/GitHub/Justin-Beamformer/ZNC/reg3.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/spenc/Documents/GitHub/Justin-Beamformer/ZNC/reg3.v|
+!i113 1
+R7
+R8
+vSET
+R15
+!i10b 1
+!s100 0z4JjD9KX1F4JZWCQHX@F0
+R1
+I29hnTFCF6RD^ET0:1fFR53
+R2
+R3
+w1701547395
+8C:/Users/spenc/Documents/GitHub/Justin-Beamformer/Yellow/instructions/SET.v
+FC:/Users/spenc/Documents/GitHub/Justin-Beamformer/Yellow/instructions/SET.v
+!i122 23
+R13
+R5
+r1
+!s85 0
+31
+R16
+!s107 C:/Users/spenc/Documents/GitHub/Justin-Beamformer/Yellow/instructions/SET.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/spenc/Documents/GitHub/Justin-Beamformer/Yellow/instructions/SET.v|
+!i113 1
+R7
+R8
+n@s@e@t
+vSHR
+R18
+!i10b 1
+!s100 K3Pk6QiomLQSOenS>_NRW3
+R1
+I@WH0m4kNHM7Qb9:af?TQJ2
+R2
+R3
+w1701538943
+8C:/Users/spenc/Documents/GitHub/Justin-Beamformer/Blue/Instructions/SHR.v
+FC:/Users/spenc/Documents/GitHub/Justin-Beamformer/Blue/Instructions/SHR.v
+!i122 38
+L0 5 23
+R5
+r1
+!s85 0
+31
+R19
+!s107 C:/Users/spenc/Documents/GitHub/Justin-Beamformer/Blue/Instructions/SHR.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/spenc/Documents/GitHub/Justin-Beamformer/Blue/Instructions/SHR.v|
+!i113 1
+R7
+R8
+n@s@h@r
+vSUB
+R18
+!i10b 1
+!s100 :JR;FkD`Y42K6o8f6mVJH1
+R1
+I9163JkaOej1YoHoR:NHZC2
+R2
+R3
+w1701538901
+8C:/Users/spenc/Documents/GitHub/Justin-Beamformer/Blue/Instructions/SUB.v
+FC:/Users/spenc/Documents/GitHub/Justin-Beamformer/Blue/Instructions/SUB.v
+!i122 39
+R4
+R5
+r1
+!s85 0
+31
+R19
+!s107 C:/Users/spenc/Documents/GitHub/Justin-Beamformer/Blue/Instructions/SUB.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/spenc/Documents/GitHub/Justin-Beamformer/Blue/Instructions/SUB.v|
+!i113 1
+R7
+R8
+n@s@u@b
+vXOR
+R18
+!i10b 1
+!s100 S=309Vm1A6S`5[iIJbaXP1
+R1
+IglP]QEALi@6oLT`V13@9?2
+R2
+R3
+w1701538909
+8C:/Users/spenc/Documents/GitHub/Justin-Beamformer/Blue/Instructions/XOR.v
+FC:/Users/spenc/Documents/GitHub/Justin-Beamformer/Blue/Instructions/XOR.v
+!i122 40
+R4
+R5
+r1
+!s85 0
+31
+R19
+!s107 C:/Users/spenc/Documents/GitHub/Justin-Beamformer/Blue/Instructions/XOR.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/spenc/Documents/GitHub/Justin-Beamformer/Blue/Instructions/XOR.v|
+!i113 1
+R7
+R8
+n@x@o@r
+vyellow
+R9
+!i10b 1
+!s100 G]G=_S@c[k2IV<][bTabX2
+R1
+I8K4bf4cf7;JFZHC0z]HT43
+R2
+R3
+R10
+8C:/Users/spenc/Documents/GitHub/Justin-Beamformer/Yellow/yellow.v
+FC:/Users/spenc/Documents/GitHub/Justin-Beamformer/Yellow/yellow.v
+!i122 25
+L0 3 21
+R5
+r1
+!s85 0
+31
+R11
+!s107 C:/Users/spenc/Documents/GitHub/Justin-Beamformer/Yellow/yellow.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/spenc/Documents/GitHub/Justin-Beamformer/Yellow/yellow.v|
+!i113 1
+R7
+R8
+vyellow1
+R0
+!i10b 1
+!s100 MCRAhXAF@2BaYm3JDGI<c2
+R1
+IQa4FaP^io^l=[gGaBah^[1
+R2
+R3
+w1701556036
+8C:/Users/spenc/Documents/GitHub/Justin-Beamformer/Yellow/yellow1.v
+FC:/Users/spenc/Documents/GitHub/Justin-Beamformer/Yellow/yellow1.v
+!i122 30
+L0 5 21
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/Users/spenc/Documents/GitHub/Justin-Beamformer/Yellow/yellow1.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/spenc/Documents/GitHub/Justin-Beamformer/Yellow/yellow1.v|
+!i113 1
+R7
+R8
+vzero
+R9
+!i10b 1
+!s100 356MbT=`g74bXAM34PdgL1
+R1
+IO5CLzB7dQnIP`4aUmIZfc0
+R2
+R3
+R10
+8C:/Users/spenc/Documents/GitHub/Justin-Beamformer/ZNC/zero.v
+FC:/Users/spenc/Documents/GitHub/Justin-Beamformer/ZNC/zero.v
+!i122 29
+L0 1 10
+R5
+r1
+!s85 0
+31
+R11
+!s107 C:/Users/spenc/Documents/GitHub/Justin-Beamformer/ZNC/zero.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/spenc/Documents/GitHub/Justin-Beamformer/ZNC/zero.v|
+!i113 1
+R7
+R8
