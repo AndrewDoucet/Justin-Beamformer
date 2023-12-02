@@ -1,0 +1,296 @@
+# Compile of ADD.v was successful.
+# Compile of full_adder.v was successful.
+# Compile of half_adder.v was successful.
+# Compile of reg16.v was successful.
+# Compile of blue.v was successful.
+# Compile of zero.v was successful.
+# Compile of negative.v failed with 2 errors.
+# Compile of reg3.v failed with 1 errors.
+# 8 compiles, 2 failed with 3 errors.
+# Compile of ADD.v was successful.
+# Compile of full_adder.v was successful.
+# Compile of half_adder.v was successful.
+# Compile of reg16.v was successful.
+# Compile of blue.v was successful.
+# Compile of zero.v was successful.
+# Compile of negative.v was successful.
+# Compile of reg3.v was successful.
+# 8 compiles, 0 failed with no errors.
+vsim work.blue
+# vsim work.blue 
+# Start time: 12:22:35 on Nov 21,2023
+# Loading work.blue
+# Loading work.ADD
+# Loading work.half_adder
+# Loading work.full_adder
+# Loading work.reg16
+# Loading work.reg3
+# Loading work.zero
+# Loading work.negative
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (3) for port 'clk'. The port definition is at: C:/Users/andre/OneDrive/Documents/GitHub/Justin-Beamformer/Blue/ZNC/reg3.v(2).
+#    Time: 0 ps  Iteration: 0  Instance: /blue/znc_reg File: C:/Users/andre/OneDrive/Documents/GitHub/Justin-Beamformer/Blue/blue.v Line: 26
+# ** Warning: (vsim-3015) [PCDPC] - Port size (3) does not match connection size (1) for port 'Q'. The port definition is at: C:/Users/andre/OneDrive/Documents/GitHub/Justin-Beamformer/Blue/ZNC/reg3.v(2).
+#    Time: 0 ps  Iteration: 0  Instance: /blue/znc_reg File: C:/Users/andre/OneDrive/Documents/GitHub/Justin-Beamformer/Blue/blue.v Line: 26
+add wave -position insertpoint  \
+sim:/blue/znc_out \
+sim:/blue/znc_mid \
+sim:/blue/opCode \
+sim:/blue/en \
+sim:/blue/clk \
+sim:/blue/B_out \
+sim:/blue/B_mid \
+sim:/blue/A_out \
+sim:/blue/A_mid
+force -freeze sim:/blue/en 1 0
+force -freeze sim:/blue/clk 1 0, 0 {50 ps} -r 100
+force -freeze sim:/blue/A_mid 0 0
+force -freeze sim:/blue/B_mid 0 0
+run
+run
+run
+run
+noforce sim:/blue/A_mid
+noforce sim:/blue/B_mid
+force -freeze sim:/blue/B_mid 1 0
+run
+run
+run
+run
+run
+run
+run
+run
+run
+# Compile of reg3.v was successful.
+# Compile of ADD.v was successful.
+# Compile of full_adder.v was successful.
+# Compile of half_adder.v was successful.
+# Compile of reg16.v was successful.
+# Compile of blue.v was successful.
+# Compile of zero.v was successful.
+# Compile of negative.v was successful.
+# Compile of reg3.v was successful.
+# 8 compiles, 0 failed with no errors.
+vsim work.blue
+# End time: 12:27:15 on Nov 21,2023, Elapsed time: 0:04:40
+# Errors: 0, Warnings: 9
+# vsim work.blue 
+# Start time: 12:27:15 on Nov 21,2023
+# Loading work.blue
+# Loading work.ADD
+# Loading work.half_adder
+# Loading work.full_adder
+# Loading work.reg16
+# Loading work.reg3
+# Loading work.zero
+# Loading work.negative
+add wave -position insertpoint sim:/blue/*
+force -freeze sim:/blue/clk 1 0, 0 {50 ps} -r 100
+force -freeze sim:/blue/en 1 0
+force -freeze sim:/blue/A_mid 0 0
+force -freeze sim:/blue/B_mid 0 0
+run
+run
+run
+run
+run
+run
+run
+run
+run
+noforce sim:/blue/A_mid
+noforce sim:/blue/B_mid
+run
+run
+run
+run
+run
+run
+run
+noforce sim:/blue/A_mid
+noforce sim:/blue/A_out
+run
+run
+run
+run
+force -freeze sim:/blue/B_mid 1 0
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+force -freeze sim:/blue/A_mid 0 0
+run
+run
+run
+run
+run
+run
+run
+run
+noforce sim:/blue/A_mid
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+force -freeze sim:/blue/B_mid 1111111111111111 0
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+# Compile of ADD.v was successful.
+# Compile of full_adder.v was successful.
+# Compile of half_adder.v was successful.
+# Compile of reg16.v was successful.
+# Compile of blue.v was successful.
+# Compile of zero.v was successful.
+# Compile of negative.v was successful.
+# Compile of reg3.v was successful.
+# Compile of carry.v was successful.
+# 9 compiles, 0 failed with no errors.
+vsim work.blue
+# End time: 12:33:45 on Nov 21,2023, Elapsed time: 0:06:30
+# Errors: 0, Warnings: 3
+# vsim work.blue 
+# Start time: 12:33:45 on Nov 21,2023
+# Loading work.blue
+# Loading work.ADD
+# Loading work.half_adder
+# Loading work.full_adder
+# Loading work.reg16
+# Loading work.reg3
+# Loading work.zero
+# Loading work.negative
+# ** Error: (vsim-3033) Instantiation of 'carry' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /blue File: C:/Users/andre/OneDrive/Documents/GitHub/Justin-Beamformer/Blue/blue.v Line: 29
+#         Searched libraries:
+#             C:/Users/andre/OneDrive/Documents/GitHub/Justin-Beamformer/Andy/work
+# Error loading design
+# End time: 12:33:46 on Nov 21,2023, Elapsed time: 0:00:01
+# Errors: 1, Warnings: 1
+# Compile of ADD.v was successful.
+# Compile of full_adder.v was successful.
+# Compile of half_adder.v was successful.
+# Compile of reg16.v was successful.
+# Compile of blue.v was successful.
+# Compile of zero.v was successful.
+# Compile of negative.v was successful.
+# Compile of reg3.v was successful.
+# Compile of carry.v was successful.
+# 9 compiles, 0 failed with no errors.
+vsim work.blue
+# vsim work.blue 
+# Start time: 12:34:30 on Nov 21,2023
+# Loading work.blue
+# Loading work.ADD
+# Loading work.half_adder
+# Loading work.full_adder
+# Loading work.reg16
+# Loading work.reg3
+# Loading work.zero
+# Loading work.negative
+# Loading work.carry
+add wave -position insertpoint sim:/blue/*
+force -freeze sim:/blue/clk 1 0, 0 {50 ps} -r 100
+force -freeze sim:/blue/en 1 0
+force -freeze sim:/blue/A_mid 0 0
+force -freeze sim:/blue/B_mid 1 0
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+noforce sim:/blue/B_mid
+noforce sim:/blue/A_mid
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+force -freeze sim:/blue/B_mid 0 0
+noforce sim:/blue/A_mid
+force -freeze sim:/blue/A_mid 1 0
+run
+run
+run
+run
+run
+run
+run
+noforce sim:/blue/A_mid
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+force -freeze sim:/blue/B_mid 1111111111111111 0
+run
+run
+run
+run
+run
+run
+run
+# End time: 12:37:48 on Nov 21,2023, Elapsed time: 0:03:18
+# Errors: 0, Warnings: 2
