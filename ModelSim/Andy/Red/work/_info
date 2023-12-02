@@ -1,0 +1,129 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/intelFPGA_lite/20.1
+vADD
+Z0 !s110 1701548318
+!i10b 1
+!s100 H:1dPC`2L3VHKcab?7SmX1
+Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I6:ij0jhiHIa9mS_4KOzi[0
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+Z3 dC:/Users/andre/OneDrive/Documents/GitHub/S-Machine/ModelSim/Andy/Red
+w1701533482
+8C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/ModelSim/Andy/Red/ADD.v
+FC:/Users/andre/OneDrive/Documents/GitHub/S-Machine/ModelSim/Andy/Red/ADD.v
+!i122 79
+L0 6 7
+Z4 OV;L;2020.1;71
+r1
+!s85 0
+31
+!s108 1701548318.000000
+!s107 C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/ModelSim/Andy/Red/ADD.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/ModelSim/Andy/Red/ADD.v|
+!i113 1
+Z5 o-work work
+Z6 tCvgOpt 0
+n@a@d@d
+vPC
+Z7 !s110 1701548317
+!i10b 1
+!s100 Lhbmf;g92O`jDz`b:@Tig3
+R1
+I2P?f[F8n2YhHldfQ=zR6^2
+R2
+R3
+w1701548086
+8C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Red/PC.v
+FC:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Red/PC.v
+!i122 77
+L0 1 17
+R4
+r1
+!s85 0
+31
+Z8 !s108 1701548317.000000
+!s107 C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Red/PC.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Red/PC.v|
+!i113 1
+R5
+R6
+n@p@c
+vred
+R7
+!i10b 1
+!s100 m[ejLJ1NInkW>D_O7T^l]0
+R1
+I68>M?4JaBnn0^3ecX3VL42
+R2
+R3
+w1701548308
+8C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Red/red.v
+FC:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Red/red.v
+!i122 76
+L0 3 20
+R4
+r1
+!s85 0
+31
+R8
+!s107 C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Red/red.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Red/red.v|
+!i113 1
+R5
+R6
+vreg16
+R0
+!i10b 1
+!s100 [22ViBFF0H4W2Y>IKV2?G3
+R1
+IkhW^Bcanl1flGd1docNfn1
+R2
+R3
+w1701533625
+8C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Main/reg16.v
+FC:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Main/reg16.v
+!i122 78
+L0 2 9
+R4
+r1
+!s85 0
+31
+R8
+!s107 C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Main/reg16.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Main/reg16.v|
+!i113 1
+R5
+R6
+vROM
+R7
+!i10b 1
+!s100 faLhaN9S0AEXc[`:`j18@1
+R1
+IX3C=L7oGGEXTJ9[6XcBb;3
+R2
+R3
+w1701546892
+8C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Red/ROM.v
+FC:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Red/ROM.v
+!i122 75
+L0 3 28
+R4
+r1
+!s85 0
+31
+R8
+!s107 C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Red/ROM.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Red/ROM.v|
+!i113 1
+R5
+R6
+n@r@o@m

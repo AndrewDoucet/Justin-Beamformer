@@ -1,0 +1,820 @@
+# Compile of MEM.v was successful.
+# Compile of reg8.v was successful.
+# Compile of reg16.v was successful.
+# Compile of red.v failed with 2 errors.
+# 4 compiles, 1 failed with 2 errors.
+# Compile of MEM.v was successful.
+# Compile of reg8.v was successful.
+# Compile of reg16.v was successful.
+# Compile of red.v was successful.
+# 4 compiles, 0 failed with no errors.
+vsim -gui work.red
+# vsim -gui work.red 
+# Start time: 15:02:58 on Dec 02,2023
+# Loading work.red
+# Loading work.reg16
+# Loading work.reg8
+# Loading work.MEM
+# ** Warning: (vsim-3015) [PCDPC] - Port size (16) does not match connection size (32) for port 'in'. The port definition is at: C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Main/MEM.v(3).
+#    Time: 0 ps  Iteration: 0  Instance: /red/ROM File: C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Red/red.v Line: 18
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'clk'. The port definition is at: C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Main/MEM.v(3).
+#    Time: 0 ps  Iteration: 0  Instance: /red/ROM File: C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Red/red.v Line: 18
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'WE'. The port definition is at: C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Main/MEM.v(3).
+#    Time: 0 ps  Iteration: 0  Instance: /red/ROM File: C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Red/red.v Line: 18
+add wave -position end  sim:/red/en
+force -freeze sim:/red/en 1 0
+add wave -position end  sim:/red/clk
+force -freeze sim:/red/clk 1 0, 0 {50 ps} -r 100
+add wave -position end  sim:/red/opCode_out
+add wave -position end  sim:/red/PC_in
+add wave -position end sim:/red/ROM/*
+add wave -position end  sim:/red/ROM/memory
+run
+add wave -position end  sim:/red/ROM/memory[0]
+run
+run
+run
+run
+# Compile of red.v was successful.
+# Compile of ROM.v failed with 2 errors.
+# Compile of reg8.v was successful.
+# Compile of reg16.v was successful.
+# 4 compiles, 1 failed with 2 errors.
+# Compile of red.v was successful.
+# Compile of ROM.v failed with 2 errors.
+# Compile of reg8.v was successful.
+# Compile of reg16.v was successful.
+# 4 compiles, 1 failed with 2 errors.
+# Compile of red.v was successful.
+# Compile of ROM.v failed with 2 errors.
+# Compile of reg8.v was successful.
+# Compile of reg16.v was successful.
+# 4 compiles, 1 failed with 2 errors.
+# Compile of red.v was successful.
+# Compile of ROM.v failed with 1 errors.
+# Compile of reg8.v was successful.
+# Compile of reg16.v was successful.
+# 4 compiles, 1 failed with 1 error.
+# Compile of red.v was successful.
+# Compile of ROM.v was successful.
+# Compile of reg8.v was successful.
+# Compile of reg16.v was successful.
+# 4 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.red
+# Loading work.reg16
+# Loading work.reg8
+# Loading work.ROM
+# Compile of red.v was successful.
+# Compile of ROM.v was successful.
+# Compile of reg8.v was successful.
+# Compile of reg16.v was successful.
+# 4 compiles, 0 failed with no errors.
+vsim work.red
+# End time: 15:24:23 on Dec 02,2023, Elapsed time: 0:21:25
+# Errors: 0, Warnings: 2
+# vsim work.red 
+# Start time: 15:24:23 on Dec 02,2023
+# Loading work.red
+# Loading work.reg16
+# Loading work.reg8
+# Loading work.ROM
+add wave -position end  sim:/red/clk
+add wave -position end  sim:/red/opCode_in
+add wave -position end  sim:/red/PC_out
+force -freeze sim:/red/PC_out 0 0
+run
+run
+run
+add wave -position end  sim:/red/opCode_out
+force -freeze sim:/red/clk 1 0, 0 {50 ps} -r 100
+run
+run
+run
+run
+add wave -position end  sim:/red/en
+force -freeze sim:/red/en 1 0
+run
+run
+run
+run
+run
+run
+run
+# Compile of red.v was successful.
+# Compile of ROM.v was successful.
+# Compile of reg8.v was successful.
+# Compile of reg16.v was successful.
+# Compile of ADD.v was successful.
+# 5 compiles, 0 failed with no errors.
+vsim work.red
+# End time: 15:30:43 on Dec 02,2023, Elapsed time: 0:06:20
+# Errors: 0, Warnings: 3
+# vsim work.red 
+# Start time: 15:30:43 on Dec 02,2023
+# Loading work.red
+# Loading work.reg16
+# Loading work.reg8
+# Loading work.ROM
+# Loading work.ADD
+# ** Warning: (vsim-3015) [PCDPC] - Port size (16) does not match connection size (8) for port 'RA'. The port definition is at: C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/ModelSim/Andy/Red/ADD.v(6).
+#    Time: 0 ps  Iteration: 0  Instance: /red/ADD File: C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Red/red.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (16) does not match connection size (8) for port 'RB'. The port definition is at: C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/ModelSim/Andy/Red/ADD.v(6).
+#    Time: 0 ps  Iteration: 0  Instance: /red/ADD File: C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Red/red.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (16) does not match connection size (8) for port 'out'. The port definition is at: C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/ModelSim/Andy/Red/ADD.v(6).
+#    Time: 0 ps  Iteration: 0  Instance: /red/ADD File: C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Red/red.v Line: 19
+add wave -position end  sim:/red/clk
+add wave -position end  sim:/red/en
+add wave -position end  sim:/red/PC_in
+force -freeze sim:/red/PC_in 0 0
+add wave -position end  sim:/red/opCode_out
+run
+noforce sim:/red/PC_in
+run
+run
+force -freeze sim:/red/PC_in 0 0
+run
+run
+force -freeze sim:/red/clk 1 0, 0 {50 ps} -r 100
+run
+run
+run
+force -freeze sim:/red/en 1 0
+run
+run
+run
+run
+run
+run
+run
+noforce sim:/red/PC_in
+run
+run
+run
+run
+run
+run
+add wave -position end  sim:/red/PC_out
+run
+run
+force -freeze sim:/red/PC_in 0 0
+run
+run
+run
+run
+run
+run
+run
+run
+run
+noforce sim:/red/PC_in
+run
+run
+run
+run
+# WARNING: No extended dataflow license exists
+add wave -position end sim:/red/ROM/*
+add wave -position end sim:/red/ADD/*
+# Compile of red.v failed with 1 errors.
+# Compile of ROM.v was successful.
+# Compile of reg8.v was successful.
+# Compile of reg16.v was successful.
+# Compile of ADD.v was successful.
+# 5 compiles, 1 failed with 1 error.
+# Compile of red.v was successful.
+# Compile of ROM.v was successful.
+# Compile of reg8.v was successful.
+# Compile of reg16.v was successful.
+# Compile of ADD.v was successful.
+# 5 compiles, 0 failed with no errors.
+vsim work.red
+# End time: 15:35:16 on Dec 02,2023, Elapsed time: 0:04:33
+# Errors: 0, Warnings: 6
+# vsim work.red 
+# Start time: 15:35:16 on Dec 02,2023
+# Loading work.red
+# Loading work.reg16
+# Loading work.reg8
+# Loading work.ROM
+# Loading work.ADD
+# ** Warning: (vsim-3015) [PCDPC] - Port size (16) does not match connection size (8) for port 'RA'. The port definition is at: C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/ModelSim/Andy/Red/ADD.v(6).
+#    Time: 0 ps  Iteration: 0  Instance: /red/ADD File: C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Red/red.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (16) does not match connection size (32) for port 'RB'. The port definition is at: C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/ModelSim/Andy/Red/ADD.v(6).
+#    Time: 0 ps  Iteration: 0  Instance: /red/ADD File: C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Red/red.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (16) does not match connection size (8) for port 'out'. The port definition is at: C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/ModelSim/Andy/Red/ADD.v(6).
+#    Time: 0 ps  Iteration: 0  Instance: /red/ADD File: C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Red/red.v Line: 19
+add wave -position end  sim:/red/en
+add wave -position end  sim:/red/clk
+force -freeze sim:/red/clk 1 0, 0 {50 ps} -r 100
+force -freeze sim:/red/en 1 0
+add wave -position end  sim:/red/PC_in
+force -freeze sim:/red/PC_in 0 0
+add wave -position end  sim:/red/opCode_out
+run
+run
+run
+noforce sim:/red/PC_in
+run
+run
+run
+run
+run
+run
+run
+force -freeze sim:/red/PC_in 0 0
+add wave -position end  sim:/red/PC_out
+run
+run
+run
+run
+run
+run
+noforce sim:/red/PC_in
+run
+add wave -position end sim:/red/ADD/*
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+force -freeze sim:/red/PC_out 0 0
+run
+run
+run
+run
+run
+# Compile of red.v failed with 1 errors.
+# Compile of ROM.v was successful.
+# Compile of reg8.v was successful.
+# Compile of reg16.v was successful.
+# Compile of ADD.v was successful.
+# 5 compiles, 1 failed with 1 error.
+# Compile of red.v was successful.
+# Compile of ROM.v was successful.
+# Compile of reg8.v was successful.
+# Compile of reg16.v was successful.
+# Compile of ADD.v was successful.
+# 5 compiles, 0 failed with no errors.
+vsim work.red
+# End time: 15:42:13 on Dec 02,2023, Elapsed time: 0:06:57
+# Errors: 0, Warnings: 6
+# vsim work.red 
+# Start time: 15:42:13 on Dec 02,2023
+# Loading work.red
+# Loading work.reg16
+# Loading work.ROM
+# Loading work.ADD
+# ** Warning: (vsim-3015) [PCDPC] - Port size (16) does not match connection size (8) for port 'D'. The port definition is at: C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Main/reg16.v(2).
+#    Time: 0 ps  Iteration: 0  Instance: /red/PC_reg File: C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Red/red.v Line: 17
+# ** Warning: (vsim-3015) [PCDPC] - Port size (16) does not match connection size (8) for port 'Q'. The port definition is at: C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Main/reg16.v(2).
+#    Time: 0 ps  Iteration: 0  Instance: /red/PC_reg File: C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Red/red.v Line: 17
+# ** Warning: (vsim-3015) [PCDPC] - Port size (16) does not match connection size (8) for port 'RA'. The port definition is at: C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/ModelSim/Andy/Red/ADD.v(6).
+#    Time: 0 ps  Iteration: 0  Instance: /red/ADD File: C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Red/red.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (16) does not match connection size (32) for port 'RB'. The port definition is at: C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/ModelSim/Andy/Red/ADD.v(6).
+#    Time: 0 ps  Iteration: 0  Instance: /red/ADD File: C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Red/red.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (16) does not match connection size (8) for port 'out'. The port definition is at: C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/ModelSim/Andy/Red/ADD.v(6).
+#    Time: 0 ps  Iteration: 0  Instance: /red/ADD File: C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Red/red.v Line: 19
+add wave -position end  sim:/red/en
+force -freeze sim:/red/en 1 0
+add wave -position end  sim:/red/clk
+force -freeze sim:/red/clk 1 0, 0 {50 ps} -r 100
+add wave -position end  sim:/red/PC_in
+add wave -position end  sim:/red/opCode_out
+run
+run
+run
+run
+force -freeze sim:/red/PC_in 0 0
+run
+run
+run
+run
+noforce sim:/red/PC_in
+noforce sim:/red/opCode_out
+noforce sim:/red/PC_in
+noforce sim:/red/opCode_out
+run
+run
+run
+run
+run
+run
+add wave -position end  sim:/red/PC_out
+add wave -position end sim:/red/ADD/*
+run
+run
+run
+run
+run
+run
+force -freeze sim:/red/PC_in 0 0
+run
+run
+run
+# Compile of red.v was successful.
+# Compile of ROM.v was successful.
+# Compile of reg8.v was successful.
+# Compile of reg16.v was successful.
+# Compile of ADD.v was successful.
+# 5 compiles, 0 failed with no errors.
+vlog -work work C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Red/red.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:45:01 on Dec 02,2023
+# vlog -reportprogress 300 -work work C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Red/red.v 
+# -- Compiling module red
+# 
+# Top level modules:
+# 	red
+# End time: 15:45:01 on Dec 02,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim work.red
+# End time: 15:45:18 on Dec 02,2023, Elapsed time: 0:03:05
+# Errors: 0, Warnings: 7
+# vsim work.red 
+# Start time: 15:45:18 on Dec 02,2023
+# Loading work.red
+# Loading work.reg16
+# Loading work.ROM
+# Loading work.ADD
+# ** Warning: (vsim-3015) [PCDPC] - Port size (16) does not match connection size (32) for port 'RB'. The port definition is at: C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/ModelSim/Andy/Red/ADD.v(6).
+#    Time: 0 ps  Iteration: 0  Instance: /red/ADD File: C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Red/red.v Line: 19
+add wave -position end  sim:/red/clk
+add wave -position end  sim:/red/en
+add wave -position end  sim:/red/opCode_out
+add wave -position end  sim:/red/PC_in
+force -freeze sim:/red/clk 1 0, 0 {50 ps} -r 100
+force -freeze sim:/red/en 1 0
+force -freeze sim:/red/PC_in 0 0
+run
+run
+run
+run
+noforce sim:/red/PC_in
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+add wave -position end  sim:/red/PC_out
+add wave -position 2  sim:/red/opCode_in
+force -freeze sim:/red/PC_in 0 0
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+noforce sim:/red/PC_in
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+# Compile of red.v failed with 2 errors.
+# Compile of ROM.v was successful.
+# Compile of reg8.v was successful.
+# Compile of reg16.v was successful.
+# Compile of ADD.v was successful.
+# 5 compiles, 1 failed with 2 errors.
+# Compile of red.v was successful.
+# Compile of ROM.v was successful.
+# Compile of reg8.v was successful.
+# Compile of reg16.v was successful.
+# Compile of ADD.v was successful.
+# 5 compiles, 0 failed with no errors.
+vsim work.red
+# End time: 15:55:42 on Dec 02,2023, Elapsed time: 0:10:24
+# Errors: 0, Warnings: 4
+# vsim work.red 
+# Start time: 15:55:42 on Dec 02,2023
+# Loading work.red
+# Loading work.reg16
+# Loading work.ROM
+# Loading work.ADD
+# ** Warning: (vsim-3015) [PCDPC] - Port size (16) does not match connection size (32) for port 'RB'. The port definition is at: C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/ModelSim/Andy/Red/ADD.v(6).
+#    Time: 0 ps  Iteration: 0  Instance: /red/ADD File: C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Red/red.v Line: 20
+add wave -position end  sim:/red/BR
+add wave -position end  sim:/red/clk
+add wave -position end  sim:/red/en
+force -freeze sim:/red/BR 0 0
+force -freeze sim:/red/clk 1 0, 0 {50 ps} -r 100
+force -freeze sim:/red/en 4 0
+# Invalid binary digit: 4.
+# ** UI-Msg: (vsim-4011) Invalid force value: 4 0.
+# 
+force -freeze sim:/red/en 1 0
+add wave -position end  sim:/red/opCode_out
+add wave -position end  sim:/red/PC_out
+run
+run
+run
+run
+run
+run
+run
+force -freeze sim:/red/PC_out 0 0
+run
+run
+run
+run
+run
+run
+run
+run
+noforce sim:/red/PC_out
+run
+run
+run
+run
+run
+run
+run
+add wave -position end  sim:/red/increment
+run
+run
+run
+force -freeze sim:/red/opCode_out 1 0
+run
+run
+run
+run
+run
+run
+run
+noforce sim:/red/opCode_out
+force -freeze sim:/red/PC_out 1 0
+run
+run
+run
+run
+run
+run
+add wave -position end  sim:/red/PC_in
+run
+run
+run
+run
+force -freeze sim:/red/BR 0 0
+run
+run
+force -freeze sim:/red/BR 1 0
+run
+run
+run
+run
+run
+run
+run
+run
+noforce sim:/red/PC_out
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+noforce sim:/red/PC_in
+run
+run
+noforce sim:/red/BR
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+force -freeze sim:/red/BR 0 0
+run
+run
+run
+run
+run
+run
+run
+run
+# Compile of ROM.v was successful.
+# Compile of red.v was successful.
+# Compile of PC.v failed with 1 errors.
+# 3 compiles, 1 failed with 1 error.
+# Compile of ROM.v was successful.
+# Compile of red.v was successful.
+# Compile of PC.v was successful.
+# 3 compiles, 0 failed with no errors.
+vsim work.reg8
+# End time: 16:05:40 on Dec 02,2023, Elapsed time: 0:09:58
+# Errors: 0, Warnings: 10
+# vsim work.reg8 
+# Start time: 16:05:40 on Dec 02,2023
+# Loading work.reg8
+vsim work.red
+# End time: 16:06:18 on Dec 02,2023, Elapsed time: 0:00:38
+# Errors: 0, Warnings: 1
+# vsim work.red 
+# Start time: 16:06:18 on Dec 02,2023
+# Loading work.red
+# ** Error: (vsim-3033) Instantiation of 'reg16' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /red File: C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Red/red.v Line: 16
+#         Searched libraries:
+#             C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/ModelSim/Andy/Red/work
+# Loading work.PC
+# Loading work.ROM
+# Error loading design
+# End time: 16:06:19 on Dec 02,2023, Elapsed time: 0:00:01
+# Errors: 1, Warnings: 1
+# Compile of ROM.v was successful.
+# Compile of red.v was successful.
+# Compile of PC.v was successful.
+# Compile of reg16.v was successful.
+# 4 compiles, 0 failed with no errors.
+vsim work.red
+# vsim work.red 
+# Start time: 16:06:59 on Dec 02,2023
+# Loading work.red
+# Loading work.reg16
+# Loading work.PC
+# Loading work.ROM
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (16) for port 'out'. The port definition is at: C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Red/PC.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /red/PC File: C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Red/red.v Line: 17
+# ** Warning: (vsim-3015) [PCDPC] - Port size (16) does not match connection size (1) for port 'opCode'. The port definition is at: C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Red/PC.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /red/PC File: C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Red/red.v Line: 17
+add wave -position end  sim:/red/en
+force -freeze sim:/red/en 1 0
+add wave -position end  sim:/red/clk
+force -freeze sim:/red/clk 1 0, 0 {50 ps} -r 100
+add wave -position end  sim:/red/BR
+force -freeze sim:/red/BR 0 0
+add wave -position end  sim:/red/PC_out
+add wave -position end  sim:/red/opCode_out
+run
+run
+run
+run
+force -freeze sim:/red/PC_out 0 0
+run
+run
+noforce sim:/red/PC_out
+run
+run
+run
+run
+# Compile of ROM.v was successful.
+# Compile of red.v was successful.
+# Compile of PC.v was successful.
+# Compile of reg16.v was successful.
+# 4 compiles, 0 failed with no errors.
+vsim work.red
+# End time: 16:09:46 on Dec 02,2023, Elapsed time: 0:02:47
+# Errors: 0, Warnings: 6
+# vsim work.red 
+# Start time: 16:09:46 on Dec 02,2023
+# Loading work.red
+# Loading work.reg16
+# Loading work.PC
+# Loading work.ROM
+# ** Warning: (vsim-3015) [PCDPC] - Port size (16) does not match connection size (1) for port 'opCode'. The port definition is at: C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Red/PC.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /red/PC File: C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Red/red.v Line: 15
+add wave -position end  sim:/red/PC_out
+add wave -position end  sim:/red/opCode_out
+add wave -position end  sim:/red/opCode_in
+add wave -position end  sim:/red/opCode
+add wave -position end  sim:/red/en
+add wave -position end  sim:/red/clk
+add wave -position end  sim:/red/BR
+# Compile of ROM.v was successful.
+# Compile of red.v was successful.
+# Compile of PC.v was successful.
+# Compile of reg16.v was successful.
+# 4 compiles, 0 failed with no errors.
+vsim work.red
+# End time: 16:10:33 on Dec 02,2023, Elapsed time: 0:00:47
+# Errors: 0, Warnings: 3
+# vsim work.red 
+# Start time: 16:10:33 on Dec 02,2023
+# Loading work.red
+# Loading work.reg16
+# Loading work.PC
+# Loading work.ROM
+add wave -position end  sim:/red/PC_out
+add wave -position end  sim:/red/opCode_out
+add wave -position end  sim:/red/opCode_in
+add wave -position end  sim:/red/en
+add wave -position end  sim:/red/clk
+add wave -position end  sim:/red/BR
+force -freeze sim:/red/BR 0 0
+force -freeze sim:/red/clk 1 0, 0 {50 ps} -r 100
+force -freeze sim:/red/en 1 0
+run
+run
+run
+run
+force -freeze sim:/red/PC_out 0 0
+run
+run
+run
+run
+noforce sim:/red/PC_out
+run
+run
+run
+run
+run
+run
+run
+# Compile of ROM.v was successful.
+# Compile of red.v was successful.
+# Compile of PC.v failed with 4 errors.
+# Compile of reg16.v was successful.
+# 4 compiles, 1 failed with 4 errors.
+# Compile of ROM.v was successful.
+# Compile of red.v was successful.
+# Compile of PC.v was successful.
+# Compile of reg16.v was successful.
+# 4 compiles, 0 failed with no errors.
+vsim work.red
+# End time: 16:15:03 on Dec 02,2023, Elapsed time: 0:04:30
+# Errors: 0, Warnings: 3
+# vsim work.red 
+# Start time: 16:15:04 on Dec 02,2023
+# Loading work.red
+# Loading work.reg16
+# Loading work.PC
+# Loading work.ROM
+add wave -position end  sim:/red/PC_out
+add wave -position end  sim:/red/opCode_out
+add wave -position end  sim:/red/opCode_in
+add wave -position end  sim:/red/en
+add wave -position end  sim:/red/clk
+add wave -position end  sim:/red/BR
+noforce sim:/red/en
+noforce sim:/red/BR
+force -freeze sim:/red/en 1 0
+force -freeze sim:/red/BR 1 0
+force -freeze sim:/red/clk 1 0, 0 {50 ps} -r 100
+force -freeze sim:/red/BR St0 0
+force -freeze sim:/red/PC_out 0 0
+run
+run
+run
+run
+noforce sim:/red/PC_out
+run
+run
+run
+run
+# Compile of ROM.v was successful.
+# Compile of red.v was successful.
+# Compile of PC.v was successful.
+# Compile of reg16.v was successful.
+# 4 compiles, 0 failed with no errors.
+vsim work.red
+# End time: 16:16:26 on Dec 02,2023, Elapsed time: 0:01:22
+# Errors: 0, Warnings: 2
+# vsim work.red 
+# Start time: 16:16:26 on Dec 02,2023
+# Loading work.red
+# Loading work.reg16
+# Loading work.ROM
+# ** Error: (vsim-3033) Instantiation of 'ADD' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /red File: C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Red/red.v Line: 20
+#         Searched libraries:
+#             C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/ModelSim/Andy/Red/work
+# Error loading design
+# End time: 16:16:27 on Dec 02,2023, Elapsed time: 0:00:01
+# Errors: 1, Warnings: 1
+# Compile of ROM.v was successful.
+# Compile of red.v was successful.
+# Compile of PC.v was successful.
+# Compile of reg16.v was successful.
+# Compile of ADD.v was successful.
+# 5 compiles, 0 failed with no errors.
+vsim work.red
+# vsim work.red 
+# Start time: 16:17:08 on Dec 02,2023
+# Loading work.red
+# Loading work.reg16
+# Loading work.ROM
+# Loading work.ADD
+# ** Warning: (vsim-3015) [PCDPC] - Port size (16) does not match connection size (32) for port 'RB'. The port definition is at: C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/ModelSim/Andy/Red/ADD.v(6).
+#    Time: 0 ps  Iteration: 0  Instance: /red/ADD File: C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Red/red.v Line: 20
+add wave -position end  sim:/red/PC_out
+add wave -position end  sim:/red/opCode_out
+add wave -position end  sim:/red/clk
+add wave -position end  sim:/red/en
+force -freeze sim:/red/en 1 0
+force -freeze sim:/red/clk 1 0, 0 {50 ps} -r 100
+force -freeze sim:/red/PC_out 0 0
+run
+run
+run
+run
+noforce sim:/red/PC_out
+run
+run
+run
+run
+run
+run
+run
+run
+# Compile of ROM.v was successful.
+# Compile of red.v was successful.
+# Compile of PC.v was successful.
+# Compile of reg16.v was successful.
+# Compile of ADD.v was successful.
+# 5 compiles, 0 failed with no errors.
+vsim work.red
+# End time: 16:18:47 on Dec 02,2023, Elapsed time: 0:01:39
+# Errors: 0, Warnings: 5
+# vsim work.red 
+# Start time: 16:18:47 on Dec 02,2023
+# Loading work.red
+# Loading work.reg16
+# Loading work.ROM
+# Loading work.ADD
+# ** Warning: (vsim-3015) [PCDPC] - Port size (16) does not match connection size (32) for port 'RB'. The port definition is at: C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/ModelSim/Andy/Red/ADD.v(6).
+#    Time: 0 ps  Iteration: 0  Instance: /red/ADD File: C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Red/red.v Line: 20
+add wave -position end  sim:/red/PC_out
+add wave -position end  sim:/red/en
+add wave -position end  sim:/red/clk
+force -freeze sim:/red/clk 1 0, 0 {50 ps} -r 100
+force -freeze sim:/red/en 1 0
+force -freeze sim:/red/PC_out 0 0
+run
+run
+noforce sim:/red/PC_out
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run

@@ -15,5 +15,4 @@ module RAM(address, in, out, clk, WE);
             memory[address] <= in;
         else
             out <= memory[address];
-
 endmodule
