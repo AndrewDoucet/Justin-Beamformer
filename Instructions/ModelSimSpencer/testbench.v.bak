@@ -2,14 +2,15 @@
 
 module testbench ( );
 
-	reg [15:0] RA;
-	wire [15:0] RB;
+	reg [15:0] RA, RB;
+	reg [15:0] temp;
 
-	MOV U1 (RA, RB);
+	EXCH U1 (RA, RB, RA_new, RB_new);
 
 	initial begin
 	
 	RA = 000000000000000;
+	RB = 000000000000000;
 	
 	//generate pattern
     	

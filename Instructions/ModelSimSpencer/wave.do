@@ -1,9 +1,9 @@
 onerror {resume}
 quietly WaveActivateNextPane {} 0
-add wave -noupdate -divider ADD
 add wave -noupdate -label RA /testbench/RA
 add wave -noupdate -label RB /testbench/RB
-add wave -noupdate -label OUT /testbench/out
+add wave -noupdate -label RA_new /testbench/RA_new
+add wave -noupdate -label RB_new /testbench/RB_new
 
 TreeUpdate [SetDefaultTree]
 WaveRestoreCursors {{Cursor 1} {80000 ps} 0}
