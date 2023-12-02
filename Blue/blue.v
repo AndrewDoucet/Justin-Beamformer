@@ -1,7 +1,9 @@
+// Andrew Doucet
+
 module blue(opCode,A_in,B_in,clk,en,znc_in);
     input [15:0]opCode;
 
-    // Output Wires
+    // I/O Wires
     output [15:0]A_in;
     output [15:0]B_in;
     output [2:0]znc_in;
@@ -10,7 +12,7 @@ module blue(opCode,A_in,B_in,clk,en,znc_in);
     input clk;
     input en;
 
-    // Middle Wires
+    // Output Wires
     wire [15:0]A_out;
     wire [15:0]B_out;
     wire [2:0]znc_out;

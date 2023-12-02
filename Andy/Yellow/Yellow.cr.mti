@@ -1,0 +1,50 @@
+C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/ZNC/negative.v {1 {vlog -work work -stats=none C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/ZNC/negative.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module negative
+
+Top level modules:
+	negative
+
+} {} {}} C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/ZNC/zero.v {1 {vlog -work work -stats=none C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/ZNC/zero.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module zero
+
+Top level modules:
+	zero
+
+} {} {}} C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Instructions/SUB.v {1 {vlog -work work -stats=none C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Instructions/SUB.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module SUB
+
+Top level modules:
+	SUB
+
+} {} {}} C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Yellow/yellow.v {1 {vlog -work work -stats=none C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Yellow/yellow.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module yellow
+
+Top level modules:
+	yellow
+
+} {} {}} C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Yellow/CMP.v {1 {vlog -work work -stats=none C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Yellow/CMP.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module CMP
+
+Top level modules:
+	CMP
+
+} {} {}} C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/ZNC/carry.v {1 {vlog -work work -stats=none C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/ZNC/carry.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module carry
+
+Top level modules:
+	carry
+
+} {} {}} C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/ZNC/reg3.v {1 {vlog -work work -stats=none C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/ZNC/reg3.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module reg3
+
+Top level modules:
+	reg3
+
+} {} {}}

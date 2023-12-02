@@ -1,0 +1,54 @@
+# Compile of RAM.v failed with 15 errors.
+# Compile of RAM.v failed with 2 errors.
+# Compile of RAM.v was successful.
+vsim -gui work.RAM
+# vsim -gui work.RAM 
+# Start time: 13:21:26 on Dec 02,2023
+# Loading work.RAM
+add wave -position end  sim:/RAM/clk
+add wave -position end  sim:/RAM/write
+add wave -position end  sim:/RAM/out
+add wave -position end  sim:/RAM/in
+add wave -position end  sim:/RAM/address
+force -freeze sim:/RAM/clk 1 0, 0 {50 ps} -r 100
+force -freeze sim:/RAM/write 0 0
+force -freeze sim:/RAM/address 0 0
+run
+run
+run
+run
+run
+force -freeze sim:/RAM/write 1 0
+force -freeze sim:/RAM/in 0 0
+run
+run
+force -freeze sim:/RAM/write 0 0
+run
+run
+force -freeze sim:/RAM/in 0000000000000025 0
+# Invalid binary digit: 2.
+# ** UI-Msg: (vsim-4011) Invalid force value: 0000000000000025 0.
+# 
+force -freeze sim:/RAM/in 0000000000000001 0
+run
+run
+run
+force -freeze sim:/RAM/address 11111111 0
+force -freeze sim:/RAM/write 1 0
+force -freeze sim:/RAM/in 00000000000000111 0
+run
+add wave -position end  sim:/RAM/memory
+run
+force -freeze sim:/RAM/write 0 0
+run
+run
+run
+run
+force -freeze sim:/RAM/address 0 0
+run
+run
+force -freeze sim:/RAM/address 00000001 0
+run
+run
+# End time: 13:34:54 on Dec 02,2023, Elapsed time: 0:13:28
+# Errors: 0, Warnings: 7
