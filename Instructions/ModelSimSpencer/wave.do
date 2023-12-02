@@ -2,8 +2,20 @@ onerror {resume}
 quietly WaveActivateNextPane {} 0
 add wave -noupdate -label RA /testbench/RA
 add wave -noupdate -label RB /testbench/RB
-add wave -noupdate -label RA_new /testbench/RA_new
-add wave -noupdate -label RB_new /testbench/RB_new
+add wave -noupdate -label ADDA /testbench/ADDA
+add wave -noupdate -label SUBA /testbench/SUBA
+add wave -noupdate -label ORA /testbench/ORA
+add wave -noupdate -label ANDA /testbench/ANDA
+add wave -noupdate -label XORA /testbench/XORA
+add wave -noupdate -label SHRA /testbench/SHRA
+add wave -noupdate -label MOVB /testbench/MOVB
+add wave -noupdate -label EXCHA /testbench/EXCHA
+add wave -noupdate -label EXCHB /testbench/EXCHB
+add wave -noupdate -label INS /testbench/ins
+add wave -noupdate -label sel /testbench/sel
+add wave -noupdate -label outA /testbench/outA
+add wave -noupdate -label outB /testbench/outB
+
 
 TreeUpdate [SetDefaultTree]
 WaveRestoreCursors {{Cursor 1} {80000 ps} 0}

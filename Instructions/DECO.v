@@ -1,15 +1,15 @@
 //Spencer Dugas
-//Andrew Doucet
 
 // Decoder to figure out what is going on
 
 module DECO (RA, RB, ADDA, SUBA, ORA, ANDA, XORA, SHRA, MOVB, EXCHA, EXCHB, sel, outA, outB);
 
-    input [15:0] RA, RB, ADDA, SUBA, ANDA, ORA, XORA, SHRA MOVB, EXCHA, EXCHB;
+    input [15:0] RA, RB, ADDA, SUBA, ORA, ANDA, XORA, SHRA, MOVB, EXCHA, EXCHB;
     input [2:0] sel;
     output reg [15:0] outA, outB;
 
-    always @ (sel) begin
+    always @ (sel || RA || RB) begin
+
         case(sel)
             //ADD
             3'b100 : begin
@@ -51,5 +51,6 @@ module DECO (RA, RB, ADDA, SUBA, ORA, ANDA, XORA, SHRA, MOVB, EXCHA, EXCHB, sel,
                         outA = EXCHA;
                         outB = EXCHB;
                     end
+        endcase
     end
 endmodule
