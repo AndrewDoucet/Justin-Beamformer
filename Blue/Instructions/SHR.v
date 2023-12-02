@@ -1,4 +1,3 @@
-//Andrew Doucet
 //Spencer Dugas
 
 //SHR

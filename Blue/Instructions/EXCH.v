@@ -1,5 +1,4 @@
 //Spencer Dugas
-//Andrew Doucet
 
 //Exchanger to exchange register A with register B
 
