@@ -2,7 +2,7 @@
 
 //testing instructions and ther decoded output
 
-module blue1 (RA, RB, ins, RA_OUT, RB_OUT);
+module blue (RA, RB, ins, RA_OUT, RB_OUT);
     input [15:0] RA, RB, ins;
     output [15:0] RA_OUT, RB_OUT;
 
