@@ -1,0 +1,2345 @@
+# Compile of main.v failed with 1 errors.
+# Compile of reg16.v was successful.
+# Compile of ADD.v was successful.
+# Compile of AND.v was successful.
+# Compile of DECO.v was successful.
+# Compile of EXCH.v was successful.
+# Compile of INST.v was successful.
+# Compile of MOV.v was successful.
+# Compile of OR.v was successful.
+# Compile of SHR.v was successful.
+# Compile of SUB.v was successful.
+# Compile of XOR.v was successful.
+# Compile of blue.v failed with 5 errors.
+# Compile of instruction.v was successful.
+# Compile of PC.v was successful.
+# Compile of red.v was successful.
+# Compile of ROM.v was successful.
+# Compile of carry.v was successful.
+# Compile of negative.v was successful.
+# Compile of zero.v was successful.
+# Compile of reg3.v was successful.
+# 21 compiles, 2 failed with 6 errors.
+# Compile of main.v failed with 1 errors.
+# Compile of reg16.v was successful.
+# Compile of ADD.v was successful.
+# Compile of AND.v was successful.
+# Compile of DECO.v was successful.
+# Compile of EXCH.v was successful.
+# Compile of INST.v was successful.
+# Compile of MOV.v was successful.
+# Compile of OR.v was successful.
+# Compile of SHR.v was successful.
+# Compile of SUB.v was successful.
+# Compile of XOR.v was successful.
+# Compile of blue.v was successful.
+# Compile of instruction.v was successful.
+# Compile of PC.v was successful.
+# Compile of red.v was successful.
+# Compile of ROM.v was successful.
+# Compile of carry.v was successful.
+# Compile of negative.v was successful.
+# Compile of zero.v was successful.
+# Compile of reg3.v was successful.
+# 21 compiles, 1 failed with 1 error.
+# Compile of main.v was successful.
+# Compile of reg16.v was successful.
+# Compile of ADD.v was successful.
+# Compile of AND.v was successful.
+# Compile of DECO.v was successful.
+# Compile of EXCH.v was successful.
+# Compile of INST.v was successful.
+# Compile of MOV.v was successful.
+# Compile of OR.v was successful.
+# Compile of SHR.v was successful.
+# Compile of SUB.v was successful.
+# Compile of XOR.v was successful.
+# Compile of blue.v was successful.
+# Compile of instruction.v was successful.
+# Compile of PC.v was successful.
+# Compile of red.v was successful.
+# Compile of ROM.v was successful.
+# Compile of carry.v was successful.
+# Compile of negative.v was successful.
+# Compile of zero.v was successful.
+# Compile of reg3.v was successful.
+# 21 compiles, 0 failed with no errors.
+vsim work.main
+# vsim work.main 
+# Start time: 16:55:07 on Dec 02,2023
+# Loading work.main
+# Loading work.red
+# Loading work.reg16
+# Loading work.ROM
+# Loading work.ADD
+# Loading work.blue
+# Loading work.INST
+# Loading work.SUB
+# Loading work.OR
+# Loading work.AND
+# Loading work.XOR
+# Loading work.SHR
+# Loading work.MOV
+# Loading work.EXCH
+# Loading work.DECO
+# Loading work.reg3
+# ** Warning: (vsim-3015) [PCDPC] - Port size (16) does not match connection size (32) for port 'RB'. The port definition is at: C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Blue/Instructions/ADD.v(5).
+#    Time: 0 ps  Iteration: 0  Instance: /main/red/ADD File: C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Red/red.v Line: 19
+# ** Fatal: (vsim-3365) Too many port connections. Expected 5, found 6.
+#    Time: 0 ps  Iteration: 0  Instance: /main/blue File: C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Main/main.v Line: 18
+# FATAL ERROR while loading design
+# Error loading design
+# End time: 16:55:08 on Dec 02,2023, Elapsed time: 0:00:01
+# Errors: 1, Warnings: 13
+vsim work.blue
+# vsim work.blue 
+# Start time: 16:56:38 on Dec 02,2023
+# Loading work.blue
+# Loading work.INST
+# Loading work.ADD
+# Loading work.SUB
+# Loading work.OR
+# Loading work.AND
+# Loading work.XOR
+# Loading work.SHR
+# Loading work.MOV
+# Loading work.EXCH
+# Loading work.DECO
+# Compile of main.v was successful.
+# Compile of reg16.v was successful.
+# Compile of ADD.v was successful.
+# Compile of AND.v was successful.
+# Compile of DECO.v was successful.
+# Compile of EXCH.v was successful.
+# Compile of INST.v was successful.
+# Compile of MOV.v was successful.
+# Compile of OR.v was successful.
+# Compile of SHR.v was successful.
+# Compile of SUB.v was successful.
+# Compile of XOR.v was successful.
+# Compile of blue.v was successful.
+# Compile of instruction.v was successful.
+# Compile of PC.v was successful.
+# Compile of red.v was successful.
+# Compile of ROM.v was successful.
+# Compile of carry.v was successful.
+# Compile of negative.v was successful.
+# Compile of zero.v was successful.
+# Compile of reg3.v was successful.
+# 21 compiles, 0 failed with no errors.
+vsim work.main
+# End time: 16:57:57 on Dec 02,2023, Elapsed time: 0:01:19
+# Errors: 0, Warnings: 2
+# vsim work.main 
+# Start time: 16:57:57 on Dec 02,2023
+# Loading work.main
+# Loading work.red
+# Loading work.reg16
+# Loading work.ROM
+# Loading work.ADD
+# Loading work.blue
+# Loading work.INST
+# Loading work.SUB
+# Loading work.OR
+# Loading work.AND
+# Loading work.XOR
+# Loading work.SHR
+# Loading work.MOV
+# Loading work.EXCH
+# Loading work.DECO
+# Loading work.reg3
+# ** Warning: (vsim-3015) [PCDPC] - Port size (16) does not match connection size (32) for port 'RB'. The port definition is at: C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Blue/Instructions/ADD.v(5).
+#    Time: 0 ps  Iteration: 0  Instance: /main/red/ADD File: C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Red/red.v Line: 19
+# ** Fatal: (vsim-3365) Too many port connections. Expected 5, found 6.
+#    Time: 0 ps  Iteration: 0  Instance: /main/blue File: C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Main/main.v Line: 21
+# FATAL ERROR while loading design
+# Error loading design
+# End time: 16:57:58 on Dec 02,2023, Elapsed time: 0:00:01
+# Errors: 1, Warnings: 2
+# Compile of main.v was successful.
+# Compile of reg16.v was successful.
+# Compile of ADD.v was successful.
+# Compile of AND.v was successful.
+# Compile of DECO.v was successful.
+# Compile of EXCH.v was successful.
+# Compile of INST.v was successful.
+# Compile of MOV.v was successful.
+# Compile of OR.v was successful.
+# Compile of SHR.v was successful.
+# Compile of SUB.v was successful.
+# Compile of XOR.v was successful.
+# Compile of blue.v was successful.
+# Compile of instruction.v was successful.
+# Compile of PC.v was successful.
+# Compile of red.v was successful.
+# Compile of ROM.v was successful.
+# Compile of carry.v was successful.
+# Compile of negative.v was successful.
+# Compile of zero.v was successful.
+# Compile of reg3.v was successful.
+# 21 compiles, 0 failed with no errors.
+vsim work.main
+# vsim work.main 
+# Start time: 17:00:44 on Dec 02,2023
+# Loading work.main
+# Loading work.red
+# Loading work.reg16
+# Loading work.ROM
+# Loading work.ADD
+# Loading work.blue
+# Loading work.INST
+# Loading work.SUB
+# Loading work.OR
+# Loading work.AND
+# Loading work.XOR
+# Loading work.SHR
+# Loading work.MOV
+# Loading work.EXCH
+# Loading work.DECO
+# Loading work.reg3
+# ** Warning: (vsim-3015) [PCDPC] - Port size (16) does not match connection size (32) for port 'RB'. The port definition is at: C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Blue/Instructions/ADD.v(5).
+#    Time: 0 ps  Iteration: 0  Instance: /main/red/ADD File: C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Red/red.v Line: 19
+# ** Fatal: (vsim-3365) Too many port connections. Expected 5, found 6.
+#    Time: 0 ps  Iteration: 0  Instance: /main/blue File: C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Main/main.v Line: 21
+# FATAL ERROR while loading design
+# Error loading design
+# End time: 17:00:45 on Dec 02,2023, Elapsed time: 0:00:01
+# Errors: 1, Warnings: 3
+vsim work.main
+# vsim work.main 
+# Start time: 17:00:51 on Dec 02,2023
+# Loading work.main
+# Loading work.red
+# Loading work.reg16
+# Loading work.ROM
+# Loading work.ADD
+# Loading work.blue
+# Loading work.INST
+# Loading work.SUB
+# Loading work.OR
+# Loading work.AND
+# Loading work.XOR
+# Loading work.SHR
+# Loading work.MOV
+# Loading work.EXCH
+# Loading work.DECO
+# Loading work.reg3
+# ** Warning: (vsim-3015) [PCDPC] - Port size (16) does not match connection size (32) for port 'RB'. The port definition is at: C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Blue/Instructions/ADD.v(5).
+#    Time: 0 ps  Iteration: 0  Instance: /main/red/ADD File: C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Red/red.v Line: 19
+# ** Fatal: (vsim-3365) Too many port connections. Expected 5, found 6.
+#    Time: 0 ps  Iteration: 0  Instance: /main/blue File: C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Main/main.v Line: 21
+# FATAL ERROR while loading design
+# Error loading design
+# End time: 17:00:51 on Dec 02,2023, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 2
+# Compile of main.v was successful.
+# Compile of reg16.v was successful.
+# Compile of ADD.v was successful.
+# Compile of AND.v was successful.
+# Compile of DECO.v was successful.
+# Compile of EXCH.v was successful.
+# Compile of INST.v was successful.
+# Compile of MOV.v was successful.
+# Compile of OR.v was successful.
+# Compile of SHR.v was successful.
+# Compile of SUB.v was successful.
+# Compile of XOR.v was successful.
+# Compile of blue.v was successful.
+# Compile of instruction.v was successful.
+# Compile of PC.v was successful.
+# Compile of red.v was successful.
+# Compile of ROM.v was successful.
+# Compile of carry.v was successful.
+# Compile of negative.v was successful.
+# Compile of zero.v was successful.
+# Compile of reg3.v was successful.
+# 21 compiles, 0 failed with no errors.
+vsim work.main
+# vsim work.main 
+# Start time: 17:01:26 on Dec 02,2023
+# Loading work.main
+# Loading work.red
+# Loading work.reg16
+# Loading work.ROM
+# Loading work.ADD
+# Loading work.blue
+# Loading work.INST
+# Loading work.SUB
+# Loading work.OR
+# Loading work.AND
+# Loading work.XOR
+# Loading work.SHR
+# Loading work.MOV
+# Loading work.EXCH
+# Loading work.DECO
+# Loading work.reg3
+# ** Warning: (vsim-3015) [PCDPC] - Port size (16) does not match connection size (32) for port 'RB'. The port definition is at: C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Blue/Instructions/ADD.v(5).
+#    Time: 0 ps  Iteration: 0  Instance: /main/red/ADD File: C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Red/red.v Line: 19
+# ** Fatal: (vsim-3365) Too many port connections. Expected 5, found 6.
+#    Time: 0 ps  Iteration: 0  Instance: /main/blue File: C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Main/main.v Line: 21
+# FATAL ERROR while loading design
+# Error loading design
+# End time: 17:01:26 on Dec 02,2023, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 3
+# Compile of main.v was successful.
+# Compile of reg16.v was successful.
+# Compile of ADD.v was successful.
+# Compile of AND.v was successful.
+# Compile of DECO.v was successful.
+# Compile of EXCH.v was successful.
+# Compile of INST.v was successful.
+# Compile of MOV.v was successful.
+# Compile of OR.v was successful.
+# Compile of SHR.v was successful.
+# Compile of SUB.v was successful.
+# Compile of XOR.v was successful.
+# Compile of blue.v was successful.
+# Compile of instruction.v was successful.
+# Compile of PC.v was successful.
+# Compile of red.v was successful.
+# Compile of ROM.v was successful.
+# Compile of carry.v was successful.
+# Compile of negative.v was successful.
+# Compile of zero.v was successful.
+# Compile of reg3.v was successful.
+# 21 compiles, 0 failed with no errors.
+vsim work.main
+# vsim work.main 
+# Start time: 17:03:39 on Dec 02,2023
+# Loading work.main
+# Loading work.red
+# Loading work.reg16
+# Loading work.ROM
+# Loading work.ADD
+# Loading work.blue
+# Loading work.INST
+# Loading work.SUB
+# Loading work.OR
+# Loading work.AND
+# Loading work.XOR
+# Loading work.SHR
+# Loading work.MOV
+# Loading work.EXCH
+# Loading work.DECO
+# Loading work.reg3
+# ** Warning: (vsim-3015) [PCDPC] - Port size (16) does not match connection size (32) for port 'RB'. The port definition is at: C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Blue/Instructions/ADD.v(5).
+#    Time: 0 ps  Iteration: 0  Instance: /main/red/ADD File: C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Red/red.v Line: 19
+# ** Fatal: (vsim-3365) Too many port connections. Expected 5, found 6.
+#    Time: 0 ps  Iteration: 0  Instance: /main/blue File: C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Main/main.v Line: 22
+# FATAL ERROR while loading design
+# Error loading design
+# End time: 17:03:40 on Dec 02,2023, Elapsed time: 0:00:01
+# Errors: 1, Warnings: 3
+# Compile of main.v was successful.
+# Compile of reg16.v was successful.
+# Compile of ADD.v was successful.
+# Compile of AND.v was successful.
+# Compile of DECO.v was successful.
+# Compile of EXCH.v was successful.
+# Compile of INST.v was successful.
+# Compile of MOV.v was successful.
+# Compile of OR.v was successful.
+# Compile of SHR.v was successful.
+# Compile of SUB.v was successful.
+# Compile of XOR.v was successful.
+# Compile of blue.v was successful.
+# Compile of instruction.v was successful.
+# Compile of PC.v was successful.
+# Compile of red.v was successful.
+# Compile of ROM.v was successful.
+# Compile of carry.v was successful.
+# Compile of negative.v was successful.
+# Compile of zero.v was successful.
+# Compile of reg3.v was successful.
+# 21 compiles, 0 failed with no errors.
+vsim work.main
+# vsim work.main 
+# Start time: 17:04:05 on Dec 02,2023
+# Loading work.main
+# Loading work.red
+# Loading work.reg16
+# Loading work.ROM
+# Loading work.ADD
+# Loading work.blue
+# Loading work.INST
+# Loading work.SUB
+# Loading work.OR
+# Loading work.AND
+# Loading work.XOR
+# Loading work.SHR
+# Loading work.MOV
+# Loading work.EXCH
+# Loading work.DECO
+# Loading work.reg3
+# ** Warning: (vsim-3015) [PCDPC] - Port size (16) does not match connection size (32) for port 'RB'. The port definition is at: C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Blue/Instructions/ADD.v(5).
+#    Time: 0 ps  Iteration: 0  Instance: /main/red/ADD File: C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Red/red.v Line: 19
+# ** Fatal: (vsim-3365) Too many port connections. Expected 5, found 6.
+#    Time: 0 ps  Iteration: 0  Instance: /main/blue File: C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Main/main.v Line: 22
+# FATAL ERROR while loading design
+# Error loading design
+# End time: 17:04:06 on Dec 02,2023, Elapsed time: 0:00:01
+# Errors: 1, Warnings: 3
+vsim work.blue
+# vsim work.blue 
+# Start time: 17:04:42 on Dec 02,2023
+# Loading work.blue
+# Loading work.INST
+# Loading work.ADD
+# Loading work.SUB
+# Loading work.OR
+# Loading work.AND
+# Loading work.XOR
+# Loading work.SHR
+# Loading work.MOV
+# Loading work.EXCH
+# Loading work.DECO
+vsim work.blue
+# End time: 17:04:47 on Dec 02,2023, Elapsed time: 0:00:05
+# Errors: 0, Warnings: 1
+# vsim work.blue 
+# Start time: 17:04:47 on Dec 02,2023
+# Loading work.blue
+# Loading work.INST
+# Loading work.ADD
+# Loading work.SUB
+# Loading work.OR
+# Loading work.AND
+# Loading work.XOR
+# Loading work.SHR
+# Loading work.MOV
+# Loading work.EXCH
+# Loading work.DECO
+vsim work.main
+# End time: 17:04:57 on Dec 02,2023, Elapsed time: 0:00:10
+# Errors: 0, Warnings: 1
+# vsim work.main 
+# Start time: 17:04:57 on Dec 02,2023
+# Loading work.main
+# Loading work.red
+# Loading work.reg16
+# Loading work.ROM
+# Loading work.ADD
+# Loading work.blue
+# Loading work.INST
+# Loading work.SUB
+# Loading work.OR
+# Loading work.AND
+# Loading work.XOR
+# Loading work.SHR
+# Loading work.MOV
+# Loading work.EXCH
+# Loading work.DECO
+# Loading work.reg3
+# ** Warning: (vsim-3015) [PCDPC] - Port size (16) does not match connection size (32) for port 'RB'. The port definition is at: C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Blue/Instructions/ADD.v(5).
+#    Time: 0 ps  Iteration: 0  Instance: /main/red/ADD File: C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Red/red.v Line: 19
+# ** Fatal: (vsim-3365) Too many port connections. Expected 5, found 6.
+#    Time: 0 ps  Iteration: 0  Instance: /main/blue File: C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Main/main.v Line: 22
+# FATAL ERROR while loading design
+# Error loading design
+# End time: 17:04:58 on Dec 02,2023, Elapsed time: 0:00:01
+# Errors: 1, Warnings: 2
+vsim work.blue
+# vsim work.blue 
+# Start time: 17:07:26 on Dec 02,2023
+# Loading work.blue
+# Loading work.INST
+# Loading work.ADD
+# Loading work.SUB
+# Loading work.OR
+# Loading work.AND
+# Loading work.XOR
+# Loading work.SHR
+# Loading work.MOV
+# Loading work.EXCH
+# Loading work.DECO
+# Compile of blue.v was successful.
+vlog -work work C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Blue/blue.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 17:08:21 on Dec 02,2023
+# vlog -reportprogress 300 -work work C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Blue/blue.v 
+# -- Compiling module blue
+# 
+# Top level modules:
+# 	blue
+# End time: 17:08:21 on Dec 02,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Main/main.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 17:08:29 on Dec 02,2023
+# vlog -reportprogress 300 -work work C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Main/main.v 
+# -- Compiling module main
+# 
+# Top level modules:
+# 	main
+# End time: 17:08:29 on Dec 02,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim work.main
+# End time: 17:08:33 on Dec 02,2023, Elapsed time: 0:01:07
+# Errors: 0, Warnings: 2
+# vsim work.main 
+# Start time: 17:08:33 on Dec 02,2023
+# Loading work.main
+# Loading work.red
+# Loading work.reg16
+# Loading work.ROM
+# Loading work.ADD
+# Loading work.blue
+# ** Error: (vsim-3033) Instantiation of 'instruction' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /main/blue File: C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Blue/blue.v Line: 16
+#         Searched libraries:
+#             C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/ModelSim/Andy/Main/work
+# Loading work.zero
+# Loading work.negative
+# Loading work.carry
+# Loading work.reg3
+# Error loading design
+# End time: 17:08:34 on Dec 02,2023, Elapsed time: 0:00:01
+# Errors: 1, Warnings: 1
+# Compile of main.v was successful.
+# Compile of reg16.v was successful.
+# Compile of ADD.v was successful.
+# Compile of AND.v was successful.
+# Compile of DECO.v was successful.
+# Compile of EXCH.v was successful.
+# Compile of INST.v was successful.
+# Compile of MOV.v was successful.
+# Compile of OR.v was successful.
+# Compile of SHR.v was successful.
+# Compile of SUB.v was successful.
+# Compile of XOR.v was successful.
+# Compile of blue.v was successful.
+# Compile of instruction.v was successful.
+# Compile of PC.v was successful.
+# Compile of red.v was successful.
+# Compile of ROM.v was successful.
+# Compile of carry.v was successful.
+# Compile of negative.v was successful.
+# Compile of zero.v was successful.
+# Compile of reg3.v was successful.
+# 21 compiles, 0 failed with no errors.
+vsim work.main
+# vsim work.main 
+# Start time: 17:10:05 on Dec 02,2023
+# Loading work.main
+# Loading work.red
+# Loading work.reg16
+# Loading work.ROM
+# Loading work.ADD
+# Loading work.blue
+# Loading work.instruction
+# Loading work.INST
+# Loading work.SUB
+# Loading work.OR
+# Loading work.AND
+# Loading work.XOR
+# Loading work.SHR
+# Loading work.MOV
+# Loading work.EXCH
+# Loading work.DECO
+# Loading work.zero
+# Loading work.negative
+# Loading work.carry
+# Loading work.reg3
+# ** Warning: (vsim-3015) [PCDPC] - Port size (16) does not match connection size (32) for port 'RB'. The port definition is at: C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Blue/Instructions/ADD.v(5).
+#    Time: 0 ps  Iteration: 0  Instance: /main/red/ADD File: C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Red/red.v Line: 19
+add wave -position end  sim:/main/opCode
+add wave -position end  sim:/main/A_in
+add wave -position end  sim:/main/B_in
+force -freeze sim:/main/opCode 010 0
+force -freeze sim:/main/opCode 0100000000000010 0
+force -freeze sim:/main/A_in 0 0
+force -freeze sim:/main/B_in 0 0
+add wave -position end  sim:/main/clk
+force -freeze sim:/main/clk 1 0, 0 {50 ps} -r 100
+run
+run
+run
+noforce sim:/main/A_in
+noforce sim:/main/B_in
+run
+run
+run
+force -freeze sim:/main/B_in 1 0
+run
+run
+run
+run
+run
+run
+run
+run
+# Compile of main.v failed with 2 errors.
+# Compile of reg16.v was successful.
+# Compile of ADD.v was successful.
+# Compile of AND.v was successful.
+# Compile of DECO.v was successful.
+# Compile of EXCH.v was successful.
+# Compile of INST.v was successful.
+# Compile of MOV.v was successful.
+# Compile of OR.v was successful.
+# Compile of SHR.v was successful.
+# Compile of SUB.v was successful.
+# Compile of XOR.v was successful.
+# Compile of blue.v was successful.
+# Compile of instruction.v was successful.
+# Compile of PC.v was successful.
+# Compile of red.v was successful.
+# Compile of ROM.v was successful.
+# Compile of carry.v was successful.
+# Compile of negative.v was successful.
+# Compile of zero.v was successful.
+# Compile of reg3.v was successful.
+# 21 compiles, 1 failed with 2 errors.
+# Compile of main.v failed with 2 errors.
+# Compile of reg16.v was successful.
+# Compile of ADD.v was successful.
+# Compile of AND.v was successful.
+# Compile of DECO.v was successful.
+# Compile of EXCH.v was successful.
+# Compile of INST.v was successful.
+# Compile of MOV.v was successful.
+# Compile of OR.v was successful.
+# Compile of SHR.v was successful.
+# Compile of SUB.v was successful.
+# Compile of XOR.v was successful.
+# Compile of blue.v was successful.
+# Compile of instruction.v was successful.
+# Compile of PC.v was successful.
+# Compile of red.v was successful.
+# Compile of ROM.v was successful.
+# Compile of carry.v was successful.
+# Compile of negative.v was successful.
+# Compile of zero.v was successful.
+# Compile of reg3.v was successful.
+# 21 compiles, 1 failed with 2 errors.
+# Compile of main.v was successful.
+# Compile of reg16.v was successful.
+# Compile of ADD.v was successful.
+# Compile of AND.v was successful.
+# Compile of DECO.v was successful.
+# Compile of EXCH.v was successful.
+# Compile of INST.v was successful.
+# Compile of MOV.v was successful.
+# Compile of OR.v was successful.
+# Compile of SHR.v was successful.
+# Compile of SUB.v was successful.
+# Compile of XOR.v was successful.
+# Compile of blue.v was successful.
+# Compile of instruction.v was successful.
+# Compile of PC.v was successful.
+# Compile of red.v was successful.
+# Compile of ROM.v was successful.
+# Compile of carry.v was successful.
+# Compile of negative.v was successful.
+# Compile of zero.v was successful.
+# Compile of reg3.v was successful.
+# 21 compiles, 0 failed with no errors.
+vsim work.main
+# End time: 17:45:58 on Dec 02,2023, Elapsed time: 0:35:53
+# Errors: 0, Warnings: 6
+# vsim work.main 
+# Start time: 17:45:58 on Dec 02,2023
+# Loading work.main
+# Loading work.red
+# Loading work.reg16
+# Loading work.ROM
+# Loading work.ADD
+# Loading work.blue
+# Loading work.instruction
+# Loading work.INST
+# Loading work.SUB
+# Loading work.OR
+# Loading work.AND
+# Loading work.XOR
+# Loading work.SHR
+# Loading work.MOV
+# Loading work.EXCH
+# Loading work.DECO
+# Loading work.zero
+# Loading work.negative
+# Loading work.carry
+# Loading work.reg3
+# ** Warning: (vsim-3015) [PCDPC] - Port size (16) does not match connection size (32) for port 'RB'. The port definition is at: C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Blue/Instructions/ADD.v(5).
+#    Time: 0 ps  Iteration: 0  Instance: /main/red/ADD File: C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Red/red.v Line: 19
+# ** Error (suppressible): (vsim-3053) Illegal output or inout port connection for port 'Q'.
+#    Time: 0 ps  Iteration: 0  Instance: /main/A File: C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Main/main.v Line: 24
+# ** Error (suppressible): (vsim-3053) Illegal output or inout port connection for port 'Q'.
+#    Time: 0 ps  Iteration: 0  Instance: /main/B File: C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Main/main.v Line: 25
+# Error loading design
+# End time: 17:45:59 on Dec 02,2023, Elapsed time: 0:00:01
+# Errors: 2, Warnings: 2
+# Compile of main.v was successful.
+# Compile of reg16.v was successful.
+# Compile of ADD.v was successful.
+# Compile of AND.v was successful.
+# Compile of DECO.v was successful.
+# Compile of EXCH.v was successful.
+# Compile of INST.v was successful.
+# Compile of MOV.v was successful.
+# Compile of OR.v was successful.
+# Compile of SHR.v was successful.
+# Compile of SUB.v was successful.
+# Compile of XOR.v was successful.
+# Compile of blue.v was successful.
+# Compile of instruction.v was successful.
+# Compile of PC.v was successful.
+# Compile of red.v was successful.
+# Compile of ROM.v was successful.
+# Compile of carry.v was successful.
+# Compile of negative.v was successful.
+# Compile of zero.v was successful.
+# Compile of reg3.v was successful.
+# 21 compiles, 0 failed with no errors.
+vsim work.main
+# vsim work.main 
+# Start time: 17:48:05 on Dec 02,2023
+# Loading work.main
+# Loading work.red
+# Loading work.reg16
+# Loading work.ROM
+# Loading work.ADD
+# Loading work.blue
+# Loading work.instruction
+# Loading work.INST
+# Loading work.SUB
+# Loading work.OR
+# Loading work.AND
+# Loading work.XOR
+# Loading work.SHR
+# Loading work.MOV
+# Loading work.EXCH
+# Loading work.DECO
+# Loading work.zero
+# Loading work.negative
+# Loading work.carry
+# Loading work.reg3
+# ** Warning: (vsim-3015) [PCDPC] - Port size (16) does not match connection size (32) for port 'RB'. The port definition is at: C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Blue/Instructions/ADD.v(5).
+#    Time: 0 ps  Iteration: 0  Instance: /main/red/ADD File: C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Red/red.v Line: 19
+# ** Error (suppressible): (vsim-3053) Illegal output or inout port connection for port 'Q'.
+#    Time: 0 ps  Iteration: 0  Instance: /main/A File: C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Main/main.v Line: 24
+# ** Error (suppressible): (vsim-3053) Illegal output or inout port connection for port 'Q'.
+#    Time: 0 ps  Iteration: 0  Instance: /main/B File: C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Main/main.v Line: 25
+# Error loading design
+# End time: 17:48:07 on Dec 02,2023, Elapsed time: 0:00:02
+# Errors: 2, Warnings: 3
+# Compile of main.v was successful.
+vsim work.main
+# vsim work.main 
+# Start time: 17:48:37 on Dec 02,2023
+# Loading work.main
+# Loading work.red
+# Loading work.reg16
+# Loading work.ROM
+# Loading work.ADD
+# Loading work.blue
+# Loading work.instruction
+# Loading work.INST
+# Loading work.SUB
+# Loading work.OR
+# Loading work.AND
+# Loading work.XOR
+# Loading work.SHR
+# Loading work.MOV
+# Loading work.EXCH
+# Loading work.DECO
+# Loading work.zero
+# Loading work.negative
+# Loading work.carry
+# Loading work.reg3
+# ** Warning: (vsim-3015) [PCDPC] - Port size (16) does not match connection size (32) for port 'RB'. The port definition is at: C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Blue/Instructions/ADD.v(5).
+#    Time: 0 ps  Iteration: 0  Instance: /main/red/ADD File: C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Red/red.v Line: 19
+# ** Error (suppressible): (vsim-3053) Illegal output or inout port connection for port 'A_out'.
+#    Time: 0 ps  Iteration: 0  Instance: /main/blue File: C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Main/main.v Line: 22
+# ** Error (suppressible): (vsim-3053) Illegal output or inout port connection for port 'B_out'.
+#    Time: 0 ps  Iteration: 0  Instance: /main/blue File: C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Main/main.v Line: 22
+# Error loading design
+# End time: 17:48:38 on Dec 02,2023, Elapsed time: 0:00:01
+# Errors: 2, Warnings: 3
+# Compile of main.v was successful.
+vsim work.main
+# vsim work.main 
+# Start time: 17:50:08 on Dec 02,2023
+# Loading work.main
+# Loading work.red
+# Loading work.reg16
+# Loading work.ROM
+# Loading work.ADD
+# Loading work.blue
+# Loading work.instruction
+# Loading work.INST
+# Loading work.SUB
+# Loading work.OR
+# Loading work.AND
+# Loading work.XOR
+# Loading work.SHR
+# Loading work.MOV
+# Loading work.EXCH
+# Loading work.DECO
+# Loading work.zero
+# Loading work.negative
+# Loading work.carry
+# Loading work.reg3
+# ** Warning: (vsim-3015) [PCDPC] - Port size (16) does not match connection size (32) for port 'RB'. The port definition is at: C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Blue/Instructions/ADD.v(5).
+#    Time: 0 ps  Iteration: 0  Instance: /main/red/ADD File: C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Red/red.v Line: 19
+# Compile of main.v failed with 2 errors.
+# Compile of main.v was successful.
+vsim work.main
+# End time: 17:51:30 on Dec 02,2023, Elapsed time: 0:01:22
+# Errors: 0, Warnings: 5
+# vsim work.main 
+# Start time: 17:51:30 on Dec 02,2023
+# Loading work.main
+# Loading work.red
+# Loading work.reg16
+# Loading work.ROM
+# Loading work.ADD
+# Loading work.blue
+# Loading work.instruction
+# Loading work.INST
+# Loading work.SUB
+# Loading work.OR
+# Loading work.AND
+# Loading work.XOR
+# Loading work.SHR
+# Loading work.MOV
+# Loading work.EXCH
+# Loading work.DECO
+# Loading work.zero
+# Loading work.negative
+# Loading work.carry
+# Loading work.reg3
+# ** Warning: (vsim-3015) [PCDPC] - Port size (16) does not match connection size (32) for port 'RB'. The port definition is at: C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Blue/Instructions/ADD.v(5).
+#    Time: 0 ps  Iteration: 0  Instance: /main/red/ADD File: C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Red/red.v Line: 19
+# ** Error (suppressible): (vsim-3053) Illegal output or inout port connection for port 'Q'.
+#    Time: 0 ps  Iteration: 0  Instance: /main/A File: C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Main/main.v Line: 28
+# ** Error (suppressible): (vsim-3053) Illegal output or inout port connection for port 'Q'.
+#    Time: 0 ps  Iteration: 0  Instance: /main/B File: C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Main/main.v Line: 29
+# Error loading design
+# End time: 17:51:32 on Dec 02,2023, Elapsed time: 0:00:02
+# Errors: 2, Warnings: 2
+vsim work.main
+# vsim work.main 
+# Start time: 17:52:42 on Dec 02,2023
+# Loading work.main
+# Loading work.red
+# Loading work.reg16
+# Loading work.ROM
+# Loading work.ADD
+# Loading work.blue
+# Loading work.instruction
+# Loading work.INST
+# Loading work.SUB
+# Loading work.OR
+# Loading work.AND
+# Loading work.XOR
+# Loading work.SHR
+# Loading work.MOV
+# Loading work.EXCH
+# Loading work.DECO
+# Loading work.zero
+# Loading work.negative
+# Loading work.carry
+# Loading work.reg3
+# ** Warning: (vsim-3015) [PCDPC] - Port size (16) does not match connection size (32) for port 'RB'. The port definition is at: C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Blue/Instructions/ADD.v(5).
+#    Time: 0 ps  Iteration: 0  Instance: /main/red/ADD File: C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Red/red.v Line: 19
+# ** Error (suppressible): (vsim-3053) Illegal output or inout port connection for port 'Q'.
+#    Time: 0 ps  Iteration: 0  Instance: /main/A File: C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Main/main.v Line: 28
+# ** Error (suppressible): (vsim-3053) Illegal output or inout port connection for port 'Q'.
+#    Time: 0 ps  Iteration: 0  Instance: /main/B File: C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Main/main.v Line: 29
+# Error loading design
+# End time: 17:52:43 on Dec 02,2023, Elapsed time: 0:00:01
+# Errors: 2, Warnings: 2
+# Compile of main.v was successful.
+vsim work.main
+# vsim work.main 
+# Start time: 17:52:52 on Dec 02,2023
+# Loading work.main
+# Loading work.red
+# Loading work.reg16
+# Loading work.ROM
+# Loading work.ADD
+# Loading work.blue
+# Loading work.instruction
+# Loading work.INST
+# Loading work.SUB
+# Loading work.OR
+# Loading work.AND
+# Loading work.XOR
+# Loading work.SHR
+# Loading work.MOV
+# Loading work.EXCH
+# Loading work.DECO
+# Loading work.zero
+# Loading work.negative
+# Loading work.carry
+# Loading work.reg3
+# ** Warning: (vsim-3015) [PCDPC] - Port size (16) does not match connection size (32) for port 'RB'. The port definition is at: C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Blue/Instructions/ADD.v(5).
+#    Time: 0 ps  Iteration: 0  Instance: /main/red/ADD File: C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Red/red.v Line: 19
+# ** Error (suppressible): (vsim-3053) Illegal output or inout port connection for port 'Q'.
+#    Time: 0 ps  Iteration: 0  Instance: /main/A File: C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Main/main.v Line: 28
+# ** Error (suppressible): (vsim-3053) Illegal output or inout port connection for port 'Q'.
+#    Time: 0 ps  Iteration: 0  Instance: /main/B File: C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Main/main.v Line: 29
+# Error loading design
+# End time: 17:52:53 on Dec 02,2023, Elapsed time: 0:00:01
+# Errors: 2, Warnings: 3
+# Compile of main.v was successful.
+vsim work.main
+# vsim work.main 
+# Start time: 17:53:07 on Dec 02,2023
+# Loading work.main
+# Loading work.red
+# Loading work.reg16
+# Loading work.ROM
+# Loading work.ADD
+# Loading work.blue
+# Loading work.instruction
+# Loading work.INST
+# Loading work.SUB
+# Loading work.OR
+# Loading work.AND
+# Loading work.XOR
+# Loading work.SHR
+# Loading work.MOV
+# Loading work.EXCH
+# Loading work.DECO
+# Loading work.zero
+# Loading work.negative
+# Loading work.carry
+# Loading work.reg3
+# ** Warning: (vsim-3015) [PCDPC] - Port size (16) does not match connection size (32) for port 'RB'. The port definition is at: C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Blue/Instructions/ADD.v(5).
+#    Time: 0 ps  Iteration: 0  Instance: /main/red/ADD File: C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Red/red.v Line: 19
+add wave -position end  sim:/main/clk
+force -freeze sim:/main/clk 1 0, 0 {50 ps} -r 100
+add wave -position end  sim:/main/A_out
+add wave -position end  sim:/main/B_out
+force -freeze sim:/main/B_out 1 0
+force -freeze sim:/main/A_out 0 0
+run
+noforce sim:/main/A_out
+noforce sim:/main/B_out
+run
+run
+run
+run
+run
+run
+run
+add wave -position end  sim:/main/opCode
+run
+run
+run
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Warning: (vsim-3015) [PCDPC] - Port size (16) does not match connection size (32) for port 'RB'. The port definition is at: C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Blue/Instructions/ADD.v(5).
+#    Time: 0 ps  Iteration: 0  Instance: /main/red/ADD File: C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Red/red.v Line: 19
+run
+run
+run
+run
+add wave -position end  sim:/main/clk
+force -freeze sim:/main/clk 1 0, 0 {50 ps} -r 100
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+vlog -work work C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Red/red.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 17:59:45 on Dec 02,2023
+# vlog -reportprogress 300 -work work C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Red/red.v 
+# -- Compiling module red
+# 
+# Top level modules:
+# 	red
+# End time: 17:59:45 on Dec 02,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Compile of red.v was successful.
+# Compile of main.v was successful.
+# Compile of reg16.v was successful.
+# Compile of ADD.v was successful.
+# Compile of AND.v was successful.
+# Compile of DECO.v was successful.
+# Compile of EXCH.v was successful.
+# Compile of INST.v was successful.
+# Compile of MOV.v was successful.
+# Compile of OR.v was successful.
+# Compile of SHR.v was successful.
+# Compile of SUB.v was successful.
+# Compile of XOR.v was successful.
+# Compile of blue.v was successful.
+# Compile of instruction.v was successful.
+# Compile of PC.v was successful.
+# Compile of red.v was successful.
+# Compile of ROM.v was successful.
+# Compile of carry.v was successful.
+# Compile of negative.v was successful.
+# Compile of zero.v was successful.
+# Compile of reg3.v was successful.
+# 21 compiles, 0 failed with no errors.
+vsim work.red
+# End time: 18:00:43 on Dec 02,2023, Elapsed time: 0:07:36
+# Errors: 0, Warnings: 4
+# vsim work.red 
+# Start time: 18:00:43 on Dec 02,2023
+# Loading work.red
+# Loading work.reg16
+# Loading work.ROM
+# Loading work.ADD
+# ** Warning: (vsim-3015) [PCDPC] - Port size (16) does not match connection size (32) for port 'RB'. The port definition is at: C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Blue/Instructions/ADD.v(5).
+#    Time: 0 ps  Iteration: 0  Instance: /red/ADD File: C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Red/red.v Line: 19
+add wave -position end  sim:/red/opCode_out
+add wave -position end  sim:/red/en
+add wave -position end  sim:/red/clk
+force -freeze sim:/red/clk 1 0, 0 {50 ps} -r 100
+force -freeze sim:/red/en 1 0
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+add wave -position end  sim:/red/increment
+run
+run
+run
+run
+add wave -position end  sim:/red/PC_in
+run
+run
+run
+run
+run
+run
+add wave -position end  sim:/red/PC_in
+run
+add wave -position end  sim:/red/PC_out
+run
+run
+run
+run
+# Compile of red.v failed with 2 errors.
+# Compile of main.v was successful.
+# Compile of reg16.v was successful.
+# Compile of ADD.v was successful.
+# Compile of AND.v was successful.
+# Compile of DECO.v was successful.
+# Compile of EXCH.v was successful.
+# Compile of INST.v was successful.
+# Compile of MOV.v was successful.
+# Compile of OR.v was successful.
+# Compile of SHR.v was successful.
+# Compile of SUB.v was successful.
+# Compile of XOR.v was successful.
+# Compile of blue.v was successful.
+# Compile of instruction.v was successful.
+# Compile of PC.v was successful.
+# Compile of red.v was successful.
+# Compile of ROM.v was successful.
+# Compile of carry.v was successful.
+# Compile of negative.v was successful.
+# Compile of zero.v was successful.
+# Compile of reg3.v was successful.
+# 21 compiles, 0 failed with no errors.
+vsim work.red
+# End time: 18:04:50 on Dec 02,2023, Elapsed time: 0:04:07
+# Errors: 0, Warnings: 4
+# vsim work.red 
+# Start time: 18:04:50 on Dec 02,2023
+# Loading work.red
+# Loading work.reg16
+# Loading work.ROM
+# Loading work.ADD
+# ** Warning: (vsim-3015) [PCDPC] - Port size (16) does not match connection size (32) for port 'RB'. The port definition is at: C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Blue/Instructions/ADD.v(5).
+#    Time: 0 ps  Iteration: 0  Instance: /red/ADD File: C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Red/red.v Line: 19
+add wave -position end  sim:/red/PC_in
+restart
+run
+run
+# Compile of main.v was successful.
+vsim work.main
+# End time: 18:06:14 on Dec 02,2023, Elapsed time: 0:01:24
+# Errors: 0, Warnings: 3
+# vsim work.main 
+# Start time: 18:06:14 on Dec 02,2023
+# Loading work.main
+# Loading work.red
+# Loading work.reg16
+# Loading work.ROM
+# Loading work.ADD
+# Loading work.blue
+# Loading work.instruction
+# Loading work.INST
+# Loading work.SUB
+# Loading work.OR
+# Loading work.AND
+# Loading work.XOR
+# Loading work.SHR
+# Loading work.MOV
+# Loading work.EXCH
+# Loading work.DECO
+# Loading work.zero
+# Loading work.negative
+# Loading work.carry
+# Loading work.reg3
+# ** Warning: (vsim-3015) [PCDPC] - Port size (16) does not match connection size (32) for port 'RB'. The port definition is at: C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Blue/Instructions/ADD.v(5).
+#    Time: 0 ps  Iteration: 0  Instance: /main/red/ADD File: C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Red/red.v Line: 19
+# ** Error (suppressible): (vsim-3053) Illegal output or inout port connection for port 'A_out'.
+#    Time: 0 ps  Iteration: 0  Instance: /main/blue File: C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Main/main.v Line: 29
+# ** Error (suppressible): (vsim-3053) Illegal output or inout port connection for port 'B_out'.
+#    Time: 0 ps  Iteration: 0  Instance: /main/blue File: C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Main/main.v Line: 29
+# Error loading design
+# End time: 18:06:15 on Dec 02,2023, Elapsed time: 0:00:01
+# Errors: 2, Warnings: 2
+# Compile of main.v failed with 2 errors.
+# Compile of main.v failed with 2 errors.
+# Compile of main.v was successful.
+# Compile of reg16.v failed with 1 errors.
+# Compile of ADD.v was successful.
+# Compile of AND.v was successful.
+# Compile of DECO.v was successful.
+# Compile of EXCH.v was successful.
+# Compile of INST.v was successful.
+# Compile of MOV.v was successful.
+# Compile of OR.v was successful.
+# Compile of SHR.v was successful.
+# Compile of SUB.v was successful.
+# Compile of XOR.v was successful.
+# Compile of blue.v was successful.
+# Compile of instruction.v was successful.
+# Compile of PC.v was successful.
+# Compile of red.v was successful.
+# Compile of ROM.v was successful.
+# Compile of carry.v was successful.
+# Compile of negative.v was successful.
+# Compile of zero.v was successful.
+# Compile of reg3.v was successful.
+# 21 compiles, 1 failed with 1 error.
+# Compile of main.v was successful.
+# Compile of reg16.v was successful.
+# Compile of ADD.v was successful.
+# Compile of AND.v was successful.
+# Compile of DECO.v was successful.
+# Compile of EXCH.v was successful.
+# Compile of INST.v was successful.
+# Compile of MOV.v was successful.
+# Compile of OR.v was successful.
+# Compile of SHR.v was successful.
+# Compile of SUB.v was successful.
+# Compile of XOR.v was successful.
+# Compile of blue.v was successful.
+# Compile of instruction.v was successful.
+# Compile of PC.v was successful.
+# Compile of red.v was successful.
+# Compile of ROM.v was successful.
+# Compile of carry.v was successful.
+# Compile of negative.v was successful.
+# Compile of zero.v was successful.
+# Compile of reg3.v was successful.
+# 21 compiles, 0 failed with no errors.
+vsim work.main
+# vsim work.main 
+# Start time: 18:10:51 on Dec 02,2023
+# Loading work.main
+# Loading work.red
+# Loading work.reg16
+# Loading work.ROM
+# Loading work.ADD
+# Loading work.blue
+# Loading work.instruction
+# Loading work.INST
+# Loading work.SUB
+# Loading work.OR
+# Loading work.AND
+# Loading work.XOR
+# Loading work.SHR
+# Loading work.MOV
+# Loading work.EXCH
+# Loading work.DECO
+# Loading work.zero
+# Loading work.negative
+# Loading work.carry
+# Loading work.reg3
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'init'. The port definition is at: C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Main/reg16.v(2).
+#    Time: 0 ps  Iteration: 0  Instance: /main/red/opCode_reg File: C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Red/red.v Line: 16
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'init'. The port definition is at: C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Main/reg16.v(2).
+#    Time: 0 ps  Iteration: 0  Instance: /main/red/PC_reg File: C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Red/red.v Line: 17
+# ** Warning: (vsim-3015) [PCDPC] - Port size (16) does not match connection size (32) for port 'RB'. The port definition is at: C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Blue/Instructions/ADD.v(5).
+#    Time: 0 ps  Iteration: 0  Instance: /main/red/ADD File: C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Red/red.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'init'. The port definition is at: C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Main/reg16.v(2).
+#    Time: 0 ps  Iteration: 0  Instance: /main/A File: C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Main/main.v Line: 25
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'init'. The port definition is at: C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Main/reg16.v(2).
+#    Time: 0 ps  Iteration: 0  Instance: /main/B File: C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Main/main.v Line: 26
+add wave -position end  sim:/main/clk
+add wave -position end  sim:/main/A_out
+run
+run
+run
+run
+# Compile of main.v was successful.
+# Compile of reg16.v was successful.
+# Compile of ADD.v was successful.
+# Compile of AND.v was successful.
+# Compile of DECO.v was successful.
+# Compile of EXCH.v was successful.
+# Compile of INST.v was successful.
+# Compile of MOV.v was successful.
+# Compile of OR.v was successful.
+# Compile of SHR.v was successful.
+# Compile of SUB.v was successful.
+# Compile of XOR.v was successful.
+# Compile of blue.v was successful.
+# Compile of instruction.v was successful.
+# Compile of PC.v was successful.
+# Compile of red.v was successful.
+# Compile of ROM.v was successful.
+# Compile of carry.v was successful.
+# Compile of negative.v was successful.
+# Compile of zero.v was successful.
+# Compile of reg3.v was successful.
+# 21 compiles, 0 failed with no errors.
+vsim work.main
+# End time: 18:12:31 on Dec 02,2023, Elapsed time: 0:01:40
+# Errors: 0, Warnings: 11
+# vsim work.main 
+# Start time: 18:12:31 on Dec 02,2023
+# Loading work.main
+# Loading work.red
+# Loading work.reg16
+# Loading work.ROM
+# Loading work.ADD
+# Loading work.blue
+# Loading work.instruction
+# Loading work.INST
+# Loading work.SUB
+# Loading work.OR
+# Loading work.AND
+# Loading work.XOR
+# Loading work.SHR
+# Loading work.MOV
+# Loading work.EXCH
+# Loading work.DECO
+# Loading work.zero
+# Loading work.negative
+# Loading work.carry
+# Loading work.reg3
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (16) for port 'init'. The port definition is at: C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Main/reg16.v(2).
+#    Time: 0 ps  Iteration: 0  Instance: /main/red/opCode_reg File: C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Red/red.v Line: 16
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (16) for port 'init'. The port definition is at: C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Main/reg16.v(2).
+#    Time: 0 ps  Iteration: 0  Instance: /main/red/PC_reg File: C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Red/red.v Line: 17
+# ** Warning: (vsim-3015) [PCDPC] - Port size (16) does not match connection size (32) for port 'RB'. The port definition is at: C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Blue/Instructions/ADD.v(5).
+#    Time: 0 ps  Iteration: 0  Instance: /main/red/ADD File: C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Red/red.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (16) for port 'init'. The port definition is at: C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Main/reg16.v(2).
+#    Time: 0 ps  Iteration: 0  Instance: /main/A File: C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Main/main.v Line: 25
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (16) for port 'init'. The port definition is at: C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Main/reg16.v(2).
+#    Time: 0 ps  Iteration: 0  Instance: /main/B File: C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Main/main.v Line: 26
+add wave -position end  sim:/main/A_out
+run
+run
+run
+# Compile of main.v was successful.
+# Compile of reg16.v was successful.
+# Compile of ADD.v was successful.
+# Compile of AND.v was successful.
+# Compile of DECO.v was successful.
+# Compile of EXCH.v was successful.
+# Compile of INST.v was successful.
+# Compile of MOV.v was successful.
+# Compile of OR.v was successful.
+# Compile of SHR.v was successful.
+# Compile of SUB.v was successful.
+# Compile of XOR.v was successful.
+# Compile of blue.v was successful.
+# Compile of instruction.v was successful.
+# Compile of PC.v was successful.
+# Compile of red.v was successful.
+# Compile of ROM.v was successful.
+# Compile of carry.v was successful.
+# Compile of negative.v was successful.
+# Compile of zero.v was successful.
+# Compile of reg3.v was successful.
+# 21 compiles, 0 failed with no errors.
+vsim work.main
+# End time: 18:13:50 on Dec 02,2023, Elapsed time: 0:01:19
+# Errors: 0, Warnings: 7
+# vsim work.main 
+# Start time: 18:13:51 on Dec 02,2023
+# Loading work.main
+# Loading work.red
+# Loading work.reg16
+# Loading work.ROM
+# Loading work.ADD
+# Loading work.blue
+# Loading work.instruction
+# Loading work.INST
+# Loading work.SUB
+# Loading work.OR
+# Loading work.AND
+# Loading work.XOR
+# Loading work.SHR
+# Loading work.MOV
+# Loading work.EXCH
+# Loading work.DECO
+# Loading work.zero
+# Loading work.negative
+# Loading work.carry
+# Loading work.reg3
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (16) for port 'init'. The port definition is at: C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Main/reg16.v(2).
+#    Time: 0 ps  Iteration: 0  Instance: /main/red/opCode_reg File: C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Red/red.v Line: 16
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (16) for port 'init'. The port definition is at: C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Main/reg16.v(2).
+#    Time: 0 ps  Iteration: 0  Instance: /main/red/PC_reg File: C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Red/red.v Line: 17
+# ** Warning: (vsim-3015) [PCDPC] - Port size (16) does not match connection size (32) for port 'RB'. The port definition is at: C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Blue/Instructions/ADD.v(5).
+#    Time: 0 ps  Iteration: 0  Instance: /main/red/ADD File: C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Red/red.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (16) for port 'init'. The port definition is at: C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Main/reg16.v(2).
+#    Time: 0 ps  Iteration: 0  Instance: /main/A File: C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Main/main.v Line: 25
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (16) for port 'init'. The port definition is at: C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Main/reg16.v(2).
+#    Time: 0 ps  Iteration: 0  Instance: /main/B File: C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Main/main.v Line: 26
+add wave -position end  sim:/main/A_out
+run
+run
+run
+noforce sim:/main/A_out
+add wave -position end  sim:/main/B_out
+# Compile of main.v was successful with warnings.
+# Compile of reg16.v was successful.
+# Compile of ADD.v was successful.
+# Compile of AND.v was successful.
+# Compile of DECO.v was successful.
+# Compile of EXCH.v was successful.
+# Compile of INST.v was successful.
+# Compile of MOV.v was successful.
+# Compile of OR.v was successful.
+# Compile of SHR.v was successful.
+# Compile of SUB.v was successful.
+# Compile of XOR.v was successful.
+# Compile of blue.v was successful.
+# Compile of instruction.v was successful.
+# Compile of PC.v was successful.
+# Compile of red.v was successful.
+# Compile of ROM.v was successful.
+# Compile of carry.v was successful.
+# Compile of negative.v was successful.
+# Compile of zero.v was successful.
+# Compile of reg3.v was successful.
+# 21 compiles, 0 failed with no errors.
+vsim work.main
+# End time: 18:15:40 on Dec 02,2023, Elapsed time: 0:01:49
+# Errors: 0, Warnings: 7
+# vsim work.main 
+# Start time: 18:15:40 on Dec 02,2023
+# Loading work.main
+# Loading work.red
+# Loading work.reg16
+# Loading work.ROM
+# Loading work.ADD
+# Loading work.blue
+# Loading work.instruction
+# Loading work.INST
+# Loading work.SUB
+# Loading work.OR
+# Loading work.AND
+# Loading work.XOR
+# Loading work.SHR
+# Loading work.MOV
+# Loading work.EXCH
+# Loading work.DECO
+# Loading work.zero
+# Loading work.negative
+# Loading work.carry
+# Loading work.reg3
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (16) for port 'init'. The port definition is at: C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Main/reg16.v(2).
+#    Time: 0 ps  Iteration: 0  Instance: /main/red/opCode_reg File: C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Red/red.v Line: 16
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (16) for port 'init'. The port definition is at: C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Main/reg16.v(2).
+#    Time: 0 ps  Iteration: 0  Instance: /main/red/PC_reg File: C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Red/red.v Line: 17
+# ** Warning: (vsim-3015) [PCDPC] - Port size (16) does not match connection size (32) for port 'RB'. The port definition is at: C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Blue/Instructions/ADD.v(5).
+#    Time: 0 ps  Iteration: 0  Instance: /main/red/ADD File: C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Red/red.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (4) for port 'init'. The port definition is at: C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Main/reg16.v(2).
+#    Time: 0 ps  Iteration: 0  Instance: /main/A File: C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Main/main.v Line: 25
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (4) for port 'init'. The port definition is at: C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Main/reg16.v(2).
+#    Time: 0 ps  Iteration: 0  Instance: /main/B File: C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Main/main.v Line: 26
+add wave -position end  sim:/main/B_out
+run
+run
+run
+# Compile of main.v was successful.
+# Compile of reg16.v was successful.
+# Compile of ADD.v was successful.
+# Compile of AND.v was successful.
+# Compile of DECO.v was successful.
+# Compile of EXCH.v was successful.
+# Compile of INST.v was successful.
+# Compile of MOV.v was successful.
+# Compile of OR.v was successful.
+# Compile of SHR.v was successful.
+# Compile of SUB.v was successful.
+# Compile of XOR.v was successful.
+# Compile of blue.v was successful.
+# Compile of instruction.v was successful.
+# Compile of PC.v was successful.
+# Compile of red.v was successful.
+# Compile of ROM.v was successful.
+# Compile of carry.v was successful.
+# Compile of negative.v was successful.
+# Compile of zero.v was successful.
+# Compile of reg3.v was successful.
+# 21 compiles, 0 failed with no errors.
+vsim work.main
+# End time: 18:17:49 on Dec 02,2023, Elapsed time: 0:02:09
+# Errors: 0, Warnings: 7
+# vsim work.main 
+# Start time: 18:17:49 on Dec 02,2023
+# Loading work.main
+# Loading work.red
+# Loading work.reg16
+# Loading work.ROM
+# Loading work.ADD
+# Loading work.blue
+# Loading work.instruction
+# Loading work.INST
+# Loading work.SUB
+# Loading work.OR
+# Loading work.AND
+# Loading work.XOR
+# Loading work.SHR
+# Loading work.MOV
+# Loading work.EXCH
+# Loading work.DECO
+# Loading work.zero
+# Loading work.negative
+# Loading work.carry
+# Loading work.reg3
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (16) for port 'init'. The port definition is at: C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Main/reg16.v(2).
+#    Time: 0 ps  Iteration: 0  Instance: /main/red/opCode_reg File: C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Red/red.v Line: 16
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (16) for port 'init'. The port definition is at: C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Main/reg16.v(2).
+#    Time: 0 ps  Iteration: 0  Instance: /main/red/PC_reg File: C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Red/red.v Line: 17
+# ** Warning: (vsim-3015) [PCDPC] - Port size (16) does not match connection size (32) for port 'RB'. The port definition is at: C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Blue/Instructions/ADD.v(5).
+#    Time: 0 ps  Iteration: 0  Instance: /main/red/ADD File: C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Red/red.v Line: 19
+add wave -position end  sim:/main/A_init
+run
+run
+add wave -position end  sim:/main/A_out
+run
+run
+run
+run
+# Compile of main.v was successful.
+# Compile of reg16.v was successful.
+# Compile of ADD.v was successful.
+# Compile of AND.v was successful.
+# Compile of DECO.v was successful.
+# Compile of EXCH.v was successful.
+# Compile of INST.v was successful.
+# Compile of MOV.v was successful.
+# Compile of OR.v was successful.
+# Compile of SHR.v was successful.
+# Compile of SUB.v was successful.
+# Compile of XOR.v was successful.
+# Compile of blue.v was successful.
+# Compile of instruction.v was successful.
+# Compile of PC.v was successful.
+# Compile of red.v was successful.
+# Compile of ROM.v was successful.
+# Compile of carry.v was successful.
+# Compile of negative.v was successful.
+# Compile of zero.v was successful.
+# Compile of reg3.v was successful.
+# 21 compiles, 0 failed with no errors.
+vsim work.main
+# End time: 18:18:51 on Dec 02,2023, Elapsed time: 0:01:02
+# Errors: 0, Warnings: 5
+# vsim work.main 
+# Start time: 18:18:51 on Dec 02,2023
+# Loading work.main
+# Loading work.red
+# Loading work.reg16
+# Loading work.ROM
+# Loading work.ADD
+# Loading work.blue
+# Loading work.instruction
+# Loading work.INST
+# Loading work.SUB
+# Loading work.OR
+# Loading work.AND
+# Loading work.XOR
+# Loading work.SHR
+# Loading work.MOV
+# Loading work.EXCH
+# Loading work.DECO
+# Loading work.zero
+# Loading work.negative
+# Loading work.carry
+# Loading work.reg3
+# ** Warning: (vsim-3015) [PCDPC] - Port size (16) does not match connection size (32) for port 'RB'. The port definition is at: C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Blue/Instructions/ADD.v(5).
+#    Time: 0 ps  Iteration: 0  Instance: /main/red/ADD File: C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Red/red.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (16) does not match connection size (1) for port 'init'. The port definition is at: C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Main/reg16.v(2).
+#    Time: 0 ps  Iteration: 0  Instance: /main/A File: C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Main/main.v Line: 28
+# ** Warning: (vsim-3015) [PCDPC] - Port size (16) does not match connection size (1) for port 'init'. The port definition is at: C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Main/reg16.v(2).
+#    Time: 0 ps  Iteration: 0  Instance: /main/B File: C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Main/main.v Line: 29
+add wave -position end  sim:/main/A_out
+run
+run
+run
+# Compile of main.v was successful.
+# Compile of reg16.v was successful.
+# Compile of ADD.v was successful.
+# Compile of AND.v was successful.
+# Compile of DECO.v was successful.
+# Compile of EXCH.v was successful.
+# Compile of INST.v was successful.
+# Compile of MOV.v was successful.
+# Compile of OR.v was successful.
+# Compile of SHR.v was successful.
+# Compile of SUB.v was successful.
+# Compile of XOR.v was successful.
+# Compile of blue.v was successful.
+# Compile of instruction.v was successful.
+# Compile of PC.v was successful.
+# Compile of red.v was successful.
+# Compile of ROM.v was successful.
+# Compile of carry.v was successful.
+# Compile of negative.v was successful.
+# Compile of zero.v was successful.
+# Compile of reg3.v was successful.
+# 21 compiles, 0 failed with no errors.
+vsim work.main
+# End time: 18:20:13 on Dec 02,2023, Elapsed time: 0:01:22
+# Errors: 0, Warnings: 5
+# vsim work.main 
+# Start time: 18:20:13 on Dec 02,2023
+# Loading work.main
+# Loading work.red
+# Loading work.reg16
+# Loading work.ROM
+# Loading work.ADD
+# Loading work.blue
+# Loading work.instruction
+# Loading work.INST
+# Loading work.SUB
+# Loading work.OR
+# Loading work.AND
+# Loading work.XOR
+# Loading work.SHR
+# Loading work.MOV
+# Loading work.EXCH
+# Loading work.DECO
+# Loading work.zero
+# Loading work.negative
+# Loading work.carry
+# Loading work.reg3
+# ** Warning: (vsim-3015) [PCDPC] - Port size (16) does not match connection size (32) for port 'RB'. The port definition is at: C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Blue/Instructions/ADD.v(5).
+#    Time: 0 ps  Iteration: 0  Instance: /main/red/ADD File: C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Red/red.v Line: 19
+add wave -position end  sim:/main/A_out
+run
+run
+run
+add wave -position end  sim:/main/A_init
+run
+run
+run
+# Compile of main.v was successful.
+# Compile of reg16.v was successful.
+# Compile of ADD.v was successful.
+# Compile of AND.v was successful.
+# Compile of DECO.v was successful.
+# Compile of EXCH.v was successful.
+# Compile of INST.v was successful.
+# Compile of MOV.v was successful.
+# Compile of OR.v was successful.
+# Compile of SHR.v was successful.
+# Compile of SUB.v was successful.
+# Compile of XOR.v was successful.
+# Compile of blue.v was successful.
+# Compile of instruction.v was successful.
+# Compile of PC.v was successful.
+# Compile of red.v was successful.
+# Compile of ROM.v was successful.
+# Compile of carry.v was successful.
+# Compile of negative.v was successful.
+# Compile of zero.v was successful.
+# Compile of reg3.v was successful.
+# 21 compiles, 0 failed with no errors.
+# Compile of main.v was successful.
+vsim work.main
+# End time: 18:21:33 on Dec 02,2023, Elapsed time: 0:01:20
+# Errors: 0, Warnings: 4
+# vsim work.main 
+# Start time: 18:21:33 on Dec 02,2023
+# Loading work.main
+# Loading work.red
+# Loading work.reg16
+# Loading work.ROM
+# Loading work.ADD
+# Loading work.blue
+# Loading work.instruction
+# Loading work.INST
+# Loading work.SUB
+# Loading work.OR
+# Loading work.AND
+# Loading work.XOR
+# Loading work.SHR
+# Loading work.MOV
+# Loading work.EXCH
+# Loading work.DECO
+# Loading work.zero
+# Loading work.negative
+# Loading work.carry
+# Loading work.reg3
+# ** Warning: (vsim-3015) [PCDPC] - Port size (16) does not match connection size (32) for port 'RB'. The port definition is at: C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Blue/Instructions/ADD.v(5).
+#    Time: 0 ps  Iteration: 0  Instance: /main/red/ADD File: C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Red/red.v Line: 19
+add wave -position end  sim:/main/A_out
+run
+run
+add wave -position end  sim:/main/A_init
+run
+run
+# Compile of reg16.v was successful.
+vsim work.main
+# End time: 18:23:27 on Dec 02,2023, Elapsed time: 0:01:54
+# Errors: 0, Warnings: 3
+# vsim work.main 
+# Start time: 18:23:27 on Dec 02,2023
+# Loading work.main
+# Loading work.red
+# Loading work.reg16
+# Loading work.ROM
+# Loading work.ADD
+# Loading work.blue
+# Loading work.instruction
+# Loading work.INST
+# Loading work.SUB
+# Loading work.OR
+# Loading work.AND
+# Loading work.XOR
+# Loading work.SHR
+# Loading work.MOV
+# Loading work.EXCH
+# Loading work.DECO
+# Loading work.zero
+# Loading work.negative
+# Loading work.carry
+# Loading work.reg3
+# ** Warning: (vsim-3015) [PCDPC] - Port size (16) does not match connection size (32) for port 'RB'. The port definition is at: C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Blue/Instructions/ADD.v(5).
+#    Time: 0 ps  Iteration: 0  Instance: /main/red/ADD File: C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Red/red.v Line: 19
+add wave -position end  sim:/main/A_out
+run
+run
+run
+run
+# Compile of main.v was successful.
+# Compile of reg16.v failed with 1 errors.
+# Compile of ADD.v was successful.
+# Compile of AND.v was successful.
+# Compile of DECO.v was successful.
+# Compile of EXCH.v was successful.
+# Compile of INST.v was successful.
+# Compile of MOV.v was successful.
+# Compile of OR.v was successful.
+# Compile of SHR.v was successful.
+# Compile of SUB.v was successful.
+# Compile of XOR.v was successful.
+# Compile of blue.v was successful.
+# Compile of instruction.v was successful.
+# Compile of PC.v was successful.
+# Compile of red.v was successful.
+# Compile of ROM.v was successful.
+# Compile of carry.v was successful.
+# Compile of negative.v was successful.
+# Compile of zero.v was successful.
+# Compile of reg3.v was successful.
+# 21 compiles, 1 failed with 1 error.
+# Compile of reg16.v was successful.
+vsim work.main
+# End time: 18:25:20 on Dec 02,2023, Elapsed time: 0:01:53
+# Errors: 0, Warnings: 4
+# vsim work.main 
+# Start time: 18:25:20 on Dec 02,2023
+# Loading work.main
+# Loading work.red
+# Loading work.reg16
+# Loading work.ROM
+# Loading work.ADD
+# Loading work.blue
+# Loading work.instruction
+# Loading work.INST
+# Loading work.SUB
+# Loading work.OR
+# Loading work.AND
+# Loading work.XOR
+# Loading work.SHR
+# Loading work.MOV
+# Loading work.EXCH
+# Loading work.DECO
+# Loading work.zero
+# Loading work.negative
+# Loading work.carry
+# Loading work.reg3
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'opCode_reg'.  Expected 4, found 3.
+#    Time: 0 ps  Iteration: 0  Instance: /main/red/opCode_reg File: C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Red/red.v Line: 16
+# ** Warning: (vsim-3722) C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Red/red.v(16): [TFMPC] - Missing connection for port 'en'.
+# ** Warning: (vsim-3015) [PCDPC] - Port size (16) does not match connection size (32) for port 'RB'. The port definition is at: C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Blue/Instructions/ADD.v(5).
+#    Time: 0 ps  Iteration: 0  Instance: /main/red/ADD File: C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Red/red.v Line: 19
+add wave -position end  sim:/main/A_out
+add wave -position end  sim:/main/B_out
+add wave -position end  sim:/main/clk
+force -freeze sim:/main/B_out 1 0
+force -freeze sim:/main/clk 1 0, 0 {50 ps} -r 100
+run
+run
+run
+run
+run
+run
+add wave -position end  sim:/main/opCode
+run
+run
+run
+run
+add wave -position end  sim:/main/en
+run
+run
+run
+run
+add wave -position end  sim:/main/BR
+run
+add wave -position end  sim:/main/A_in
+run
+run
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'opCode_reg'.  Expected 4, found 3.
+#    Time: 0 ps  Iteration: 0  Instance: /main/red/opCode_reg File: C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Red/red.v Line: 16
+# ** Warning: (vsim-3722) C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Red/red.v(16): [TFMPC] - Missing connection for port 'en'.
+# ** Warning: (vsim-3015) [PCDPC] - Port size (16) does not match connection size (32) for port 'RB'. The port definition is at: C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Blue/Instructions/ADD.v(5).
+#    Time: 0 ps  Iteration: 0  Instance: /main/red/ADD File: C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Red/red.v Line: 19
+run
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'opCode_reg'.  Expected 4, found 3.
+#    Time: 0 ps  Iteration: 0  Instance: /main/red/opCode_reg File: C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Red/red.v Line: 16
+# ** Warning: (vsim-3722) C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Red/red.v(16): [TFMPC] - Missing connection for port 'en'.
+# ** Warning: (vsim-3015) [PCDPC] - Port size (16) does not match connection size (32) for port 'RB'. The port definition is at: C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Blue/Instructions/ADD.v(5).
+#    Time: 0 ps  Iteration: 0  Instance: /main/red/ADD File: C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Red/red.v Line: 19
+force -freeze sim:/main/clk 0 0, 1 {50 ps} -r 100
+run
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+vsim work.red
+# End time: 18:28:27 on Dec 02,2023, Elapsed time: 0:03:07
+# Errors: 0, Warnings: 4
+# vsim work.red 
+# Start time: 18:28:27 on Dec 02,2023
+# Loading work.red
+# Loading work.reg16
+# Loading work.ROM
+# Loading work.ADD
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'opCode_reg'.  Expected 4, found 3.
+#    Time: 0 ps  Iteration: 0  Instance: /red/opCode_reg File: C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Red/red.v Line: 16
+# ** Warning: (vsim-3722) C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Red/red.v(16): [TFMPC] - Missing connection for port 'en'.
+# ** Warning: (vsim-3015) [PCDPC] - Port size (16) does not match connection size (32) for port 'RB'. The port definition is at: C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Blue/Instructions/ADD.v(5).
+#    Time: 0 ps  Iteration: 0  Instance: /red/ADD File: C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Red/red.v Line: 19
+add wave -position end  sim:/red/en
+add wave -position end  sim:/red/clk
+add wave -position end  sim:/red/BR
+force -freeze sim:/red/BR 0 0
+force -freeze sim:/red/en 1 0
+force -freeze sim:/red/clk 1 0, 0 {50 ps} -r 100
+add wave -position end  sim:/red/PC_out
+run
+run
+run
+run
+run
+run
+run
+run
+run
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'opCode_reg'.  Expected 4, found 3.
+#    Time: 0 ps  Iteration: 0  Instance: /red/opCode_reg File: C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Red/red.v Line: 16
+# ** Warning: (vsim-3722) C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Red/red.v(16): [TFMPC] - Missing connection for port 'en'.
+# ** Warning: (vsim-3015) [PCDPC] - Port size (16) does not match connection size (32) for port 'RB'. The port definition is at: C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Blue/Instructions/ADD.v(5).
+#    Time: 0 ps  Iteration: 0  Instance: /red/ADD File: C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Red/red.v Line: 19
+force -freeze sim:/red/clk 0 0, 1 {50 ps} -r 100
+force -freeze sim:/red/en 1 0
+force -freeze sim:/red/BR 0 0
+run
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'opCode_reg'.  Expected 4, found 3.
+#    Time: 0 ps  Iteration: 0  Instance: /red/opCode_reg File: C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Red/red.v Line: 16
+# ** Warning: (vsim-3722) C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Red/red.v(16): [TFMPC] - Missing connection for port 'en'.
+# ** Warning: (vsim-3015) [PCDPC] - Port size (16) does not match connection size (32) for port 'RB'. The port definition is at: C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Blue/Instructions/ADD.v(5).
+#    Time: 0 ps  Iteration: 0  Instance: /red/ADD File: C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Red/red.v Line: 19
+add wave -position 3  sim:/red/opCode_out
+force -freeze sim:/red/clk 0 0, 1 {50 ps} -r 100
+force -freeze sim:/red/BR 0 0
+noforce sim:/red/en
+force -freeze sim:/red/en 1 0
+run
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+run
+run
+run
+run
+run
+run
+run
+run
+# WARNING: No extended dataflow license exists
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'opCode_reg'.  Expected 4, found 3.
+#    Time: 0 ps  Iteration: 0  Instance: /red/opCode_reg File: C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Red/red.v Line: 16
+# ** Warning: (vsim-3722) C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Red/red.v(16): [TFMPC] - Missing connection for port 'en'.
+# ** Warning: (vsim-3015) [PCDPC] - Port size (16) does not match connection size (32) for port 'RB'. The port definition is at: C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Blue/Instructions/ADD.v(5).
+#    Time: 0 ps  Iteration: 0  Instance: /red/ADD File: C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Red/red.v Line: 19
+add wave -position end  sim:/red/opCode_in
+force -freeze sim:/red/en 1 0
+force -freeze sim:/red/BR 0 0
+force -freeze sim:/red/clk 0 0, 1 {50 ps} -r 100
+run
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+run
+run
+run
+run
+run
+run
+run
+run
+run
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'opCode_reg'.  Expected 4, found 3.
+#    Time: 0 ps  Iteration: 0  Instance: /red/opCode_reg File: C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Red/red.v Line: 16
+# ** Warning: (vsim-3722) C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Red/red.v(16): [TFMPC] - Missing connection for port 'en'.
+# ** Warning: (vsim-3015) [PCDPC] - Port size (16) does not match connection size (32) for port 'RB'. The port definition is at: C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Blue/Instructions/ADD.v(5).
+#    Time: 0 ps  Iteration: 0  Instance: /red/ADD File: C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Red/red.v Line: 19
+# Compile of red.v was successful.
+vsim work.red
+# End time: 18:36:23 on Dec 02,2023, Elapsed time: 0:07:56
+# Errors: 0, Warnings: 5
+# vsim work.red 
+# Start time: 18:36:23 on Dec 02,2023
+# Loading work.red
+# Loading work.reg16
+# Loading work.ROM
+# Loading work.ADD
+# ** Warning: (vsim-3015) [PCDPC] - Port size (16) does not match connection size (32) for port 'RB'. The port definition is at: C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Blue/Instructions/ADD.v(5).
+#    Time: 0 ps  Iteration: 0  Instance: /red/ADD File: C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Red/red.v Line: 19
+add wave -position end  sim:/red/en
+force -freeze sim:/red/en 1 0
+add wave -position end  sim:/red/clk
+force -freeze sim:/red/clk 0 0, 1 {50 ps} -r 100
+add wave -position end  sim:/red/BR
+force -freeze sim:/red/BR 0 0
+add wave -position end  sim:/red/opCode_out
+run
+run
+run
+run
+run
+run
+run
+run
+run
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Warning: (vsim-3015) [PCDPC] - Port size (16) does not match connection size (32) for port 'RB'. The port definition is at: C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Blue/Instructions/ADD.v(5).
+#    Time: 0 ps  Iteration: 0  Instance: /red/ADD File: C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Red/red.v Line: 19
+force -freeze sim:/red/BR 0 0
+force -freeze sim:/red/en 4 0
+# Invalid binary digit: 4.
+# ** UI-Msg: (vsim-4011) Invalid force value: 4 0.
+# 
+force -freeze sim:/red/en 1 0
+force -freeze sim:/red/clk 1 0
+run
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+force -freeze sim:/red/clk 0 0, 1 {50 ps} -r 100
+run
+run
+run
+run
+run
+run
+run
+add wave -position end  sim:/red/PC_out
+run
+run
+run
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Warning: (vsim-3015) [PCDPC] - Port size (16) does not match connection size (32) for port 'RB'. The port definition is at: C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Blue/Instructions/ADD.v(5).
+#    Time: 0 ps  Iteration: 0  Instance: /red/ADD File: C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Red/red.v Line: 19
+add wave -position end  sim:/red/PC_out
+force -freeze sim:/red/BR 0 0
+force -freeze sim:/red/en 1 0
+force -freeze sim:/red/clk 0 0, 1 {50 ps} -r 100
+run
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+run
+run
+run
+run
+# Compile of main.v was successful.
+# Compile of reg16.v was successful.
+# Compile of ADD.v was successful.
+# Compile of AND.v was successful.
+# Compile of DECO.v was successful.
+# Compile of EXCH.v was successful.
+# Compile of INST.v was successful.
+# Compile of MOV.v was successful.
+# Compile of OR.v was successful.
+# Compile of SHR.v was successful.
+# Compile of SUB.v was successful.
+# Compile of XOR.v was successful.
+# Compile of blue.v was successful.
+# Compile of instruction.v was successful.
+# Compile of PC.v was successful.
+# Compile of red.v was successful.
+# Compile of ROM.v was successful.
+# Compile of carry.v was successful.
+# Compile of negative.v was successful.
+# Compile of zero.v was successful.
+# Compile of reg3.v was successful.
+# Compile of PC_reg.v was successful.
+# 22 compiles, 0 failed with no errors.
+vsim work.red
+# End time: 18:41:29 on Dec 02,2023, Elapsed time: 0:05:06
+# Errors: 0, Warnings: 4
+# vsim work.red 
+# Start time: 18:41:29 on Dec 02,2023
+# Loading work.red
+# Loading work.reg16
+# ** Error: (vsim-3033) Instantiation of 'PC_reg' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /red File: C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Red/red.v Line: 17
+#         Searched libraries:
+#             C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/ModelSim/Andy/Main/work
+# Loading work.ROM
+# Loading work.ADD
+# Error loading design
+# End time: 18:41:30 on Dec 02,2023, Elapsed time: 0:00:01
+# Errors: 1, Warnings: 1
+# Compile of PC_reg.v was successful.
+vsim work.red
+# vsim work.red 
+# Start time: 18:41:54 on Dec 02,2023
+# Loading work.red
+# Loading work.reg16
+# Loading work.PC_reg
+# Loading work.ROM
+# Loading work.ADD
+# ** Warning: (vsim-3015) [PCDPC] - Port size (16) does not match connection size (32) for port 'RB'. The port definition is at: C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Blue/Instructions/ADD.v(5).
+#    Time: 0 ps  Iteration: 0  Instance: /red/ADD File: C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Red/red.v Line: 19
+add wave -position end  sim:/red/opCode_out
+add wave -position end  sim:/red/en
+add wave -position end  sim:/red/clk
+add wave -position end  sim:/red/BR
+force -freeze sim:/red/BR 0 0
+force -freeze sim:/red/clk 0 0, 1 {50 ps} -r 100
+force -freeze sim:/red/en 1 0
+run
+run
+run
+run
+run
+run
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Warning: (vsim-3015) [PCDPC] - Port size (16) does not match connection size (32) for port 'RB'. The port definition is at: C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Blue/Instructions/ADD.v(5).
+#    Time: 0 ps  Iteration: 0  Instance: /red/ADD File: C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Red/red.v Line: 19
+force -freeze sim:/red/clk 1 0, 0 {50 ps} -r 100
+force -freeze sim:/red/BR 0 0
+force -freeze sim:/red/en 1 0
+run
+run
+run
+run
+run
+# Compile of PC_reg.v was successful.
+vsim work.red
+# End time: 18:44:06 on Dec 02,2023, Elapsed time: 0:02:12
+# Errors: 0, Warnings: 3
+# vsim work.red 
+# Start time: 18:44:06 on Dec 02,2023
+# Loading work.red
+# Loading work.reg16
+# Loading work.PC_reg
+# Loading work.ROM
+# Loading work.ADD
+# ** Warning: (vsim-3015) [PCDPC] - Port size (16) does not match connection size (32) for port 'RB'. The port definition is at: C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Blue/Instructions/ADD.v(5).
+#    Time: 0 ps  Iteration: 0  Instance: /red/ADD File: C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Red/red.v Line: 19
+add wave -position end  sim:/red/clk
+add wave -position end  sim:/red/en
+add wave -position end  sim:/red/BR
+add wave -position end  sim:/red/opCode_out
+force -freeze sim:/red/BR 0 0
+force -freeze sim:/red/clk 0 0, 1 {50 ps} -r 100
+force -freeze sim:/red/en 1 0
+run
+run
+run
+run
+# Compile of PC_reg.v was successful.
+vsim work.red
+# End time: 18:45:29 on Dec 02,2023, Elapsed time: 0:01:23
+# Errors: 0, Warnings: 3
+# vsim work.red 
+# Start time: 18:45:29 on Dec 02,2023
+# Loading work.red
+# Loading work.reg16
+# Loading work.PC_reg
+# Loading work.ROM
+# Loading work.ADD
+# ** Warning: (vsim-3015) [PCDPC] - Port size (16) does not match connection size (32) for port 'RB'. The port definition is at: C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Blue/Instructions/ADD.v(5).
+#    Time: 0 ps  Iteration: 0  Instance: /red/ADD File: C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Red/red.v Line: 19
+add wave -position end  sim:/red/clk
+add wave -position end  sim:/red/BR
+add wave -position end  sim:/red/en
+force -freeze sim:/red/clk 0 0, 1 {50 ps} -r 100
+force -freeze sim:/red/en 1 0
+force -freeze sim:/red/BR 0 0
+add wave -position end  sim:/red/opCode_out
+run -continue
+run -continue
+run -continue
+run
+run
+run
+run
+run
+run
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Warning: (vsim-3015) [PCDPC] - Port size (16) does not match connection size (32) for port 'RB'. The port definition is at: C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Blue/Instructions/ADD.v(5).
+#    Time: 0 ps  Iteration: 0  Instance: /red/ADD File: C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Red/red.v Line: 19
+force -freeze sim:/red/clk 1 0, 0 {50 ps} -r 100
+force -freeze sim:/red/BR 01 0
+force -freeze sim:/red/BR 0 0
+force -freeze sim:/red/en 1 0
+run
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+run
+run
+run
+run
+# Compile of main.v was successful.
+# Compile of reg16.v was successful.
+# Compile of ADD.v was successful.
+# Compile of AND.v was successful.
+# Compile of DECO.v was successful.
+# Compile of EXCH.v was successful.
+# Compile of INST.v was successful.
+# Compile of MOV.v was successful.
+# Compile of OR.v was successful.
+# Compile of SHR.v was successful.
+# Compile of SUB.v was successful.
+# Compile of XOR.v was successful.
+# Compile of blue.v was successful.
+# Compile of instruction.v was successful.
+# Compile of PC.v was successful.
+# Compile of red.v was successful.
+# Compile of ROM.v was successful.
+# Compile of carry.v was successful.
+# Compile of negative.v was successful.
+# Compile of zero.v was successful.
+# Compile of reg3.v was successful.
+# Compile of PC_reg.v was successful.
+# 22 compiles, 0 failed with no errors.
+vsim work.main
+# End time: 18:49:42 on Dec 02,2023, Elapsed time: 0:04:13
+# Errors: 0, Warnings: 3
+# vsim work.main 
+# Start time: 18:49:42 on Dec 02,2023
+# Loading work.main
+# Loading work.red
+# Loading work.PC_reg
+# Loading work.ROM
+# Loading work.ADD
+# Loading work.blue
+# Loading work.instruction
+# Loading work.INST
+# Loading work.SUB
+# Loading work.OR
+# Loading work.AND
+# Loading work.XOR
+# Loading work.SHR
+# Loading work.MOV
+# Loading work.EXCH
+# Loading work.DECO
+# Loading work.zero
+# Loading work.negative
+# Loading work.carry
+# Loading work.reg16
+# Loading work.reg3
+# ** Warning: (vsim-3015) [PCDPC] - Port size (16) does not match connection size (32) for port 'RB'. The port definition is at: C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Blue/Instructions/ADD.v(5).
+#    Time: 0 ps  Iteration: 0  Instance: /main/red/ADD File: C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Red/red.v Line: 19
+add wave -position end  sim:/main/BR
+force -freeze sim:/main/BR 0 0
+add wave -position end  sim:/main/clk
+force -freeze sim:/main/clk 0 0, 1 {50 ps} -r 100
+add wave -position end  sim:/main/opCode
+run
+run
+run
+run
+run
+run
+run
+run
+run
+# Compile of ROM.v was successful.
+vsim work.main
+# End time: 18:51:12 on Dec 02,2023, Elapsed time: 0:01:30
+# Errors: 0, Warnings: 3
+# vsim work.main 
+# Start time: 18:51:12 on Dec 02,2023
+# Loading work.main
+# Loading work.red
+# Loading work.PC_reg
+# Loading work.ROM
+# Loading work.ADD
+# Loading work.blue
+# Loading work.instruction
+# Loading work.INST
+# Loading work.SUB
+# Loading work.OR
+# Loading work.AND
+# Loading work.XOR
+# Loading work.SHR
+# Loading work.MOV
+# Loading work.EXCH
+# Loading work.DECO
+# Loading work.zero
+# Loading work.negative
+# Loading work.carry
+# Loading work.reg16
+# Loading work.reg3
+# ** Warning: (vsim-3015) [PCDPC] - Port size (16) does not match connection size (32) for port 'RB'. The port definition is at: C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Blue/Instructions/ADD.v(5).
+#    Time: 0 ps  Iteration: 0  Instance: /main/red/ADD File: C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Red/red.v Line: 19
+add wave -position end  sim:/main/opCode
+add wave -position end  sim:/main/clk
+add wave -position end  sim:/main/BR
+force -freeze sim:/main/BR 0 0
+force -freeze sim:/main/clk 0 0, 1 {50 ps} -r 100
+run
+run
+run
+run
+run
+run
+run
+# Compile of red.v was successful.
+vsim work.main
+# End time: 18:54:06 on Dec 02,2023, Elapsed time: 0:02:54
+# Errors: 0, Warnings: 3
+# vsim work.main 
+# Start time: 18:54:06 on Dec 02,2023
+# Loading work.main
+# Loading work.red
+# Loading work.PC_reg
+# Loading work.ROM
+# Loading work.ADD
+# Loading work.blue
+# Loading work.instruction
+# Loading work.INST
+# Loading work.SUB
+# Loading work.OR
+# Loading work.AND
+# Loading work.XOR
+# Loading work.SHR
+# Loading work.MOV
+# Loading work.EXCH
+# Loading work.DECO
+# Loading work.zero
+# Loading work.negative
+# Loading work.carry
+# Loading work.reg16
+# Loading work.reg3
+# ** Warning: (vsim-3015) [PCDPC] - Port size (16) does not match connection size (32) for port 'RB'. The port definition is at: C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Blue/Instructions/ADD.v(5).
+#    Time: 0 ps  Iteration: 0  Instance: /main/red/ADD File: C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Red/red.v Line: 19
+add wave -position end  sim:/main/clk
+force -freeze sim:/main/clk 0 0, 1 {50 ps} -r 100
+add wave -position end  sim:/main/opCode
+run
+run
+run
+run
+run
+run
+run
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Warning: (vsim-3015) [PCDPC] - Port size (16) does not match connection size (32) for port 'RB'. The port definition is at: C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Blue/Instructions/ADD.v(5).
+#    Time: 0 ps  Iteration: 0  Instance: /main/red/ADD File: C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Red/red.v Line: 19
+add wave -position end  sim:/main/A_out
+add wave -position end  sim:/main/B_out
+force -freeze sim:/main/B_out 1 0
+force -freeze sim:/main/A_out 0 0
+force -freeze sim:/main/clk 0 0, 1 {50 ps} -r 100
+run
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+noforce sim:/main/A_out
+noforce sim:/main/B_out
+run
+run
+run
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Warning: (vsim-3015) [PCDPC] - Port size (16) does not match connection size (32) for port 'RB'. The port definition is at: C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Blue/Instructions/ADD.v(5).
+#    Time: 0 ps  Iteration: 0  Instance: /main/red/ADD File: C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Red/red.v Line: 19
+add wave -position end  sim:/main/A_in
+add wave -position end  sim:/main/B_in
+force -freeze sim:/main/A_in 0 0
+force -freeze sim:/main/B_in 1 0
+force -freeze sim:/main/clk 0 0, 1 {50 ps} -r 100
+run
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+noforce sim:/main/A_in
+noforce sim:/main/B_in
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+# Compile of ROM.v was successful.
+vsim work.main
+# End time: 19:00:47 on Dec 02,2023, Elapsed time: 0:06:41
+# Errors: 0, Warnings: 3
+# vsim work.main 
+# Start time: 19:00:47 on Dec 02,2023
+# Loading work.main
+# Loading work.red
+# Loading work.PC_reg
+# Loading work.ROM
+# Loading work.ADD
+# Loading work.blue
+# Loading work.instruction
+# Loading work.INST
+# Loading work.SUB
+# Loading work.OR
+# Loading work.AND
+# Loading work.XOR
+# Loading work.SHR
+# Loading work.MOV
+# Loading work.EXCH
+# Loading work.DECO
+# Loading work.zero
+# Loading work.negative
+# Loading work.carry
+# Loading work.reg16
+# Loading work.reg3
+# ** Warning: (vsim-3015) [PCDPC] - Port size (16) does not match connection size (32) for port 'RB'. The port definition is at: C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Blue/Instructions/ADD.v(5).
+#    Time: 0 ps  Iteration: 0  Instance: /main/red/ADD File: C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Red/red.v Line: 19
+add wave -position end  sim:/main/A_out
+add wave -position end  sim:/main/A_in
+add wave -position end  sim:/main/B_out
+add wave -position end  sim:/main/B_in
+add wave -position end  sim:/main/clk
+force -freeze sim:/main/clk 0 0, 1 {50 ps} -r 100
+force -freeze sim:/main/B_in 1 0
+force -freeze sim:/main/B_out 0 0
+noforce sim:/main/B_out
+force -freeze sim:/main/A_in 0 0
+run
+noforce sim:/main/A_in
+noforce sim:/main/B_in
+run
+run
+run
+run
+run
+run
+run
+run

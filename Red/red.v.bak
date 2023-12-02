@@ -6,20 +6,17 @@ module red(clk,en,opCode_out,BR);
     input en;
     input BR;
 
-    reg [15:0]PC_in;
+    reg [15:0]PC_in = 0;
     wire [15:0]PC_out;
     wire [15:0]increment;
     wire [15:0]opCode_in;
     output [15:0]opCode_out;
     
     // Resgisters
-    PC_reg opCode_reg(opCode_in,opCode_out,~clk,en);
-    PC_reg PC_reg(PC_in,PC_out,clk,en);
+    reg16 opCode_reg(opCode_in,opCode_out,~clk,en);
+    reg16 PC_reg(PC_in,PC_out,clk,en);
     ROM ROM(PC_out[7:0],opCode_in);
     ADD ADD(PC_out,1,increment);
-
-    initial
-        PC_in <= 16'hFFFF;
 
     always@(increment or opCode_out)
         if (BR == 0)

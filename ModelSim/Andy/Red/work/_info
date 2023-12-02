@@ -34,7 +34,7 @@ Z5 o-work work
 Z6 tCvgOpt 0
 n@a@d@d
 vPC
-Z7 !s110 1701548880
+!s110 1701550048
 !i10b 1
 !s100 Lhbmf;g92O`jDz`b:@Tig3
 R1
@@ -44,13 +44,13 @@ R3
 w1701548086
 8C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Red/PC.v
 FC:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Red/PC.v
-!i122 100
+!i122 103
 L0 1 17
 R4
 r1
 !s85 0
 31
-Z8 !s108 1701548880.000000
+!s108 1701550048.000000
 !s107 C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Red/PC.v|
 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Red/PC.v|
 !i113 1
@@ -58,7 +58,7 @@ R5
 R6
 n@p@c
 vred
-R7
+Z7 !s110 1701550049
 !i10b 1
 !s100 IS`^MMg2QG2N;R]@?Sgn91
 R1
@@ -68,13 +68,13 @@ R3
 w1701548831
 8C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Red/red.v
 FC:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Red/red.v
-!i122 99
+!i122 104
 L0 3 25
 R4
 r1
 !s85 0
 31
-R8
+Z8 !s108 1701550049.000000
 !s107 C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Red/red.v|
 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Red/red.v|
 !i113 1
@@ -97,7 +97,7 @@ R4
 r1
 !s85 0
 31
-R8
+!s108 1701548880.000000
 !s107 C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Main/reg16.v|
 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Main/reg16.v|
 !i113 1
@@ -114,13 +114,13 @@ R3
 w1701546892
 8C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Red/ROM.v
 FC:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Red/ROM.v
-!i122 98
+!i122 105
 L0 3 28
 R4
 r1
 !s85 0
 31
-!s108 1701548879.000000
+R8
 !s107 C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Red/ROM.v|
 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Red/ROM.v|
 !i113 1

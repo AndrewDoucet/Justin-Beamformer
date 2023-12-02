@@ -12,18 +12,11 @@ Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 
 Top level modules:
 	PC
 
-} {} {}} C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Main/reg16.v {1 {vlog -work work -stats=none C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Main/reg16.v
+} {} {}} C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Red/red.v {1 {vlog -work work -stats=none C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Red/red.v
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
--- Compiling module reg16
+-- Compiling module red
 
 Top level modules:
-	reg16
-
-} {} {}} C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/ModelSim/Andy/Red/ADD.v {1 {vlog -work work -stats=none C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/ModelSim/Andy/Red/ADD.v
-Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
--- Compiling module ADD
-
-Top level modules:
-	ADD
+	red
 
 } {} {}}
