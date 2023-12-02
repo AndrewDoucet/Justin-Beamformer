@@ -1,31 +1,31 @@
-module blue(opCode,A_out,B_out,clk,en,znc_out);
+module blue(opCode,A_in,B_in,clk,en,znc_in);
     input [15:0]opCode;
 
     // Output Wires
-    output [15:0]A_out;
-    output [15:0]B_out;
-    output [2:0]znc_out;
+    output [15:0]A_in;
+    output [15:0]B_in;
+    output [2:0]znc_in;
 
     // Clock and enable
     input clk;
     input en;
 
     // Middle Wires
-    wire [15:0]A_mid;
-    wire [15:0]B_mid;
-    wire [2:0]znc_mid;
+    wire [15:0]A_out;
+    wire [15:0]B_out;
+    wire [2:0]znc_out;
 
     // Instructions
-    ADD ADD(A_out,B_out,A_mid);
+    ADD ADD(A_in,B_in,A_out);
 
     // Resgisters
-    reg16 A_reg(A_mid,A_out,clk,en);
-    reg16 B_reg(B_mid,B_out,clk,en);
+    reg16 A_reg(A_out,A_in,clk,en);
+    reg16 B_reg(B_out,B_in,clk,en);
 
     // ZNC
-    reg3 znc_reg(znc_mid,znc_out,clk,en);
-    zero zero(A_mid,znc_mid[2]);
-    negative negative(A_mid,znc_mid[1]);
-    carry carry(A_out,B_out,A_mid,znc_mid[0]);
+    reg3 znc_reg(znc_out,znc_in,clk,en);
+    zero zero(A_out,znc_out[2]);
+    negative negative(A_out,znc_out[1]);
+    carry carry(A_in,B_in,A_out,znc_out[0]);
 
 endmodule
