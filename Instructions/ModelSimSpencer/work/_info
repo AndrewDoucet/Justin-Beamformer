@@ -10,7 +10,7 @@ z2
 cModel Technology
 dC:/Users/spenc/Documents/GitHub/Justin-Beamformer/Instructions/ModelSim
 vADD
-Z0 !s110 1700584212
+Z0 !s110 1701114976
 !i10b 1
 !s100 H:1dPC`2L3VHKcab?7SmX1
 Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
@@ -20,15 +20,15 @@ Z3 dC:/Users/spenc/Documents/GitHub/Justin-Beamformer/Instructions/ModelSimSpenc
 w1700581523
 8../ADD.v
 F../ADD.v
-!i122 30
+!i122 103
 Z4 L0 6 7
 Z5 OV;L;2020.1;71
 r1
 !s85 0
 31
-Z6 !s108 1700584212.000000
-Z7 !s107 ../XOR.v|../SUB.v|../SHR.v|../OR.v|../AND.v|../ADD.v|
-Z8 !s90 -reportprogress|300|../ADD.v|../AND.v|../OR.v|../SHR.v|../SUB.v|../XOR.v|
+Z6 !s108 1701114976.000000
+Z7 !s107 ../XOR.v|../SUB.v|../SHR.v|../OR.v|../MOV.v|../EXCH.v|../AND.v|../ADD.v|
+Z8 !s90 -reportprogress|300|../ADD.v|../AND.v|../EXCH.v|../MOV.v|../OR.v|../SHR.v|../SUB.v|../XOR.v|
 !i113 1
 Z9 tCvgOpt 0
 n@a@d@d
@@ -43,7 +43,7 @@ R3
 w1700581728
 8../AND.v
 F../AND.v
-!i122 30
+!i122 103
 R4
 R5
 r1
@@ -55,6 +55,52 @@ R8
 !i113 1
 R9
 n@a@n@d
+vEXCH
+R0
+!i10b 1
+!s100 EElXo=kN4zjaS>WRkmFkM2
+R1
+Ifdz4BkbFN9nkcoNj7l3Al3
+R2
+R3
+w1701114049
+8../EXCH.v
+F../EXCH.v
+!i122 103
+L0 6 8
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 1
+R9
+n@e@x@c@h
+vMOV
+R0
+!i10b 1
+!s100 ji>d7L>]>mJL9Nof28O7^1
+R1
+I0cj8;Fk:^bZVZdzGF0GB`0
+R2
+R3
+w1701114961
+8../MOV.v
+F../MOV.v
+!i122 103
+R4
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 1
+R9
+n@m@o@v
 vOR
 R0
 !i10b 1
@@ -66,7 +112,7 @@ R3
 w1700581551
 8../OR.v
 F../OR.v
-!i122 30
+!i122 103
 R4
 R5
 r1
@@ -81,16 +127,16 @@ n@o@r
 vSHR
 R0
 !i10b 1
-!s100 YFfiGVaUE3aTR1Nb`VhVJ3
+!s100 j;z6[7FANLN@:BI9SFicg3
 R1
-IlcgiOY^Ca60_KC]nVk9OD1
+IFYi7963gBab8jM`PPCS[a0
 R2
 R3
-w1700581753
+w1701033802
 8../SHR.v
 F../SHR.v
-!i122 30
-L0 6 8
+!i122 103
+L0 6 23
 R5
 r1
 !s85 0
@@ -112,7 +158,7 @@ R3
 w1700581295
 8../SUB.v
 F../SUB.v
-!i122 30
+!i122 103
 R4
 R5
 r1
@@ -125,18 +171,18 @@ R8
 R9
 n@s@u@b
 vtestbench
-R0
+!s110 1701114977
 !i10b 1
-!s100 mzLhWb2QQL6K1V:kegTOK1
+!s100 bH_S;DgF]:22DV2m>0iT>1
 R1
-IC97_Dj`H^X[]d3@7Q;^zg0
+I?`n6`UT[mPYz;5@bHZU8K1
 R2
 R3
-w1700583997
+w1701114969
 8testbench.v
 Ftestbench.v
-!i122 31
-L0 3 17
+!i122 104
+L0 3 16
 R5
 r1
 !s85 0
@@ -157,7 +203,7 @@ R3
 w1700581665
 8../XOR.v
 F../XOR.v
-!i122 30
+!i122 103
 R4
 R5
 r1
