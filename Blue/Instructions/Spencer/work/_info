@@ -1,0 +1,352 @@
+m255
+K4
+z2
+!s11f MIXED_VERSIONS
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Users/spenc/Documents/GitHub/Justin-Beamformer/Instructions/ModelSim
+vADD
+Z0 !s110 1701543696
+!i10b 1
+!s100 jEMaFZebl;IbZXlLAc@9M3
+Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I8TgeAd_D@dG:<mX:ISNEW0
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+Z3 dC:/Users/spenc/Documents/GitHub/Justin-Beamformer/Blue/Instructions/Spencer
+w1701538867
+8../ADD.v
+F../ADD.v
+!i122 185
+Z4 L0 5 7
+Z5 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z6 !s108 1701543696.000000
+Z7 !s107 ../XOR.v|../SUB.v|../SHR.v|../OR.v|../MOV.v|../INST.v|../EXCH.v|../DECO.v|../AND.v|../ADD.v|
+Z8 !s90 -reportprogress|300|../ADD.v|../AND.v|../DECO.v|../EXCH.v|../INST.v|../MOV.v|../OR.v|../SHR.v|../SUB.v|../XOR.v|
+!i113 1
+Z9 tCvgOpt 0
+n@a@d@d
+vAND
+R0
+!i10b 1
+!s100 52GW@k22mAc1i9E<SnlFd2
+R1
+I=W10`7>j_9FDS[iGfX^6Q3
+R2
+R3
+w1701538920
+8../AND.v
+F../AND.v
+!i122 185
+R4
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 1
+R9
+n@a@n@d
+vblue
+Z10 !s110 1701542233
+!i10b 1
+!s100 XE<9WCGM`RL[MmNSHkJ@50
+R1
+IDia?d1SII;:U9S?H5ncN93
+R2
+Z11 dC:/Users/spenc/Documents/GitHub/Justin-Beamformer/Blue/Spencer
+w1701538844
+8../blue.v
+F../blue.v
+!i122 176
+L0 3 31
+R5
+r1
+!s85 0
+31
+Z12 !s108 1701542233.000000
+Z13 !s107 ../reg16.v|../instruction.v|../blue.v|../DECO.v|
+Z14 !s90 -reportprogress|300|../DECO.v|../blue.v|../instruction.v|../reg16.v|
+!i113 1
+R9
+vblue1
+R10
+!i10b 1
+!s100 jd@Zl:ImZ3oFNd@Gbjg_Q2
+R1
+InhoBgQPBfQamUe?QjT=;f1
+R2
+R11
+w1701542222
+8../instruction.v
+F../instruction.v
+!i122 176
+L0 5 24
+R5
+r1
+!s85 0
+31
+R12
+R13
+R14
+!i113 1
+R9
+vDECO
+R0
+!i10b 1
+!s100 1ifb1mPmF[Q]ad?NZcGc92
+R1
+INB<l>azX]g?JMPij2EXT61
+R2
+R3
+w1701543691
+8../DECO.v
+F../DECO.v
+!i122 185
+Z15 L0 5 52
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 1
+R9
+n@d@e@c@o
+vDECO1
+!s110 1701538347
+!i10b 1
+!s100 cai39ZnK887?1B[oibZIo0
+R1
+Ic9da2h3U0=Z>>JRW7:dk`1
+R2
+dC:/Users/spenc/Documents/GitHub/Justin-Beamformer/Instructions/ModelSimSpencer
+w1701538274
+8../DECO1.v
+F../DECO1.v
+!i122 160
+R15
+R5
+r1
+!s85 0
+31
+!s108 1701538347.000000
+!s107 ../XOR.v|../SUB.v|../SHR.v|../OR.v|../MOV.v|../EXCH.v|../DECO1.v|../DECO.v|../AND.v|
+!s90 -reportprogress|300|../AND.v|../DECO.v|../DECO1.v|../EXCH.v|../MOV.v|../OR.v|../SHR.v|../SUB.v|../XOR.v|
+!i113 1
+R9
+n@d@e@c@o1
+vEXCH
+R0
+!i10b 1
+!s100 HF@5aEHZaf:^<B9XZ][BH1
+R1
+IPGE4zWOP:3o9ZX@AHCzlK3
+R2
+R3
+w1701538878
+8../EXCH.v
+F../EXCH.v
+!i122 185
+L0 5 8
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 1
+R9
+n@e@x@c@h
+vINST
+R0
+!i10b 1
+!s100 jEGo^T<78z4_M0DV[7^Xd3
+R1
+IR7K^GFXdZ=hfQ:`nBf9Ic0
+R2
+R3
+w1701542112
+8../INST.v
+F../INST.v
+!i122 185
+L0 3 9
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 1
+R9
+n@i@n@s@t
+vMOV
+R0
+!i10b 1
+!s100 A;Zak=6z6e<`[XUE1Q4:k2
+R1
+I_d``G[jY^K?Y4]_>f8kI`1
+R2
+R3
+w1701538881
+8../MOV.v
+F../MOV.v
+!i122 185
+R4
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 1
+R9
+n@m@o@v
+vOR
+Z16 !s110 1701543697
+!i10b 1
+!s100 1;J=P95cGj:UPVPlj88430
+R1
+IYL`1TFbgO97zI;;6OVQ8n3
+R2
+R3
+w1701538930
+8../OR.v
+F../OR.v
+!i122 185
+R4
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 1
+R9
+n@o@r
+vreg16
+R10
+!i10b 1
+!s100 [22ViBFF0H4W2Y>IKV2?G3
+R1
+IC3lW[68j`f:H7[UhbIOb]2
+R2
+R11
+w1701530478
+8../reg16.v
+F../reg16.v
+!i122 176
+L0 2 9
+R5
+r1
+!s85 0
+31
+R12
+R13
+R14
+!i113 1
+R9
+vSHR
+R16
+!i10b 1
+!s100 K3Pk6QiomLQSOenS>_NRW3
+R1
+I;NVXc4c7MYQlYmiK:noB[0
+R2
+R3
+w1701538943
+8../SHR.v
+F../SHR.v
+!i122 185
+L0 5 23
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 1
+R9
+n@s@h@r
+vSUB
+R16
+!i10b 1
+!s100 :JR;FkD`Y42K6o8f6mVJH1
+R1
+IdS9B^>@Hl3XV>TDmScJa00
+R2
+R3
+w1701538901
+8../SUB.v
+F../SUB.v
+!i122 185
+R4
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 1
+R9
+n@s@u@b
+vtestbench
+R16
+!i10b 1
+!s100 zlTTO3Y1oY30jFb2T<Q<o0
+R1
+I8gJm2cFhWm;VL4bX1SZIR2
+R2
+R3
+w1701541817
+8testbench.v
+Ftestbench.v
+!i122 186
+L0 3 18
+R5
+r1
+!s85 0
+31
+!s108 1701543697.000000
+!s107 testbench.v|
+!s90 -reportprogress|300|testbench.v|
+!i113 1
+R9
+vXOR
+R16
+!i10b 1
+!s100 S=309Vm1A6S`5[iIJbaXP1
+R1
+IE5j@;UGP0J`LLef1i=G0@2
+R2
+R3
+w1701538909
+8../XOR.v
+F../XOR.v
+!i122 185
+R4
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 1
+R9
+n@x@o@r

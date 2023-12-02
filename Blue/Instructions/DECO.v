@@ -8,7 +8,7 @@ module DECO (RA, RB, ADDA, SUBA, ORA, ANDA, XORA, SHRA, MOVB, EXCHA, EXCHB, sel,
     input [2:0] sel;
     output reg [15:0] outA, outB;
 
-    always @ (sel || RA || RB) begin
+    always @ (RA or RB or sel)  begin
 
         case(sel)
             //ADD

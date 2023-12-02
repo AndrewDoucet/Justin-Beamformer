@@ -1,5 +1,4 @@
 // Spencer Dugas
-// Andrew Doucet
 
 //Adder Module to Add RB to RA
 

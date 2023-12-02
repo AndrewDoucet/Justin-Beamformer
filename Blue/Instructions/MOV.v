@@ -1,5 +1,4 @@
 //Spencer Dugas
-//Andrew Doucet
 
 //Move to move contents of register A to register B
 
