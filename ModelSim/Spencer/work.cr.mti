@@ -61,6 +61,13 @@ Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 
 Top level modules:
 	CMP
 
+} {} {}} C:/Users/spenc/Documents/GitHub/Justin-Beamformer/Green/DECOG.v {1 {vlog -work work -stats=none C:/Users/spenc/Documents/GitHub/Justin-Beamformer/Green/DECOG.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module DECOG
+
+Top level modules:
+	DECOG
+
 } {} {}} C:/Users/spenc/Documents/GitHub/Justin-Beamformer/Blue/Instructions/EXCH.v {1 {vlog -work work -stats=none C:/Users/spenc/Documents/GitHub/Justin-Beamformer/Blue/Instructions/EXCH.v
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
 -- Compiling module EXCH
@@ -102,13 +109,6 @@ Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 
 
 Top level modules:
 	MOV
-
-} {} {}} C:/Users/spenc/Documents/GitHub/Justin-Beamformer/Green/ST.v {1 {vlog -work work -stats=none C:/Users/spenc/Documents/GitHub/Justin-Beamformer/Green/ST.v
-Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
--- Compiling module ST
-
-Top level modules:
-	ST
 
 } {} {}} C:/Users/spenc/Documents/GitHub/Justin-Beamformer/Yellow/yellow.v {1 {vlog -work work -stats=none C:/Users/spenc/Documents/GitHub/Justin-Beamformer/Yellow/yellow.v
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020

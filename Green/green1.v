@@ -1,6 +1,6 @@
 // Spencer Dugas
 
-//the Green block
+/*the Green block
 
 module green1 (RA, RB, ZNC, ins, BR, WE, RA_OUT, RB_OUT);
     input [15:0] RA, RB, ins;
@@ -19,3 +19,4 @@ module green1 (RA, RB, ZNC, ins, BR, WE, RA_OUT, RB_OUT);
 endmodule
 
 
+*/

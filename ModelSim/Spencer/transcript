@@ -199,3 +199,50 @@ force -freeze sim:/BR/ins 0011111000000000 0
 run
 force -freeze sim:/BR/ins 0011110000000000 0
 run
+# Compile of DECOG.v was successful.
+vsim -gui work.DECOG
+# End time: 21:49:29 on Dec 02,2023, Elapsed time: 1:05:35
+# Errors: 0, Warnings: 5
+# vsim -gui work.DECOG 
+# Start time: 21:49:29 on Dec 02,2023
+# Loading work.DECOG
+add wave -position end  sim:/DECOG/ins
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: spenc  Hostname: DESKTOP-8QEKS6A  ProcessID: 8408
+#           Attempting to use alternate WLF file "./wlftammw3c".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftammw3c
+add wave -position end  sim:/DECOG/RA
+add wave -position end  sim:/DECOG/RB
+add wave -position end  sim:/DECOG/RA_OUT
+add wave -position end  sim:/DECOG/RB_OUT
+add wave -position end  sim:/DECOG/WE
+add wave -position end  sim:/DECOG/BR
+add wave -position end  sim:/DECOG/branch
+force -freeze sim:/DECOG/branch 1 0
+run
+add wave -position end  sim:/DECOG/ld
+add wave -position end  sim:/DECOG/incb
+add wave -position end  sim:/DECOG/inca
+force -freeze sim:/DECOG/ld 1010101010101010 0
+force -freeze sim:/DECOG/incb 0100000000000010 0
+force -freeze sim:/DECOG/inca 1011111111111101 0
+force -freeze sim:/DECOG/ins 0011000000000000 0
+run
+force -freeze sim:/DECOG/branch 0 0
+run
+force -freeze sim:/DECOG/ins 0001000000000000 0
+run
+force -freeze sim:/DECOG/RA 0000000000000000 0
+force -freeze sim:/DECOG/RB 1111111111111111 0
+force -freeze sim:/DECOG/ins 0010100000000000 0
+run
+force -freeze sim:/DECOG/ins 0010000000000000 0
+run
+run
+force -freeze sim:/DECOG/ins 0000000000000000 0
+run
+force -freeze sim:/DECOG/ins 0000100000000000 0
+run
+# End time: 21:58:23 on Dec 02,2023, Elapsed time: 0:08:54
+# Errors: 0, Warnings: 3
