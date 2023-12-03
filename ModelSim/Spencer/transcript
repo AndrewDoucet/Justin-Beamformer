@@ -1,60 +1,3 @@
-# Load canceled
-# Load canceled
-# Compile of instruction.v was successful.
-# Compile of yellow.v was successful.
-# Compile of carry.v was successful.
-# Compile of negative.v was successful.
-# Compile of reg3.v was successful.
-# Compile of zero.v was successful.
-# Compile of CLR.v was successful.
-# Compile of CMP.v was successful.
-# Compile of DECOY.v was successful.
-# Compile of EXT.v was successful.
-# Compile of INSTY.v was successful.
-# Compile of SET.v was successful.
-# 12 compiles, 0 failed with no errors.
-vsim -gui work.DECOY -t 10ns
-# vsim -gui work.DECOY -t 10ns 
-# Start time: 17:20:56 on Dec 02,2023
-# Loading work.DECOY
-# WARNING: No extended dataflow license exists
-# Compile of instruction.v was successful.
-# Compile of yellow.v was successful.
-# Compile of carry.v was successful.
-# Compile of negative.v was successful.
-# Compile of reg3.v was successful.
-# Compile of zero.v was successful.
-# Compile of CLR.v was successful.
-# Compile of CMP.v was successful.
-# Compile of DECOY.v was successful.
-# Compile of EXT.v was successful.
-# Compile of INSTY.v was successful.
-# Compile of SET.v was successful.
-# 12 compiles, 0 failed with no errors.
-# Load canceled
-# Compile of yellow1.v was successful.
-vsim -gui -t 10ns work.yellow1
-# End time: 18:28:00 on Dec 02,2023, Elapsed time: 1:07:04
-# Errors: 0, Warnings: 11
-# vsim -gui -t 10ns work.yellow1 
-# Start time: 18:28:00 on Dec 02,2023
-# Loading work.yellow1
-# Loading work.INSTY
-# Loading work.EXT
-# Loading work.CMP
-# ** Error: (vsim-3033) Instantiation of 'SUB' failed. The design unit was not found.
-#    Time: 0 ns  Iteration: 0  Instance: /yellow1/M3 File: C:/Users/spenc/Documents/GitHub/Justin-Beamformer/Yellow/instructions/CMP.v Line: 7
-#         Searched libraries:
-#             C:/Users/spenc/Documents/GitHub/Justin-Beamformer/ModelSim/Spencer/work
-# Loading work.zero
-# Loading work.negative
-# Loading work.carry
-# Loading work.SET
-# Loading work.CLR
-# Loading work.DECOY
-# Error loading design
-# End time: 18:28:01 on Dec 02,2023, Elapsed time: 0:00:01
-# Errors: 1, Warnings: 1
 # Compile of yellow.v was successful.
 # Compile of carry.v was successful.
 # Compile of negative.v was successful.
@@ -71,47 +14,118 @@ vsim -gui -t 10ns work.yellow1
 # Compile of SHR.v was successful.
 # Compile of SUB.v was successful.
 # Compile of XOR.v was successful.
-# 16 compiles, 6 failed with no errors.
-vsim -gui -t 10ns work.yellow1
-# vsim -gui -t 10ns work.yellow1 
-# Start time: 18:29:16 on Dec 02,2023
-# Loading work.yellow1
-# Loading work.INSTY
-# Loading work.EXT
-# Loading work.CMP
-# Loading work.SUB
-# Loading work.zero
-# Loading work.negative
-# Loading work.carry
-# Loading work.SET
-# Loading work.CLR
-# Loading work.DECOY
-# WARNING: No extended dataflow license exists
-add wave -position end  sim:/yellow1/RA
+# Compile of INC.v failed with 2 errors.
+# 17 compiles, 7 failed with 2 errors.
+# Compile of INC.v was successful.
+vsim -gui work.INC
+# vsim -gui work.INC 
+# Start time: 18:55:37 on Dec 02,2023
+# Loading work.INC
+#  Trace back: Bad sequence in.main_pane.objects.interior.cs.body.tree.lwchildsite.clipper.canvas.sfchildsite.tree, aborting query. (1)
+#     while executing
+# "$itk_component(tree) insertquery end """
+#     (while configuring option "-queryroot" for widget "::.main_pane.objects.interior.cs.body.tree")
+#     (object "::.main_pane.objects.interior.cs.body.tree" method "::itk::Archetype::configure" )
+#     invoked from within
+# "$tree configure -queryroot $top"
+#     (procedure "_resetTree" line 11)
+#     invoked from within
+# "_resetTree $w"
+#     (procedure "QObjects::sort" line 4)
+#     invoked from within
+# "QObjects::sort .main_pane.objects 0 ascending"
+#     ("eval" body line 1)
+#     invoked from within
+# "eval $itk_option(-sortcommand) $column $dir"
+#     (object "::.main_pane.objects.interior.cs.body.tree" method "::vsimwidgets::Hierarchy::sort" body line 26)
+#     invoked from within
+# "sort $sortIdx $dir"
+#     (object "::.main_pane.objects.interior.cs.body.tree" method "::vsimwidgets::Hierarchy::_initializeSortColumn" body line 10)
+#     invoked from within
+# "::.main_pane.objects.interior.cs.body.tree _initializeSortColumn"
+#     (in namespace inscope "::vsimwidgets::Hierarchy" script line 1)
+#     invoked from within
+# "namespace inscope ::vsimwidgets::Hierarchy {::.main_pane.objects.interior.cs.body.tree _initializeSortColumn}"
+#     ("after" script)
+#    <2:C:/intelFPGA_lite/20.1/modelsim_ase/win32aloem/tk8.6/bgerror.tcl:106: ::tkerror {Bad sequence in.main_pane.objects.interior.cs.body.tree.lwchildsite.clipper.canvas.sfchildsite.tree, aborting query. (1)}
+#    <1:eval:1: ::tk::dialog::error::bgerror {Bad sequence in.main_pane.objects.interior.cs.body.tree.lwchildsite.clipper.canvas.sfchildsite.tree, aborting query. (1)}
+add wave -position end  sim:/INC/RA
 # ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
 #           File in use by: spenc  Hostname: DESKTOP-8QEKS6A  ProcessID: 8408
-#           Attempting to use alternate WLF file "./wlfthqt478".
+#           Attempting to use alternate WLF file "./wlftaezsj0".
 # ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
-#           Using alternate file: ./wlfthqt478
-add wave -position end  sim:/yellow1/RB
-add wave -position end  sim:/yellow1/out
-add wave -position end  sim:/yellow1/ins
-add wave -position end  sim:/yellow1/sel
-add wave -position end  sim:/yellow1/znc
-force -freeze sim:/yellow1/znc 100 0
-force -freeze sim:/yellow1/ins 00100 0
-force -freeze sim:/yellow1/ins 0010000000000000 0
+#           Using alternate file: ./wlftaezsj0
+add wave -position end  sim:/INC/RB
+add wave -position end  sim:/INC/ins
+add wave -position end  sim:/INC/outA
+add wave -position end  sim:/INC/outB
+force -freeze sim:/INC/RA 000000000000000 0
+force -freeze sim:/INC/RB 0000000000000000 0
+force -freeze sim:/INC/ins 0000000010101010 0
 run
-force -freeze sim:/yellow1/ins 0010001000000000 0
+force -freeze sim:/INC/RA 0000000000000010 0
 run
-force -freeze sim:/yellow1/ins 0010001100000000 0
+# WARNING: No extended dataflow license exists
+# Compile of ST.v was successful.
+# Compile of LD.v was successful.
+vsim -gui work.LD
+# End time: 20:00:08 on Dec 02,2023, Elapsed time: 1:04:31
+# Errors: 0, Warnings: 11
+# vsim -gui work.LD 
+# Start time: 20:00:08 on Dec 02,2023
+# Loading work.LD
+add wave -position end  sim:/LD/ins
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: spenc  Hostname: DESKTOP-8QEKS6A  ProcessID: 8408
+#           Attempting to use alternate WLF file "./wlft08hryj".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlft08hryj
+add wave -position end  sim:/LD/addr
+add wave -position end  sim:/LD/data
+add wave -position end  sim:/LD/out
+# Compile of LD.v was successful.
+vsim -gui work.LD
+# End time: 20:06:12 on Dec 02,2023, Elapsed time: 0:06:04
+# Errors: 0, Warnings: 4
+# vsim -gui work.LD 
+# Start time: 20:06:12 on Dec 02,2023
+# Loading work.LD
+add wave -position end  sim:/LD/addr
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: spenc  Hostname: DESKTOP-8QEKS6A  ProcessID: 8408
+#           Attempting to use alternate WLF file "./wlft2yvivs".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlft2yvivs
+add wave -position end  sim:/LD/data
+add wave -position end  sim:/LD/ins
+add wave -position end  sim:/LD/out
+force -freeze sim:/LD/ins 0000011010101010 0
 run
-force -freeze sim:/yellow1/sel 01 0
+# Compile of LD.v was successful.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.LD
 run
-force -freeze sim:/yellow1/znc 111 0
+restart
+force -freeze sim:/LD/ins 0000011010101010 0
 run
+force -freeze sim:/LD/data 0100000000000010 0
 run
-force -freeze sim:/yellow1/ins 0010011100000000 0
+force -freeze sim:/LD/ins 0000001010101010 0
 run
-# End time: 18:37:51 on Dec 02,2023, Elapsed time: 0:08:35
-# Errors: 0, Warnings: 5
+vsim -gui work.LD
+# End time: 20:12:26 on Dec 02,2023, Elapsed time: 0:06:14
+# Errors: 0, Warnings: 1
+# vsim -gui work.LD 
+# Start time: 20:12:26 on Dec 02,2023
+# Loading work.LD
+add wave -position end  sim:/LD/ins
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: spenc  Hostname: DESKTOP-8QEKS6A  ProcessID: 8408
+#           Attempting to use alternate WLF file "./wlftag6m1c".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftag6m1c
+add wave -position end  sim:/LD/out
+force -freeze sim:/LD/ins 0000011010101010 0
+run
+# Compile of LD.v was successful.
