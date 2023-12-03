@@ -117,13 +117,6 @@ Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 
 Top level modules:
 	yellow
 
-} {} {}} C:/Users/spenc/Documents/GitHub/Justin-Beamformer/Green/LD.v {1 {vlog -work work -stats=none C:/Users/spenc/Documents/GitHub/Justin-Beamformer/Green/LD.v
-Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
--- Compiling module LD
-
-Top level modules:
-	LD
-
 } {} {}} C:/Users/spenc/Documents/GitHub/Justin-Beamformer/Yellow/instructions/EXT.v {1 {vlog -work work -stats=none C:/Users/spenc/Documents/GitHub/Justin-Beamformer/Yellow/instructions/EXT.v
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
 -- Compiling module EXT

@@ -2,11 +2,11 @@
 
 // Load 
 
-module LD (data, ins, addr, out);
-    input [15:0] data, ins;
-    output [7:0] addr;
+module LD (ins, outa, outb);
+    input [15:0] ins;
+    wire [7:0] addr;
     output [15:0] out;
-    wire [15:0] temp;
+    wire [15:0] temp, data;
 
     assign addr = ins [7:0];
 
