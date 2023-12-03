@@ -2,20 +2,27 @@
 
 // Load 
 
-module LD (data, ins, addr, out);
-    input [15:0] data, ins;
+module LD (data, ins, addr, out,A_in,B_in);
+    input [15:0] data, ins, A_in,B_in;
     output [7:0] addr;
-    output [15:0] out;
-    wire [15:0] temp;
+    output reg[15:0] out;
 
-    assign addr = ins [7:0];
+    assign addr = ins[7:0];
 
-    //assign output 8 bits
-    assign temp = (ins [10])?(addr):(/*load data here*/ data);
+    always@(ins or A_in or B_in or data)
+    begin
+        if (~ins[11])
+            out = A_in;
+        else
+            out = B_in;
 
-    //High or Low
-
-    assign out = (!ins [10])?(temp):
-                    (ins [9])?(temp):(temp<<8);
+        if (~ins[10])
+            out = data;
+        else
+            if (~ins[9])
+                out[7:0] = addr;
+            else
+                out[15:8] = addr;
+    end
 
 endmodule
