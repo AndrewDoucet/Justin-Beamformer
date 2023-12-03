@@ -13,8 +13,8 @@ module red(clk,en,opCode_out,BR);
     output [15:0]opCode_out;
     
     // Resgisters
-    PC_reg opCode_reg(opCode_in,opCode_out,~clk,en);
-    PC_reg PC_reg(PC_in,PC_out,clk,en);
+    reg16 opCode_reg(opCode_in,opCode_out,clk,en);
+    PC_reg PC_reg(PC_in,PC_out,~clk,en);
     ROM ROM(PC_out[7:0],opCode_in);
     ADD ADD(PC_out,1,increment);
 

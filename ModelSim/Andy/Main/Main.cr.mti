@@ -40,6 +40,13 @@ Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 
 Top level modules:
 	instruction
 
+} {} {}} C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Main/color.v {1 {vlog -work work -stats=none C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Main/color.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module color
+
+Top level modules:
+	color
+
 } {} {}} C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/ZNC/carry.v {1 {vlog -work work -stats=none C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/ZNC/carry.v
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
 -- Compiling module carry
@@ -117,19 +124,19 @@ Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 
 Top level modules:
 	blue
 
+} {} {}} C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Red/ROM.v {1 {vlog -work work -stats=none C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Red/ROM.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module ROM
+
+Top level modules:
+	ROM
+
 } {} {}} C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Main/reg16.v {1 {vlog -work work -stats=none C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Main/reg16.v
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
 -- Compiling module reg16
 
 Top level modules:
 	reg16
-
-} {} {}} C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Main/main.v {1 {vlog -work work -stats=none C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Main/main.v
-Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
--- Compiling module main
-
-Top level modules:
-	main
 
 } {} {}} C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Blue/Instructions/INST.v {1 {vlog -work work -stats=none C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Blue/Instructions/INST.v
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020

@@ -2343,3 +2343,373 @@ run
 run
 run
 run
+mem save -o CODE.mem -f mti -data symbolic -addr hex /main/red/ROM/memory
+# Compile of ROM.v was successful.
+vsim work.main
+# End time: 19:05:27 on Dec 02,2023, Elapsed time: 0:04:40
+# Errors: 0, Warnings: 3
+# vsim work.main 
+# Start time: 19:05:27 on Dec 02,2023
+# Loading work.main
+# Loading work.red
+# Loading work.PC_reg
+# Loading work.ROM
+# Loading work.ADD
+# Loading work.blue
+# Loading work.instruction
+# Loading work.INST
+# Loading work.SUB
+# Loading work.OR
+# Loading work.AND
+# Loading work.XOR
+# Loading work.SHR
+# Loading work.MOV
+# Loading work.EXCH
+# Loading work.DECO
+# Loading work.zero
+# Loading work.negative
+# Loading work.carry
+# Loading work.reg16
+# Loading work.reg3
+# ** Warning: (vsim-3015) [PCDPC] - Port size (16) does not match connection size (32) for port 'RB'. The port definition is at: C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Blue/Instructions/ADD.v(5).
+#    Time: 0 ps  Iteration: 0  Instance: /main/red/ADD File: C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Red/red.v Line: 19
+add wave -position end  sim:/main/clk
+add wave -position end  sim:/main/A_out
+add wave -position end  sim:/main/B_out
+add wave -position end  sim:/main/B_in
+add wave -position end  sim:/main/A_in
+force -freeze sim:/main/A_in xxxxxxxxxxxxxxxx 0
+force -freeze sim:/main/A_in 0 0
+force -freeze sim:/main/B_in 1 0
+force -freeze sim:/main/clk 0 0, 1 {50 ps} -r 100
+mem load -i C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/ModelSim/Andy/Main/CODE.mem /main/red/ROM/memory
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Warning: (vsim-3015) [PCDPC] - Port size (16) does not match connection size (32) for port 'RB'. The port definition is at: C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Blue/Instructions/ADD.v(5).
+#    Time: 0 ps  Iteration: 0  Instance: /main/red/ADD File: C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Red/red.v Line: 19
+mem load -i C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/ModelSim/Andy/Main/CODE.mem /main/red/ROM/memory
+force -freeze sim:/main/B_in 1 0
+force -freeze sim:/main/A_in 0 0
+force -freeze sim:/main/clk 0 0, 1 {50 ps} -r 100
+run
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+noforce sim:/main/B_in
+noforce sim:/main/A_in
+run
+run
+run
+run
+run
+run
+run
+run
+mem save -o CODE.mem -f mti -data hex -addr hex /main/red/ROM/memory
+mem load -filltype value -filldata 000 -fillradix symbolic /main/red/ROM/memory(14)
+mem load -i C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/ModelSim/Andy/Main/CODE.mem /main/red/ROM/memory
+add wave -position end  sim:/main/ZNC_out
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Warning: (vsim-3015) [PCDPC] - Port size (16) does not match connection size (32) for port 'RB'. The port definition is at: C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Blue/Instructions/ADD.v(5).
+#    Time: 0 ps  Iteration: 0  Instance: /main/red/ADD File: C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Red/red.v Line: 19
+# Compile of red.v was successful.
+vsim work.main
+# End time: 19:33:10 on Dec 02,2023, Elapsed time: 0:27:43
+# Errors: 0, Warnings: 3
+# vsim work.main 
+# Start time: 19:33:10 on Dec 02,2023
+# Loading work.main
+# Loading work.red
+# Loading work.reg16
+# Loading work.PC_reg
+# Loading work.ROM
+# Loading work.ADD
+# Loading work.blue
+# Loading work.instruction
+# Loading work.INST
+# Loading work.SUB
+# Loading work.OR
+# Loading work.AND
+# Loading work.XOR
+# Loading work.SHR
+# Loading work.MOV
+# Loading work.EXCH
+# Loading work.DECO
+# Loading work.zero
+# Loading work.negative
+# Loading work.carry
+# Loading work.reg3
+# ** Warning: (vsim-3015) [PCDPC] - Port size (16) does not match connection size (32) for port 'RB'. The port definition is at: C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Blue/Instructions/ADD.v(5).
+#    Time: 0 ps  Iteration: 0  Instance: /main/red/ADD File: C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Red/red.v Line: 19
+add wave -position end  sim:/main/A_out
+add wave -position end  sim:/main/B_in
+force -freeze sim:/main/B_in 1 0
+add wave -position end  sim:/main/A_in
+# Compile of ROM.v was successful.
+# Compile of ROM.v was successful.
+# Compile of main.v was successful.
+vsim work.main
+# End time: 19:34:18 on Dec 02,2023, Elapsed time: 0:01:08
+# Errors: 0, Warnings: 5
+# vsim work.main 
+# Start time: 19:34:18 on Dec 02,2023
+# Loading work.main
+# Loading work.red
+# Loading work.reg16
+# Loading work.PC_reg
+# Loading work.ROM
+# Loading work.ADD
+# Loading work.blue
+# Loading work.instruction
+# Loading work.INST
+# Loading work.SUB
+# Loading work.OR
+# Loading work.AND
+# Loading work.XOR
+# Loading work.SHR
+# Loading work.MOV
+# Loading work.EXCH
+# Loading work.DECO
+# Loading work.zero
+# Loading work.negative
+# Loading work.carry
+# Loading work.reg3
+# ** Warning: (vsim-3015) [PCDPC] - Port size (16) does not match connection size (32) for port 'RB'. The port definition is at: C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Blue/Instructions/ADD.v(5).
+#    Time: 0 ps  Iteration: 0  Instance: /main/red/ADD File: C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Red/red.v Line: 19
+add wave -position end  sim:/main/A_in
+add wave -position end  sim:/main/B_in
+add wave -position end  sim:/main/A_out
+add wave -position end  sim:/main/clk
+force -freeze sim:/main/clk 1 0, 0 {50 ps} -r 100
+force -freeze sim:/main/A_in 1 0
+force -freeze sim:/main/B_in 1 0
+force -freeze sim:/main/A_in 0 0
+mem load -i C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/ModelSim/Andy/Main/CODE.mem /main/red/ROM/memory
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Warning: (vsim-3015) [PCDPC] - Port size (16) does not match connection size (32) for port 'RB'. The port definition is at: C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Blue/Instructions/ADD.v(5).
+#    Time: 0 ps  Iteration: 0  Instance: /main/red/ADD File: C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Red/red.v Line: 19
+force -freeze sim:/main/A_in 1 0
+force -freeze sim:/main/B_in 1 0
+force -freeze sim:/main/A_in 0 0
+add wave -position end  sim:/main/ZNC_out
+force -freeze sim:/main/clk 1 0, 0 {50 ps} -r 100
+run
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+noforce sim:/main/A_in
+noforce sim:/main/B_in
+run
+run
+run
+run
+run
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Warning: (vsim-3015) [PCDPC] - Port size (16) does not match connection size (32) for port 'RB'. The port definition is at: C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Blue/Instructions/ADD.v(5).
+#    Time: 0 ps  Iteration: 0  Instance: /main/red/ADD File: C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Red/red.v Line: 19
+mem load -i C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/ModelSim/Andy/Main/CODE.mem /main/red/ROM/memory
+force -freeze sim:/main/A_in 0 0
+force -freeze sim:/main/B_in 1 0
+force -freeze sim:/main/clk 1 0, 0 {50 ps} -r 100
+run -continue
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+restart
+run
+run
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Warning: (vsim-3015) [PCDPC] - Port size (16) does not match connection size (32) for port 'RB'. The port definition is at: C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Blue/Instructions/ADD.v(5).
+#    Time: 0 ps  Iteration: 0  Instance: /main/red/ADD File: C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Red/red.v Line: 19
+mem load -i C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/ModelSim/Andy/Main/CODE.mem /main/red/ROM/memory
+force -freeze sim:/main/A_in 0 0
+force -freeze sim:/main/B_in 1 0
+force -freeze sim:/main/clk 1 0, 0 {50 ps} -r 100
+run
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+noforce sim:/main/B_in
+noforce sim:/main/A_in
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+# Compile of color.v failed with 3 errors.
+# Compile of color.v failed with 2 errors.
+# Compile of color.v was successful.
+# Compile of main.v failed with 1 errors.
+# Compile of main.v was successful.
+vsim work.main
+# End time: 19:53:57 on Dec 02,2023, Elapsed time: 0:19:39
+# Errors: 0, Warnings: 8
+# vsim work.main 
+# Start time: 19:53:57 on Dec 02,2023
+# Loading work.main
+# Loading work.red
+# Loading work.reg16
+# Loading work.PC_reg
+# Loading work.ROM
+# Loading work.ADD
+# Loading work.blue
+# Loading work.instruction
+# Loading work.INST
+# Loading work.SUB
+# Loading work.OR
+# Loading work.AND
+# Loading work.XOR
+# Loading work.SHR
+# Loading work.MOV
+# Loading work.EXCH
+# Loading work.DECO
+# Loading work.zero
+# Loading work.negative
+# Loading work.carry
+# Loading work.color
+# Loading work.reg3
+# ** Warning: (vsim-3015) [PCDPC] - Port size (16) does not match connection size (32) for port 'RB'. The port definition is at: C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Blue/Instructions/ADD.v(5).
+#    Time: 0 ps  Iteration: 0  Instance: /main/red/ADD File: C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Red/red.v Line: 19
+mem load -i C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/ModelSim/Andy/Main/CODE.mem /main/red/ROM/memory
+add wave -position end  sim:/main/clk
+add wave -position end  sim:/main/A_out
+add wave -position end  sim:/main/A_in
+add wave -position end  sim:/main/B_in
+force -freeze sim:/main/clk 1 0, 0 {50 ps} -r 100
+force -freeze sim:/main/A_in 0 0
+force -freeze sim:/main/B_in 0 0
+run
+noforce sim:/main/A_in
+noforce sim:/main/B_in
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+add wave -position end  sim:/main/opCode
+run
+run
+run
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Warning: (vsim-3015) [PCDPC] - Port size (16) does not match connection size (32) for port 'RB'. The port definition is at: C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Blue/Instructions/ADD.v(5).
+#    Time: 0 ps  Iteration: 0  Instance: /main/red/ADD File: C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Red/red.v Line: 19
+mem load -i C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/ModelSim/Andy/Main/CODE.mem /main/red/ROM/memory
+force -freeze sim:/main/clk 1 0, 0 {50 ps} -r 100
+run
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Warning: (vsim-3015) [PCDPC] - Port size (16) does not match connection size (32) for port 'RB'. The port definition is at: C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Blue/Instructions/ADD.v(5).
+#    Time: 0 ps  Iteration: 0  Instance: /main/red/ADD File: C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Red/red.v Line: 19
+mem load -i C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/ModelSim/Andy/Main/CODE.mem /main/red/ROM/memory
+force -freeze sim:/main/clk 1 0, 0 {50 ps} -r 100
+force -freeze sim:/main/A_in 0 0
+force -freeze sim:/main/B_in 1 0
+run
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+noforce sim:/main/A_in
+noforce sim:/main/B_in
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run

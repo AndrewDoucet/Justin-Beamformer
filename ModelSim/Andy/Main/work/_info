@@ -103,6 +103,29 @@ Z14 !s108 1701557363.000000
 !i113 1
 R8
 R9
+vcolor
+!s110 1701561191
+!i10b 1
+!s100 bU9^FclmRz<H9zm>F8h^f1
+R1
+IlD`L_5?4:nT@USJGB?fj=0
+R2
+R3
+w1701561186
+8C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Main/color.v
+FC:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Main/color.v
+!i122 588
+L0 5 27
+R6
+r1
+!s85 0
+31
+!s108 1701561190.000000
+!s107 C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Main/color.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Main/color.v|
+!i113 1
+R8
+R9
 vDECO
 R0
 !i10b 1
@@ -199,23 +222,23 @@ R11
 R8
 R9
 vmain
-Z16 !s110 1701557359
+!s110 1701561225
 !i10b 1
-!s100 PF0Joh;DhgVD^Z;XKhEb]1
+!s100 :@f6V<_F8DP>n4IF1Jn7B1
 R1
-InYB[a9fkkkIS`hfbM`zfV2
+Iko3l`o=N@FGcAIlbjo:U^0
 R2
 R3
-w1701555862
+w1701561220
 8C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Main/main.v
 FC:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Main/main.v
-!i122 558
-L0 3 25
+!i122 589
+L0 3 45
 R6
 r1
 !s85 0
 31
-Z17 !s108 1701557359.000000
+!s108 1701561225.000000
 !s107 C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Main/main.v|
 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Main/main.v|
 !i113 1
@@ -238,7 +261,7 @@ R6
 r1
 !s85 0
 31
-Z18 !s108 1701557361.000000
+Z16 !s108 1701557361.000000
 !s107 C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Blue/Instructions/MOV.v|
 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Blue/Instructions/MOV.v|
 !i113 1
@@ -285,7 +308,7 @@ R6
 r1
 !s85 0
 31
-R18
+R16
 !s107 C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Blue/Instructions/OR.v|
 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Blue/Instructions/OR.v|
 !i113 1
@@ -317,7 +340,7 @@ R8
 R9
 n@p@c
 vPC_reg
-Z19 !s110 1701557364
+Z17 !s110 1701557364
 !i10b 1
 !s100 S90m^C1WcAXVi4mV5JPK_1
 R1
@@ -333,7 +356,7 @@ R6
 r1
 !s85 0
 31
-Z20 !s108 1701557364.000000
+Z18 !s108 1701557364.000000
 !s107 C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Main/PC_reg.v|
 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Main/PC_reg.v|
 !i113 1
@@ -341,30 +364,30 @@ R8
 R9
 n@p@c_reg
 vred
-!s110 1701557563
+!s110 1701559974
 !i10b 1
-!s100 jOjK=b9GzbQ`8g5k1YG^h0
+!s100 heE;KI7PUCS[HD2WHdJP`3
 R1
-IGTeAz?=MkVA8hO8mVIFZI2
+II^KQA8zII[WQ9Gk;a?KRU0
 R2
 R3
-w1701557556
+w1701559674
 8C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Red/red.v
 FC:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Red/red.v
-!i122 581
+!i122 584
 L0 3 28
 R6
 r1
 !s85 0
 31
-!s108 1701557563.000000
+!s108 1701559974.000000
 !s107 C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Red/red.v|
 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Red/red.v|
 !i113 1
 R8
 R9
 vreg16
-R16
+!s110 1701557359
 !i10b 1
 !s100 JnkjbJZgj6o<d2>E?][Y80
 R1
@@ -380,14 +403,14 @@ R6
 r1
 !s85 0
 31
-R17
+!s108 1701557359.000000
 !s107 C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Main/reg16.v|
 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Main/reg16.v|
 !i113 1
 R8
 R9
 vreg3
-R19
+R17
 !i10b 1
 !s100 7ZePkEgGL7dL[o2CJJ13R1
 R1
@@ -403,30 +426,30 @@ R6
 r1
 !s85 0
 31
-R20
+R18
 !s107 C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Main/reg3.v|
 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Main/reg3.v|
 !i113 1
 R8
 R9
 vROM
-!s110 1701558030
+!s110 1701560048
 !i10b 1
-!s100 _G;NT3bSiF6^XFlb6SCBY3
+!s100 JNYMd0IJ@;f7b9BA`Z28C3
 R1
-IK:87>IfJKMn=PR@gzKlRl1
+IPOm`YLA4ghUW^3hZDbAh23
 R2
 R3
-w1701558005
+w1701559489
 8C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Red/ROM.v
 FC:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Red/ROM.v
-!i122 582
-L0 3 44
+!i122 586
+L0 3 10
 R6
 r1
 !s85 0
 31
-!s108 1701558030.000000
+!s108 1701560048.000000
 !s107 C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Red/ROM.v|
 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Red/ROM.v|
 !i113 1
@@ -450,7 +473,7 @@ R6
 r1
 !s85 0
 31
-R18
+R16
 !s107 C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Blue/Instructions/SHR.v|
 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Blue/Instructions/SHR.v|
 !i113 1
@@ -474,7 +497,7 @@ R6
 r1
 !s85 0
 31
-R18
+R16
 !s107 C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Blue/Instructions/SUB.v|
 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Blue/Instructions/SUB.v|
 !i113 1
@@ -506,7 +529,7 @@ R8
 R9
 n@x@o@r
 vzero
-R19
+R17
 !i10b 1
 !s100 356MbT=`g74bXAM34PdgL1
 R1
