@@ -129,3 +129,33 @@ add wave -position end  sim:/LD/out
 force -freeze sim:/LD/ins 0000011010101010 0
 run
 # Compile of LD.v was successful.
+vsim -gui work.LD
+# End time: 20:16:37 on Dec 02,2023, Elapsed time: 0:04:11
+# Errors: 0, Warnings: 4
+# vsim -gui work.LD 
+# Start time: 20:16:37 on Dec 02,2023
+# Loading work.LD
+add wave -position end  sim:/LD/temp
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: spenc  Hostname: DESKTOP-8QEKS6A  ProcessID: 8408
+#           Attempting to use alternate WLF file "./wlftgj24wx".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftgj24wx
+add wave -position end  sim:/LD/ins
+force -freeze sim:/LD/ins 0000011010101010 0
+run
+add wave -position insertpoint  \
+sim:/LD/out
+run
+add wave -position insertpoint  \
+sim:/LD/data
+add wave -position insertpoint  \
+sim:/LD/addr
+force -freeze sim:/LD/data 0100000000000010 0
+run
+force -freeze sim:/LD/ins 0000001010101010 0
+force -freeze sim:/LD/ins 0000011010101010 0
+force -freeze sim:/LD/ins 0000010010101010 0
+run
+force -freeze sim:/LD/ins 0000001010101010 0
+run
