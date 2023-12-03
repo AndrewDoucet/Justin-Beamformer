@@ -21,10 +21,10 @@ module red(clk,en,opCode_out,BR);
     initial
         PC_in <= 16'hFFFF;
 
-    always@(increment or opCode_out)
-        if (BR == 0)
-            PC_in = increment;
-        else
+    always@(PC_out or opCode_out)
+        if (BR == 1)
             PC_in = opCode_out;
+        else
+            PC_in = increment;
     
 endmodule
