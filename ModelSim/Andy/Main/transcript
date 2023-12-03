@@ -2713,3 +2713,211 @@ run
 run
 run
 run
+# Compile of main.v was successful.
+# Compile of reg16.v was successful.
+# Compile of ADD.v was successful.
+# Compile of AND.v was successful.
+# Compile of DECO.v was successful.
+# Compile of EXCH.v was successful.
+# Compile of INST.v was successful.
+# Compile of MOV.v was successful.
+# Compile of OR.v was successful.
+# Compile of SHR.v was successful.
+# Compile of SUB.v was successful.
+# Compile of XOR.v was successful.
+# Compile of blue.v was successful.
+# Compile of instruction.v was successful.
+# Compile of PC.v was successful.
+# Compile of red.v was successful.
+# Compile of ROM.v was successful.
+# Compile of carry.v was successful.
+# Compile of negative.v was successful.
+# Compile of zero.v was successful.
+# Compile of reg3.v was successful.
+# Compile of becode.v was successful.
+# 22 compiles, 2 failed with no errors.
+# Compile of becode.v was successful.
+vsim work.main
+# End time: 20:07:22 on Dec 02,2023, Elapsed time: 0:13:25
+# Errors: 0, Warnings: 5
+# vsim work.main 
+# Start time: 20:07:22 on Dec 02,2023
+# Loading work.main
+# Loading work.red
+# Loading work.reg16
+# Loading work.PC_reg
+# Loading work.ROM
+# Loading work.ADD
+# Loading work.blue
+# Loading work.instruction
+# Loading work.INST
+# Loading work.SUB
+# Loading work.OR
+# Loading work.AND
+# Loading work.XOR
+# Loading work.SHR
+# Loading work.MOV
+# Loading work.EXCH
+# Loading work.DECO
+# Loading work.zero
+# Loading work.negative
+# Loading work.carry
+# ** Error: (vsim-3033) Instantiation of 'yellow' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /main File: C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Main/main.v Line: 41
+#         Searched libraries:
+#             C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/ModelSim/Andy/Main/work
+# Loading work.becode
+# Loading work.reg3
+# Error loading design
+# End time: 20:07:23 on Dec 02,2023, Elapsed time: 0:00:01
+# Errors: 1, Warnings: 1
+# Compile of main.v was successful.
+# Compile of reg16.v was successful.
+# Compile of ADD.v was successful.
+# Compile of AND.v was successful.
+# Compile of DECO.v was successful.
+# Compile of EXCH.v was successful.
+# Compile of INST.v was successful.
+# Compile of MOV.v was successful.
+# Compile of OR.v was successful.
+# Compile of SHR.v was successful.
+# Compile of SUB.v was successful.
+# Compile of XOR.v was successful.
+# Compile of blue.v was successful.
+# Compile of instruction.v was successful.
+# Compile of PC.v was successful.
+# Compile of red.v was successful.
+# Compile of ROM.v was successful.
+# Compile of carry.v was successful.
+# Compile of negative.v was successful.
+# Compile of zero.v was successful.
+# Compile of reg3.v was successful.
+# Compile of becode.v was successful.
+# Compile of yellow.v was successful.
+# Compile of CLR.v was successful.
+# Compile of CMP.v was successful.
+# Compile of DECOY.v was successful.
+# Compile of EXT.v was successful.
+# Compile of INSTY.v was successful.
+# Compile of SET.v was successful.
+# 29 compiles, 2 failed with no errors.
+# Compile of EXT.v was successful.
+vsim work.main
+# vsim work.main 
+# Start time: 20:09:33 on Dec 02,2023
+# Loading work.main
+# Loading work.red
+# Loading work.reg16
+# Loading work.PC_reg
+# Loading work.ROM
+# Loading work.ADD
+# Loading work.blue
+# Loading work.instruction
+# Loading work.INST
+# Loading work.SUB
+# Loading work.OR
+# Loading work.AND
+# Loading work.XOR
+# Loading work.SHR
+# Loading work.MOV
+# Loading work.EXCH
+# Loading work.DECO
+# Loading work.zero
+# Loading work.negative
+# Loading work.carry
+# Loading work.yellow
+# Loading work.INSTY
+# Loading work.EXT
+# Loading work.CMP
+# Loading work.SET
+# Loading work.CLR
+# Loading work.DECOY
+# Loading work.becode
+# Loading work.reg3
+# ** Warning: (vsim-3015) [PCDPC] - Port size (16) does not match connection size (32) for port 'RB'. The port definition is at: C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Blue/Instructions/ADD.v(5).
+#    Time: 0 ps  Iteration: 0  Instance: /main/red/ADD File: C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Red/red.v Line: 19
+add wave -position end  sim:/main/clk
+add wave -position end  sim:/main/A_out
+add wave -position end  sim:/main/ZNC_out
+add wave -position end  sim:/main/B_out
+add wave -position end  sim:/main/opCode
+add wave -position end  sim:/main/A_in
+add wave -position end  sim:/main/B_in
+mem load -i C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/ModelSim/Andy/Main/CODE.mem /main/red/ROM/memory
+force -freeze sim:/main/clk 1 0, 0 {50 ps} -r 100
+force -freeze sim:/main/A_in 0 0
+force -freeze sim:/main/B_in 0 0
+force -freeze sim:/main/B_in 1 0
+run
+noforce sim:/main/A_in
+noforce sim:/main/B_in
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+mem load -filltype value -filldata efff -fillradix hexadecimal /main/red/ROM/memory(9)
+mem load -filltype value -filldata dfff -fillradix hexadecimal /main/red/ROM/memory(10)
+mem load -filltype value -filldata efff -fillradix hexadecimal /main/red/ROM/memory(11)
+mem load -filltype value -filldata dfff -fillradix hexadecimal /main/red/ROM/memory(12)
+mem save -o CODE.mem -f mti -data hex -addr hex /main/red/ROM/memory
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Warning: (vsim-3015) [PCDPC] - Port size (16) does not match connection size (32) for port 'RB'. The port definition is at: C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Blue/Instructions/ADD.v(5).
+#    Time: 0 ps  Iteration: 0  Instance: /main/red/ADD File: C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Red/red.v Line: 19
+force -freeze sim:/main/clk 1 0, 0 {50 ps} -r 100
+force -freeze sim:/main/A_in 0 0
+force -freeze sim:/main/B_in 0 0
+run
+noforce sim:/main/A_in
+noforce sim:/main/B_in
+run
+run
+run
+run
+run
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Warning: (vsim-3015) [PCDPC] - Port size (16) does not match connection size (32) for port 'RB'. The port definition is at: C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Blue/Instructions/ADD.v(5).
+#    Time: 0 ps  Iteration: 0  Instance: /main/red/ADD File: C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Red/red.v Line: 19
+force -freeze sim:/main/clk 1 0, 0 {50 ps} -r 100
+force -freeze sim:/main/A_in 0 0
+force -freeze sim:/main/B_in 1 0
+mem load -i C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/ModelSim/Andy/Main/CODE.mem /main/red/ROM/memory
+run
+noforce sim:/main/A_in
+noforce sim:/main/B_in
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run

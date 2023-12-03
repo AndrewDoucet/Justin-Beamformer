@@ -38,8 +38,9 @@ module main(clk,A_out,B_out,ZNC_out,opCode);
 
     red red(clk,en,opCode,BR);
     blue blue(opCode,A_out,B_out,A_blue,B_blue,ZNC_blue);
-    becode becode(opCode, A_blue,B_blue,ZNC_blue,A_yellow,B_yellow,ZNC_yellow,A_green,B_green,ZNC_green,A_in,B_in,ZNC_in);
-    
+    yellow yellow(A_out,B_out,opCode,ZNC_out,ZNC_yellow);
+    becode becode(opCode, A_blue,B_blue,ZNC_blue,A_out,B_out,ZNC_yellow,A_green,B_green,ZNC_green,A_in,B_in,ZNC_in);
+
     reg16 A(A_in,A_out,~clk,en);
     reg16 B(B_in,B_out,~clk,en);
     reg3 ZNC(ZNC_in,ZNC_out,~clk,en);

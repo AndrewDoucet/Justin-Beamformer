@@ -2,7 +2,7 @@
 
 //This makes sure the yellow circuit works
 
-module yellow1 (RA, RB, ins, znc, out);
+module yellow (RA, RB, ins, znc, out);
     input [15:0] RA, RB, ins;
     input [2:0] znc;
     output [2:0] out;

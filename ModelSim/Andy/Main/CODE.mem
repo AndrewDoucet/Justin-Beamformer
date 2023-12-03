@@ -1,7 +1,7 @@
 // memory data file (do not edit the following line - required for mem load use)
 // instance=/main/red/ROM/memory
 // format=mti addressradix=h dataradix=h version=1.0 wordsperline=15
- 0: 4000 4000 5000 5000 5000 5000 4000 4000 4000 ffff ffff ffff ffff ffff ffff
+ 0: 4000 4000 5000 5000 5000 5000 4000 4000 4000 efff dfff efff dfff ffff ffff
  f: ffff ffff ffff ffff ffff ffff ffff ffff ffff ffff ffff ffff ffff ffff ffff
 1e: ffff ffff ffff ffff ffff ffff ffff ffff ffff ffff ffff ffff ffff ffff ffff
 2d: ffff ffff ffff ffff ffff ffff ffff ffff ffff ffff ffff ffff ffff ffff ffff
