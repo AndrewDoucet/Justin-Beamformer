@@ -1,11 +1,4 @@
-C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Green/BR.v {1 {vlog -work work -stats=none C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Green/BR.v
-Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
--- Compiling module BR
-
-Top level modules:
-	BR
-
-} {} {}} C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Yellow/instruction/CMP.v {1 {vlog -work work -stats=none C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Yellow/instruction/CMP.v
+C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Yellow/instruction/CMP.v {1 {vlog -work work -stats=none C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Yellow/instruction/CMP.v
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
 -- Compiling module CMP
 
