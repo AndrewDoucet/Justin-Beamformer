@@ -404,3 +404,132 @@ restart
 mem load -i C:/Users/spenc/Documents/GitHub/Justin-Beamformer/Programs/FunctionTesting/Test.mem /main/red/ROM/memory
 force -freeze sim:/main/clk 1 0, 0 {50 ps} -r 100
 run
+# Compile of blue.v failed with 1 errors.
+# Compile of instruction.v was successful.
+# Compile of ADD.v was successful.
+# Compile of AND.v was successful.
+# Compile of DECO.v was successful.
+# Compile of EXCH.v was successful.
+# Compile of INST.v was successful.
+# Compile of MOV.v was successful.
+# Compile of OR.v was successful.
+# Compile of SHR.v was successful.
+# Compile of SUB.v was successful.
+# Compile of XOR.v was successful.
+# Compile of BR.v was successful.
+# Compile of DECOG.v was successful.
+# Compile of green.v was successful.
+# Compile of INC.v was successful.
+# Compile of LD.v was successful.
+# Compile of RAM.v was successful.
+# Compile of ST.v was successful.
+# Compile of becode.v was successful.
+# Compile of main.v was successful.
+# Compile of reg3.v was successful.
+# Compile of reg16.v was successful.
+# Compile of PC.v was successful.
+# Compile of PC_reg.v was successful.
+# Compile of red.v was successful.
+# Compile of ROM.v was successful.
+# Compile of yellow.v was successful.
+# Compile of yellow1.v was successful.
+# Compile of CLR.v was successful.
+# Compile of CMP.v was successful.
+# Compile of DECOY.v was successful.
+# Compile of EXT.v was successful.
+# Compile of INSTY.v was successful.
+# Compile of SET.v was successful.
+# Compile of carry.v was successful.
+# Compile of negative.v was successful.
+# Compile of zero.v was successful.
+# 38 compiles, 1 failed with 1 error.
+# Compile of main.v was successful.
+# Compile of blue.v was successful.
+add wave -position end  sim:/main/ZNC_in
+add wave -position end  sim:/main/ZNC_out
+add wave -position end  sim:/main/A_in
+add wave -position 3  sim:/main/B_in
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.main
+# Loading work.red
+# Loading work.reg16
+# Loading work.PC_reg
+# Loading work.ROM
+# Loading work.ADD
+# Loading work.blue
+# Loading work.instruction
+# Loading work.INST
+# Loading work.SUB
+# Loading work.OR
+# Loading work.AND
+# Loading work.XOR
+# Loading work.SHR
+# Loading work.MOV
+# Loading work.EXCH
+# Loading work.DECO
+# Loading work.zero
+# Loading work.negative
+# Loading work.carry
+# Loading work.yellow
+# Loading work.INSTY
+# Loading work.EXT
+# Loading work.CMP
+# Loading work.SET
+# Loading work.CLR
+# Loading work.DECOY
+# Loading work.green
+# Loading work.BR
+# Loading work.INC
+# Loading work.LD
+# Loading work.ST
+# Loading work.RAM
+# Loading work.DECOG
+# Loading work.becode
+# Loading work.reg3
+# ** Warning: (vsim-3015) [PCDPC] - Port size (16) does not match connection size (32) for port 'RB'. The port definition is at: C:/Users/spenc/Documents/GitHub/Justin-Beamformer/Blue/Instructions/ADD.v(5).
+#    Time: 0 ps  Iteration: 0  Instance: /main/red/ADD File: C:/Users/spenc/Documents/GitHub/Justin-Beamformer/Red/red.v Line: 19
+mem load -i C:/Users/spenc/Documents/GitHub/Justin-Beamformer/Programs/FunctionTesting/Test1.mem /main/red/ROM/memory
+force -freeze sim:/main/clk 1 0, 0 {50 ps} -r 100
+run
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Warning: (vsim-3015) [PCDPC] - Port size (16) does not match connection size (32) for port 'RB'. The port definition is at: C:/Users/spenc/Documents/GitHub/Justin-Beamformer/Blue/Instructions/ADD.v(5).
+#    Time: 0 ps  Iteration: 0  Instance: /main/red/ADD File: C:/Users/spenc/Documents/GitHub/Justin-Beamformer/Red/red.v Line: 19
+run
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Warning: (vsim-3015) [PCDPC] - Port size (16) does not match connection size (32) for port 'RB'. The port definition is at: C:/Users/spenc/Documents/GitHub/Justin-Beamformer/Blue/Instructions/ADD.v(5).
+#    Time: 0 ps  Iteration: 0  Instance: /main/red/ADD File: C:/Users/spenc/Documents/GitHub/Justin-Beamformer/Red/red.v Line: 19
+force -freeze sim:/main/clk 1 0, 0 {50 ps} -r 100
+mem load -i C:/Users/spenc/Documents/GitHub/Justin-Beamformer/Programs/FunctionTesting/Test1.mem /main/red/ROM/memory
+force -freeze sim:/main/clk 1 0, 0 {50 ps} -r 100
+run
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Warning: (vsim-3015) [PCDPC] - Port size (16) does not match connection size (32) for port 'RB'. The port definition is at: C:/Users/spenc/Documents/GitHub/Justin-Beamformer/Blue/Instructions/ADD.v(5).
+#    Time: 0 ps  Iteration: 0  Instance: /main/red/ADD File: C:/Users/spenc/Documents/GitHub/Justin-Beamformer/Red/red.v Line: 19
+mem load -i C:/Users/spenc/Documents/GitHub/Justin-Beamformer/Programs/FunctionTesting/INCtest.mem /main/red/ROM/memory
+force -freeze sim:/main/clk 1 0, 0 {50 ps} -r 100
+run
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Warning: (vsim-3015) [PCDPC] - Port size (16) does not match connection size (32) for port 'RB'. The port definition is at: C:/Users/spenc/Documents/GitHub/Justin-Beamformer/Blue/Instructions/ADD.v(5).
+#    Time: 0 ps  Iteration: 0  Instance: /main/red/ADD File: C:/Users/spenc/Documents/GitHub/Justin-Beamformer/Red/red.v Line: 19
+mem load -i C:/Users/spenc/Documents/GitHub/Justin-Beamformer/Programs/FunctionTesting/CMPtest.mem /main/red/ROM/memory
+force -freeze sim:/main/clk 1 0, 0 {50 ps} -r 100
+run
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Warning: (vsim-3015) [PCDPC] - Port size (16) does not match connection size (32) for port 'RB'. The port definition is at: C:/Users/spenc/Documents/GitHub/Justin-Beamformer/Blue/Instructions/ADD.v(5).
+#    Time: 0 ps  Iteration: 0  Instance: /main/red/ADD File: C:/Users/spenc/Documents/GitHub/Justin-Beamformer/Red/red.v Line: 19
+mem load -i C:/Users/spenc/Documents/GitHub/Justin-Beamformer/Programs/FunctionTesting/CMPtest.mem /main/red/ROM/memory
+run
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Warning: (vsim-3015) [PCDPC] - Port size (16) does not match connection size (32) for port 'RB'. The port definition is at: C:/Users/spenc/Documents/GitHub/Justin-Beamformer/Blue/Instructions/ADD.v(5).
+#    Time: 0 ps  Iteration: 0  Instance: /main/red/ADD File: C:/Users/spenc/Documents/GitHub/Justin-Beamformer/Red/red.v Line: 19
+mem load -i C:/Users/spenc/Documents/GitHub/Justin-Beamformer/Programs/FunctionTesting/CMPtest.mem /main/red/ROM/memory
+mem load -i C:/Users/spenc/Documents/GitHub/Justin-Beamformer/Programs/FunctionTesting/CMPtest.mem -update_properties /main/red/ROM/memory
+force -freeze sim:/main/clk 1 0, 0 {50 ps} -r 100
+run
