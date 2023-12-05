@@ -47,13 +47,6 @@ Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 
 Top level modules:
 	SUB
 
-} {} {}} C:/Users/spenc/Documents/GitHub/Justin-Beamformer/Blue/Instructions/AND.v {1 {vlog -work work -stats=none C:/Users/spenc/Documents/GitHub/Justin-Beamformer/Blue/Instructions/AND.v
-Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
--- Compiling module AND
-
-Top level modules:
-	AND
-
 } {} {}} C:/Users/spenc/Documents/GitHub/Justin-Beamformer/Blue/Instructions/DECO.v {1 {vlog -work work -stats=none C:/Users/spenc/Documents/GitHub/Justin-Beamformer/Blue/Instructions/DECO.v
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
 -- Compiling module DECO
@@ -61,14 +54,19 @@ Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 
 Top level modules:
 	DECO
 
-} {} {}} C:/Users/spenc/Documents/GitHub/Justin-Beamformer/Blue/blue.v {1 {vlog -work work -stats=none {C:\Users\spenc\Documents\GitHub\Justin-Beamformer\Blue\blue.v}
+} {} {}} C:/Users/spenc/Documents/GitHub/Justin-Beamformer/Blue/Instructions/AND.v {1 {vlog -work work -stats=none C:/Users/spenc/Documents/GitHub/Justin-Beamformer/Blue/Instructions/AND.v
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
--- Compiling module blue
+-- Compiling module AND
 
 Top level modules:
-	blue
+	AND
 
-} {} {}} C:/Users/spenc/Documents/GitHub/Justin-Beamformer/Red/ROM.v {1 {vlog -work work -stats=none C:/Users/spenc/Documents/GitHub/Justin-Beamformer/Red/ROM.v
+} {} {}} C:/Users/spenc/Documents/GitHub/Justin-Beamformer/Blue/blue.v {0 {vlog -work work -stats=none {C:\Users\spenc\Documents\GitHub\Justin-Beamformer\Blue\blue.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module blue
+** Error: C:\Users\spenc\Documents\GitHub\Justin-Beamformer\Blue\blue.v(13): In, out, or inout does not appear in port list: ZNC_in.
+
+} {4.0 5.0} {}} C:/Users/spenc/Documents/GitHub/Justin-Beamformer/Red/ROM.v {1 {vlog -work work -stats=none C:/Users/spenc/Documents/GitHub/Justin-Beamformer/Red/ROM.v
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
 -- Compiling module ROM
 
