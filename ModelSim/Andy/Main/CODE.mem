@@ -1,9 +1,9 @@
 // memory data file (do not edit the following line - required for mem load use)
-// instance=/main/red/ROM/memory
+// instance=/main/Smachine/red/ROM/memory
 // format=mti addressradix=h dataradix=h version=1.0 wordsperline=15
- 0: 4000 4000 5000 5000 5000 5000 4000 4000 4000 efff dfff efff dfff ffff ffff
- f: ffff ffff ffff ffff ffff ffff ffff ffff ffff ffff ffff ffff ffff ffff ffff
-1e: ffff ffff ffff ffff ffff ffff ffff ffff ffff ffff ffff ffff ffff ffff ffff
+ 0: 06ff 04fa 1000 2001 3202 1001 0600 0405 1000 0e00 0c03 1801 4000 1002 0000
+ f: 5000 1003 06ff 0400 1000 0cf0 0ef0 1801 6000 1002 0000 7000 1003 0000 8000
+1e: 1004 0000 9000 1005 0600 0405 0e00 0c03 b000 a000 c000 df00 ef00 ffff ffff
 2d: ffff ffff ffff ffff ffff ffff ffff ffff ffff ffff ffff ffff ffff ffff ffff
 3c: ffff ffff ffff ffff ffff ffff ffff ffff ffff ffff ffff ffff ffff ffff ffff
 4b: ffff ffff ffff ffff ffff ffff ffff ffff ffff ffff ffff ffff ffff ffff ffff

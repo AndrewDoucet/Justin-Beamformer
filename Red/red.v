@@ -21,7 +21,7 @@ module red(clk,en,opCode_out,BR);
     initial
         PC_in <= 16'hFFFF;
 
-    always@(PC_out or opCode_out)
+    always@(PC_out,opCode_out,BR)
         if (BR == 1)
             PC_in = opCode_out;
         else

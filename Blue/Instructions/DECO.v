@@ -12,7 +12,7 @@ module DECO (RA, RB, ADDA, SUBA, ORA, ANDA, XORA, SHRA, MOVB, EXCHA, EXCHB, sel,
     input [2:0]ZNC_in;
     output reg [2:0]ZNC_out;
 
-    always @ (RA or RB or sel)  begin
+    always @ (RA,RB,sel)  begin
 
         case(sel)
             //ADD
