@@ -1,6 +1,6 @@
 // Andrew Doucet
 
-module blue(opCode,A_in,B_in,A_out,B_out,ZNC_out);
+module blue(opCode,A_in,B_in,A_out,B_out,ZNC_out,ZNC_in);
     input [15:0]opCode;
 
     // I/O Wires
