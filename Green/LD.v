@@ -9,7 +9,7 @@ module LD (data, ins, addr, out,A_in,B_in);
 
     assign addr = ins[7:0];
 
-    always@(ins or A_in or B_in or data)
+    always@(ins, A_in, B_in, data)
     begin
         if (~ins[11])
             out = A_in;
@@ -24,5 +24,4 @@ module LD (data, ins, addr, out,A_in,B_in);
             else
                 out[15:8] = addr;
     end
-
 endmodule

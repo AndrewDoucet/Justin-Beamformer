@@ -1,246 +1,33 @@
 # Compile of BR.v was successful.
-vsim work.BR
-# vsim work.BR 
-# Start time: 20:43:06 on Dec 04,2023
+# Compile of DECOG.v was successful.
+# Compile of green.v was successful.
+# Compile of INC.v was successful.
+# Compile of LD.v was successful.
+# Compile of RAM.v was successful.
+# Compile of ST.v was successful.
+# 7 compiles, 0 failed with no errors.
+vsim work.green
+# vsim work.green 
+# Start time: 22:06:47 on Dec 04,2023
+# Loading work.green
 # Loading work.BR
-# Compile of BR.v failed with 2 errors.
-# Compile of BR.v failed with 2 errors.
-# Compile of BR.v failed with 10 errors.
-# Compile of BR.v was successful.
-vsim work.BR
-# End time: 20:58:05 on Dec 04,2023, Elapsed time: 0:14:59
-# Errors: 0, Warnings: 9
-# vsim work.BR 
-# Start time: 20:58:05 on Dec 04,2023
-# Loading work.BR
-add wave -position end  sim:/BR/opCode
-add wave -position end  sim:/BR/ZNC
-add wave -position end  sim:/BR/BR
-force -freeze sim:/BR/opCode zzzz0000zzzzzzzz 0
-force -freeze sim:/BR/ZNC 000 0
-run
-force -freeze sim:/BR/opCode zzzz0001zzzzzzzz 0
-run
-# Compile of BR.v was successful.
-vsim work.BR
-# End time: 21:00:14 on Dec 04,2023, Elapsed time: 0:02:09
-# Errors: 0, Warnings: 2
-# vsim work.BR 
-# Start time: 21:00:14 on Dec 04,2023
-# Loading work.BR
-add wave -position end  sim:/BR/opCode
-add wave -position end  sim:/BR/ZNC
-add wave -position end  sim:/BR/BR
-force -freeze sim:/BR/ZNC 000 0
-force -freeze sim:/BR/opCode zzzz0000zzzzzzzz 0
-run
-force -freeze sim:/BR/opCode zzzz0001zzzzzzzz 0
-run
-force -freeze sim:/BR/opCode zzzz0000zzzzzzzz 0
-run
-force -freeze sim:/BR/opCode zzzz1000zzzzzzzz 0
-run
-force -freeze sim:/BR/opCode zzzz1100zzzzzzzz 0
-run
-run
-force -freeze sim:/BR/ZNC 100 0
-run
-run
-force -freeze sim:/BR/ZNC 111 0
-run
-run
-force -freeze sim:/BR/opCode zzzz1111zzzzzzzz 0
-run
-run
-force -freeze sim:/BR/opCode zzzz0000zzzzzzzz 0
-run
-run
-force -freeze sim:/BR/ZNC 000 0
-run
-run
-run
-force -freeze sim:/BR/opCode zzzz0100zzzzzzzz 0
-run
-force -freeze sim:/BR/ZNC 100 0
-run
-run
-force -freeze sim:/BR/ZNC 010 0
-run
-force -freeze sim:/BR/ZNC 111 0
-run
-force -freeze sim:/BR/opCode zzzz0000zzzzzzzz 0
-run
-force -freeze {sim:/BR/ZNC[2]} St0 0
-run
-# Compile of BR.v failed with 3 errors.
-# Compile of BR.v was successful.
-vsim work.BR
-# End time: 21:10:01 on Dec 04,2023, Elapsed time: 0:09:47
-# Errors: 0, Warnings: 3
-# vsim work.BR 
-# Start time: 21:10:01 on Dec 04,2023
-# Loading work.BR
-add wave -position end  sim:/BR/opCode
-add wave -position end  sim:/BR/ZNC
-add wave -position end  sim:/BR/BR
-force -freeze sim:/BR/ZNC 000 0
-force -freeze sim:/BR/opCode zzzz0000zzzzzzzz 0
-run
-force -freeze sim:/BR/opCode zzzz0010zzzzzzzz 0
-run
-force -freeze sim:/BR/opCode zzzz0000zzzzzzzz 0
-run
-force -freeze sim:/BR/opCode zzzz1000zzzzzzzz 0
-run
-force -freeze sim:/BR/ZNC 001 0
-run
-force -freeze sim:/BR/opCode zzzz1001zzzzzzzz 0
-run
-force -freeze sim:/BR/ZNC 000 0
-run
-# Compile of BR.v was successful.
-vsim work.BR
-# End time: 21:11:25 on Dec 04,2023, Elapsed time: 0:01:24
-# Errors: 0, Warnings: 2
-# vsim work.BR 
-# Start time: 21:11:25 on Dec 04,2023
-# Loading work.BR
-add wave -position end  sim:/BR/opCode
-add wave -position end  sim:/BR/ZNC
-add wave -position end  sim:/BR/BR
-force -freeze sim:/BR/opCode zzzz0000zzzzzzzz 0
-force -freeze sim:/BR/ZNC 000 0
-run
-force -freeze sim:/BR/ZNC 001 0
-run
-force -freeze sim:/BR/opCode zzzz0001zzzzzzzz 0
-run
-force -freeze sim:/BR/opCode zzzz0010zzzzzzzz 0
-run
-force -freeze sim:/BR/ZNC 000 0
-run
-force -freeze sim:/BR/ZNC 001 0
-run
-# Compile of BR.v failed with 1 errors.
-# Compile of BR.v was successful.
-vsim work.BR
-# End time: 21:21:43 on Dec 04,2023, Elapsed time: 0:10:18
-# Errors: 0, Warnings: 3
-# vsim work.BR 
-# Start time: 21:21:43 on Dec 04,2023
-# Loading work.BR
-add wave -position end  sim:/BR/opCode
-add wave -position end  sim:/BR/ZNC
-add wave -position end  sim:/BR/BR
-run
-force -freeze sim:/BR/ZNC 00 0
-force -freeze sim:/BR/ZNC 000 0
-force -freeze sim:/BR/opCode 0 0
-run
-force -freeze sim:/BR/opCode zzzz100000000000 0
-run
-force -freeze sim:/BR/opCode zzzz1001zzzzzzzz 0
-run
-# Compile of BR.v was successful.
-vsim work.BR
-# End time: 21:23:34 on Dec 04,2023, Elapsed time: 0:01:51
-# Errors: 0, Warnings: 2
-# vsim work.BR 
-# Start time: 21:23:34 on Dec 04,2023
-# Loading work.BR
-add wave -position end  sim:/BR/opCode
-add wave -position end  sim:/BR/ZNC
-add wave -position end  sim:/BR/BR
-force -freeze sim:/BR/ZNC 000 0
-force -freeze sim:/BR/opCode zzzz0000zzzzzzzz 0
-run
-force -freeze sim:/BR/opCode zzzz1000zzzzzzzz 0
-run
-run
-noforce sim:/BR/opCode
-force -freeze sim:/BR/opCode zzzz1001zzzzzzzz 0
-run
-run
-# Compile of BR.v was successful.
-vsim work.BR
-# End time: 21:29:43 on Dec 04,2023, Elapsed time: 0:06:09
-# Errors: 0, Warnings: 2
-# vsim work.BR 
-# Start time: 21:29:43 on Dec 04,2023
-# Loading work.BR
-add wave -position end  sim:/BR/opCode
-add wave -position end  sim:/BR/ZNC
-add wave -position end  sim:/BR/BR
-force -freeze sim:/BR/opCode zzzz0000zzzzzzzzz 0
-run
-force -freeze sim:/BR/ZNC 0 0
-run
-force -freeze sim:/BR/opCode zzzz0000zzzzzzzz 0
-run
-force -freeze sim:/BR/opCode 00000000 0
-run
-run
-force -freeze sim:/BR/opCode 0000100000000000 0
-run
-force -freeze sim:/BR/opCode 0000110000000000 0
-run
-# Compile of BR.v was successful.
-vsim work.BR
-# End time: 21:32:55 on Dec 04,2023, Elapsed time: 0:03:12
-# Errors: 0, Warnings: 2
-# vsim work.BR 
-# Start time: 21:32:55 on Dec 04,2023
-# Loading work.BR
-add wave -position end  sim:/BR/opCode
-add wave -position end  sim:/BR/ZNC
-add wave -position end  sim:/BR/BR
-force -freeze sim:/BR/ZNC 0 0
-force -freeze sim:/BR/opCode 0 0
-run -continue
-run
-force -freeze sim:/BR/opCode 0000100000000000 0
-run
-force -freeze sim:/BR/opCode 0000110000000000 0
-run
-force -freeze sim:/BR/ZNC 100 0
-run
-# Compile of BR.v failed with 8 errors.
-# Compile of BR.v failed with 8 errors.
-# Compile of BR.v failed with 8 errors.
-# Compile of BR.v failed with 8 errors.
-# Compile of BR.v failed with 8 errors.
-# Compile of BR.v failed with 7 errors.
-# Compile of BR.v was successful.
-# Compile of BR.v was successful.
-vsim work.BR
-# End time: 21:41:04 on Dec 04,2023, Elapsed time: 0:08:09
-# Errors: 0, Warnings: 9
-# vsim work.BR 
-# Start time: 21:41:04 on Dec 04,2023
-# Loading work.BR
-add wave -position end  sim:/BR/ZNC
-add wave -position end  sim:/BR/BR
-add wave -position end  sim:/BR/opCode
-force -freeze sim:/BR/ZNC 000 0
-force -freeze sim:/BR/opCode 0 0
-run
-force -freeze sim:/BR/opCode 'h0000 0
-run
-force -freeze sim:/BR/ZNC 010 0
-run
-force -freeze sim:/BR/ZNC 111 0
-run
-force -freeze sim:/BR/opCode 'h0100 0
-run
-force -freeze sim:/BR/ZNC 110 0
-run
-run
-force -freeze sim:/BR/opCode 'h0200 0
-run
-force -freeze sim:/BR/opCode 'h0A00 0
-run
-run
-force -freeze sim:/BR/ZNC 100 0
-run
-# End time: 21:46:42 on Dec 04,2023, Elapsed time: 0:05:38
-# Errors: 0, Warnings: 1
+# Loading work.INC
+# Loading work.LD
+# Loading work.ST
+# Loading work.RAM
+# Loading work.DECOG
+# ** Error: (vsim-3033) Instantiation of 'zero' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /green File: C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Green/green.v Line: 37
+#         Searched libraries:
+#             C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/ModelSim/Andy/Testin/work
+# ** Error: (vsim-3033) Instantiation of 'negative' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /green File: C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Green/green.v Line: 38
+#         Searched libraries:
+#             C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/ModelSim/Andy/Testin/work
+# ** Error: (vsim-3033) Instantiation of 'carry' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /green File: C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Green/green.v Line: 39
+#         Searched libraries:
+#             C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/ModelSim/Andy/Testin/work
+# Error loading design
+# End time: 22:06:49 on Dec 04,2023, Elapsed time: 0:00:02
+# Errors: 3, Warnings: 3
