@@ -10,9 +10,10 @@ module RAM(address, in, out, clk, WE);
 
     reg [15:0]memory[0:255];
 
+    always@(address,clk)
+        out = memory[address];
+
     always @(posedge clk)
         if(WE)
             memory[address] <= in;
-        else
-            out <= memory[address];
 endmodule

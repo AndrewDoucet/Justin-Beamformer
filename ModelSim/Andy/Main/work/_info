@@ -10,7 +10,7 @@ z2
 cModel Technology
 dC:/Users/andre/OneDrive/Documents/GitHub/S-Machine/ModelSim/Andy/Red
 vADD
-Z0 !s110 1701743687
+Z0 !s110 1701744290
 !i10b 1
 !s100 jEMaFZebl;IbZXlLAc@9M3
 Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
@@ -20,13 +20,13 @@ Z3 dC:/Users/andre/OneDrive/Documents/GitHub/S-Machine/ModelSim/Andy/Main
 Z4 w1701548384
 8C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Blue/Instructions/ADD.v
 FC:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Blue/Instructions/ADD.v
-!i122 963
+!i122 1034
 Z5 L0 5 7
 Z6 OV;L;2020.1;71
 r1
 !s85 0
 31
-Z7 !s108 1701743687.000000
+Z7 !s108 1701744290.000000
 !s107 C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Blue/Instructions/ADD.v|
 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Blue/Instructions/ADD.v|
 !i113 1
@@ -44,7 +44,7 @@ R3
 R4
 8C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Blue/Instructions/AND.v
 FC:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Blue/Instructions/AND.v
-!i122 964
+!i122 1035
 R5
 R6
 r1
@@ -58,7 +58,7 @@ R8
 R9
 n@a@n@d
 vbecode
-Z10 !s110 1701743691
+Z10 !s110 1701744295
 !i10b 1
 !s100 0?]_4jBH5WPFI>n5n`]T12
 R1
@@ -68,43 +68,43 @@ R3
 w1701561525
 8C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Main/becode.v
 FC:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Main/becode.v
-!i122 981
+!i122 1053
 Z11 L0 5 27
 R6
 r1
 !s85 0
 31
-Z12 !s108 1701743691.000000
+Z12 !s108 1701744294.000000
 !s107 C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Main/becode.v|
 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Main/becode.v|
 !i113 1
 R8
 R9
 vblue
-Z13 !s110 1701743689
+Z13 !s110 1701744292
 !i10b 1
 !s100 R;]8H:`=Bj:[c:2Ukcne=3
 R1
-I9]7n9@BN5zGRR:YO3868j0
+IABAlHn5Fz^2e7P8hacWm;2
 R2
 R3
-w1701743257
-8C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Blue/blue.v
-FC:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Blue/blue.v
-!i122 972
+w1701744266
+8C:\Users\andre\OneDrive\Documents\GitHub\S-Machine\Blue\blue.v
+FC:\Users\andre\OneDrive\Documents\GitHub\S-Machine\Blue\blue.v
+!i122 1044
 L0 3 22
 R6
 r1
 !s85 0
 31
-Z14 !s108 1701743689.000000
-!s107 C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Blue/blue.v|
-!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Blue/blue.v|
+Z14 !s108 1701744292.000000
+!s107 C:\Users\andre\OneDrive\Documents\GitHub\S-Machine\Blue\blue.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:\Users\andre\OneDrive\Documents\GitHub\S-Machine\Blue\blue.v|
 !i113 1
 R8
 R9
 vBR
-Z15 !s110 1701743694
+Z15 !s110 1701744297
 !i10b 1
 !s100 m?PcaRAi01YSz1iez<gjh1
 R1
@@ -114,13 +114,13 @@ R3
 w1701741607
 8C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Green/BR.v
 FC:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Green/BR.v
-!i122 993
+!i122 1065
 L0 3 36
 R6
 r1
 !s85 0
 31
-Z16 !s108 1701743694.000000
+Z16 !s108 1701744297.000000
 !s107 C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Green/BR.v|
 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Green/BR.v|
 !i113 1
@@ -128,7 +128,7 @@ R8
 R9
 n@b@r
 vcarry
-Z17 !s110 1701743690
+Z17 !s110 1701744294
 !i10b 1
 !s100 :[[K0lLjzd<Lc^;]F>1ng2
 R1
@@ -138,36 +138,36 @@ R3
 Z18 w1701533625
 8C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/ZNC/carry.v
 FC:/Users/andre/OneDrive/Documents/GitHub/S-Machine/ZNC/carry.v
-!i122 977
+!i122 1049
 L0 1 24
 R6
 r1
 !s85 0
 31
-Z19 !s108 1701743690.000000
+Z19 !s108 1701744293.000000
 !s107 C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/ZNC/carry.v|
 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/ZNC/carry.v|
 !i113 1
 R8
 R9
 vCLR
-Z20 !s110 1701743692
+R10
 !i10b 1
 !s100 ;WEBI:Cei@PQPMO:z<YH>1
 R1
 IOecc79XoNWJ<SFERDeM_e3
 R2
 R3
-Z21 w1701558231
+Z20 w1701558231
 8C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Yellow/instruction/CLR.v
 FC:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Yellow/instruction/CLR.v
-!i122 983
-Z22 L0 4 9
+!i122 1055
+Z21 L0 4 9
 R6
 r1
 !s85 0
 31
-Z23 !s108 1701743692.000000
+Z22 !s108 1701744295.000000
 !s107 C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Yellow/instruction/CLR.v|
 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Yellow/instruction/CLR.v|
 !i113 1
@@ -175,23 +175,23 @@ R8
 R9
 n@c@l@r
 vCMP
-R20
+R10
 !i10b 1
 !s100 Yz;ee85zT7?ANZQma77lN3
 R1
 IP]_P7L_BC:SZ?_lI;KO?j1
 R2
 R3
-R21
+R20
 8C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Yellow/instruction/CMP.v
 FC:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Yellow/instruction/CMP.v
-!i122 984
+!i122 1056
 L0 3 11
 R6
 r1
 !s85 0
 31
-R23
+R22
 !s107 C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Yellow/instruction/CMP.v|
 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Yellow/instruction/CMP.v|
 !i113 1
@@ -222,7 +222,7 @@ r1
 R8
 R9
 vDECO
-!s110 1701743719
+Z23 !s110 1701744291
 !i10b 1
 !s100 NfmW732LkFHSmOgj1gC3]3
 R1
@@ -232,13 +232,13 @@ R3
 w1701743710
 8C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Blue/Instructions/DECO.v
 FC:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Blue/Instructions/DECO.v
-!i122 996
+!i122 1036
 L0 5 67
 R6
 r1
 !s85 0
 31
-!s108 1701743719.000000
+R7
 !s107 C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Blue/Instructions/DECO.v|
 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Blue/Instructions/DECO.v|
 !i113 1
@@ -246,7 +246,7 @@ R8
 R9
 n@d@e@c@o
 vDECOG
-R15
+Z24 !s110 1701744298
 !i10b 1
 !s100 TP?RlWN]B<RgzZIdV5=bD2
 R1
@@ -256,7 +256,7 @@ R3
 w1701741873
 8C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Green/DECOG.v
 FC:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Green/DECOG.v
-!i122 994
+!i122 1066
 L0 5 36
 R6
 r1
@@ -270,23 +270,23 @@ R8
 R9
 n@d@e@c@o@g
 vDECOY
-R20
+Z25 !s110 1701744296
 !i10b 1
 !s100 5k54igSWNg?o3YP>k9FhV3
 R1
 IdQYMS`>3H2QH1NoPU9FlW1
 R2
 R3
-R21
+R20
 8C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Yellow/instruction/DECOY.v
 FC:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Yellow/instruction/DECOY.v
-!i122 985
+!i122 1057
 L0 5 9
 R6
 r1
 !s85 0
 31
-R23
+R22
 !s107 C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Yellow/instruction/DECOY.v|
 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Yellow/instruction/DECOY.v|
 !i113 1
@@ -294,7 +294,7 @@ R8
 R9
 n@d@e@c@o@y
 vEXCH
-Z24 !s110 1701743688
+R23
 !i10b 1
 !s100 HF@5aEHZaf:^<B9XZ][BH1
 R1
@@ -304,13 +304,13 @@ R3
 R4
 8C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Blue/Instructions/EXCH.v
 FC:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Blue/Instructions/EXCH.v
-!i122 965
-Z25 L0 5 8
+!i122 1037
+Z26 L0 5 8
 R6
 r1
 !s85 0
 31
-R7
+Z27 !s108 1701744291.000000
 !s107 C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Blue/Instructions/EXCH.v|
 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Blue/Instructions/EXCH.v|
 !i113 1
@@ -318,23 +318,23 @@ R8
 R9
 n@e@x@c@h
 vEXT
-Z26 !s110 1701743693
+R25
 !i10b 1
 !s100 I9VFXFc3F:B>3KnC@CjfL1
 R1
 I5bKR[JVVA^CzdS8lIA=nD1
 R2
 R3
-R21
+R20
 8C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Yellow/instruction/EXT.v
 FC:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Yellow/instruction/EXT.v
-!i122 986
-Z27 L0 3 9
+!i122 1058
+Z28 L0 3 9
 R6
 r1
 !s85 0
 31
-R23
+Z29 !s108 1701744296.000000
 !s107 C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Yellow/instruction/EXT.v|
 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Yellow/instruction/EXT.v|
 !i113 1
@@ -342,7 +342,7 @@ R8
 R9
 n@e@x@t
 vgreen
-R26
+R25
 !i10b 1
 !s100 N8=^Hh4XiWTM8VYRb8haT3
 R1
@@ -352,20 +352,20 @@ R3
 w1701741831
 8C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Green/green.v
 FC:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Green/green.v
-!i122 989
+!i122 1061
 L0 3 39
 R6
 r1
 !s85 0
 31
-Z28 !s108 1701743693.000000
+R29
 !s107 C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Green/green.v|
 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Green/green.v|
 !i113 1
 R8
 R9
 vINC
-!s110 1701743695
+R24
 !i10b 1
 !s100 942>7O@i4=<Bm_nX3OLmM2
 R1
@@ -375,13 +375,13 @@ R3
 w1701562613
 8C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Green/INC.v
 FC:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Green/INC.v
-!i122 995
-R25
+!i122 1067
+R26
 R6
 r1
 !s85 0
 31
-R16
+!s108 1701744298.000000
 !s107 C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Green/INC.v|
 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Green/INC.v|
 !i113 1
@@ -389,7 +389,7 @@ R8
 R9
 n@i@n@c
 vINST
-R24
+R23
 !i10b 1
 !s100 jEGo^T<78z4_M0DV[7^Xd3
 R1
@@ -399,13 +399,13 @@ R3
 R4
 8C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Blue/Instructions/INST.v
 FC:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Blue/Instructions/INST.v
-!i122 966
-R27
+!i122 1038
+R28
 R6
 r1
 !s85 0
 31
-Z29 !s108 1701743688.000000
+R27
 !s107 C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Blue/Instructions/INST.v|
 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Blue/Instructions/INST.v|
 !i113 1
@@ -413,7 +413,7 @@ R8
 R9
 n@i@n@s@t
 vinstruction
-R17
+Z30 !s110 1701744293
 !i10b 1
 !s100 JonI[WHPhb;:i8[D<D[MX1
 R1
@@ -423,7 +423,7 @@ R3
 w1701743330
 8C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Blue/instruction.v
 FC:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Blue/instruction.v
-!i122 973
+!i122 1045
 L0 5 28
 R6
 r1
@@ -436,23 +436,23 @@ R14
 R8
 R9
 vINSTY
-R26
+R25
 !i10b 1
 !s100 i:4Y3^Sa[<;^LfUkk@7Fk3
 R1
 IG<gP1U6jQ1DLlYL0]c>EI2
 R2
 R3
-R21
+R20
 8C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Yellow/instruction/INSTY.v
 FC:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Yellow/instruction/INSTY.v
-!i122 987
+!i122 1059
 L0 3 8
 R6
 r1
 !s85 0
 31
-R28
+R29
 !s107 C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Yellow/instruction/INSTY.v|
 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Yellow/instruction/INSTY.v|
 !i113 1
@@ -470,8 +470,8 @@ R3
 w1701743281
 8C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Green/LD.v
 FC:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Green/LD.v
-!i122 992
-Z30 L0 5 23
+!i122 1064
+Z31 L0 5 23
 R6
 r1
 !s85 0
@@ -491,23 +491,23 @@ R1
 I]KGfVKiPH9NERBJGSVgkP1
 R2
 R3
-w1701741169
+w1701744282
 8C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Main/main.v
 FC:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Main/main.v
-!i122 961
+!i122 1032
 L0 3 46
 R6
 r1
 !s85 0
 31
-!s108 1701743686.000000
+!s108 1701744289.000000
 !s107 C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Main/main.v|
 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Main/main.v|
 !i113 1
 R8
 R9
 vMOV
-R24
+R23
 !i10b 1
 !s100 A;Zak=6z6e<`[XUE1Q4:k2
 R1
@@ -517,13 +517,13 @@ R3
 R4
 8C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Blue/Instructions/MOV.v
 FC:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Blue/Instructions/MOV.v
-!i122 967
+!i122 1039
 R5
 R6
 r1
 !s85 0
 31
-R29
+R27
 !s107 C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Blue/Instructions/MOV.v|
 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Blue/Instructions/MOV.v|
 !i113 1
@@ -531,7 +531,7 @@ R8
 R9
 n@m@o@v
 vnegative
-R10
+R17
 !i10b 1
 !s100 3j8?7kP<350zok9cRoe:j2
 R1
@@ -541,20 +541,20 @@ R3
 R18
 8C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/ZNC/negative.v
 FC:/Users/andre/OneDrive/Documents/GitHub/S-Machine/ZNC/negative.v
-!i122 978
+!i122 1050
 L0 1 9
 R6
 r1
 !s85 0
 31
-R19
+R12
 !s107 C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/ZNC/negative.v|
 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/ZNC/negative.v|
 !i113 1
 R8
 R9
 vOR
-R24
+R13
 !i10b 1
 !s100 1;J=P95cGj:UPVPlj88430
 R1
@@ -564,13 +564,13 @@ R3
 R4
 8C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Blue/Instructions/OR.v
 FC:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Blue/Instructions/OR.v
-!i122 968
+!i122 1040
 R5
 R6
 r1
 !s85 0
 31
-R29
+R27
 !s107 C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Blue/Instructions/OR.v|
 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Blue/Instructions/OR.v|
 !i113 1
@@ -578,7 +578,7 @@ R8
 R9
 n@o@r
 vPC
-R17
+R30
 !i10b 1
 !s100 Lhbmf;g92O`jDz`b:@Tig3
 R1
@@ -588,7 +588,7 @@ R3
 w1701548086
 8C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Red/PC.v
 FC:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Red/PC.v
-!i122 974
+!i122 1046
 L0 1 17
 R6
 r1
@@ -626,23 +626,23 @@ R8
 R9
 n@p@c_reg
 vRAM
-R15
+!s110 1701745142
 !i10b 1
-!s100 0XmiCZicJAOJ<=6Rlgkz]1
+!s100 9o?V>k8Zk4FSOjmCe=IO[1
 R1
-Ia^i7k19N;bznc0Jd`Ijk?1
+I1^42F@4`YGJ@InY6k8?ZR0
 R2
 R3
-w1701544574
+w1701745135
 8C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Green/RAM.v
 FC:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Green/RAM.v
-!i122 990
-L0 3 16
+!i122 1069
+L0 3 17
 R6
 r1
 !s85 0
 31
-R28
+!s108 1701745142.000000
 !s107 C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Green/RAM.v|
 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Green/RAM.v|
 !i113 1
@@ -650,7 +650,7 @@ R8
 R9
 n@r@a@m
 vred
-R17
+R30
 !i10b 1
 !s100 Hh^?Q@`AC1=0ko9k_<FJ:2
 R1
@@ -660,7 +660,7 @@ R3
 w1701571862
 8C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Red/red.v
 FC:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Red/red.v
-!i122 975
+!i122 1047
 L0 3 28
 R6
 r1
@@ -683,7 +683,7 @@ R3
 w1701556829
 8C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Main/reg16.v
 FC:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Main/reg16.v
-!i122 962
+!i122 1033
 L0 2 10
 R6
 r1
@@ -696,7 +696,7 @@ R7
 R8
 R9
 vreg3
-R10
+R17
 !i10b 1
 !s100 7ZePkEgGL7dL[o2CJJ13R1
 R1
@@ -706,7 +706,7 @@ R3
 R18
 8C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Main/reg3.v
 FC:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Main/reg3.v
-!i122 980
+!i122 1052
 L0 2 9
 R6
 r1
@@ -719,7 +719,7 @@ R12
 R8
 R9
 vROM
-R17
+R30
 !i10b 1
 !s100 JNYMd0IJ@;f7b9BA`Z28C3
 R1
@@ -729,7 +729,7 @@ R3
 w1701559489
 8C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Red/ROM.v
 FC:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Red/ROM.v
-!i122 976
+!i122 1048
 L0 3 10
 R6
 r1
@@ -743,23 +743,23 @@ R8
 R9
 n@r@o@m
 vSET
-R26
+R25
 !i10b 1
 !s100 0z4JjD9KX1F4JZWCQHX@F0
 R1
 I2nPKYJ0z>kj8BJSVl<J>l1
 R2
 R3
-R21
+R20
 8C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Yellow/instruction/SET.v
 FC:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Yellow/instruction/SET.v
-!i122 988
-R22
+!i122 1060
+R21
 R6
 r1
 !s85 0
 31
-R28
+R29
 !s107 C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Yellow/instruction/SET.v|
 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Yellow/instruction/SET.v|
 !i113 1
@@ -777,13 +777,13 @@ R3
 R4
 8C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Blue/Instructions/SHR.v
 FC:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Blue/Instructions/SHR.v
-!i122 969
-R30
+!i122 1041
+R31
 R6
 r1
 !s85 0
 31
-R29
+R14
 !s107 C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Blue/Instructions/SHR.v|
 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Blue/Instructions/SHR.v|
 !i113 1
@@ -801,7 +801,7 @@ R3
 w1701562694
 8C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Green/ST.v
 FC:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Green/ST.v
-!i122 991
+!i122 1063
 L0 4 8
 R6
 r1
@@ -825,7 +825,7 @@ R3
 R4
 8C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Blue/Instructions/SUB.v
 FC:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Blue/Instructions/SUB.v
-!i122 970
+!i122 1042
 R5
 R6
 r1
@@ -849,7 +849,7 @@ R3
 R4
 8C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Blue/Instructions/XOR.v
 FC:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Blue/Instructions/XOR.v
-!i122 971
+!i122 1043
 R5
 R6
 r1
@@ -863,7 +863,7 @@ R8
 R9
 n@x@o@r
 vyellow
-R20
+R10
 !i10b 1
 !s100 G]G=_S@c[k2IV<][bTabX2
 R1
@@ -873,20 +873,20 @@ R3
 w1701562309
 8C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Yellow/yellow.v
 FC:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Yellow/yellow.v
-!i122 982
+!i122 1054
 L0 3 21
 R6
 r1
 !s85 0
 31
-R12
+R22
 !s107 C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Yellow/yellow.v|
 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Yellow/yellow.v|
 !i113 1
 R8
 R9
 vzero
-R10
+R17
 !i10b 1
 !s100 356MbT=`g74bXAM34PdgL1
 R1
@@ -896,7 +896,7 @@ R3
 R18
 8C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/ZNC/zero.v
 FC:/Users/andre/OneDrive/Documents/GitHub/S-Machine/ZNC/zero.v
-!i122 979
+!i122 1051
 L0 1 10
 R6
 r1
