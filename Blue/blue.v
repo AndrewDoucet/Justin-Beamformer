@@ -10,13 +10,15 @@ module blue(opCode,A_in,B_in,A_out,B_out,ZNC_out,ZNC_in);
     // Output Wires
     output [15:0]A_out;
     output [15:0]B_out;
+    input [2:0] ZNC_in;
     output [2:0]ZNC_out;
+    wire [2:0]ZNC_mid;
 
     // Instructions
-    instruction INST(A_in,B_in,opCode,A_out,B_out);
+    instruction instruction(A_in,B_in,opCode,A_out,B_out,ZNC_in,ZNC_mid,ZNC_out);
 
     // ZNC
-    zero zero(A_out,ZNC_out[2]);
-    negative negative(A_out,ZNC_out[1]);
-    carry carry(A_in,B_in,A_out,ZNC_out[0]);
+    zero zero(A_out,ZNC_mid[2]);
+    negative negative(A_out,ZNC_mid[1]);
+    carry carry(A_in,B_in,A_out,ZNC_mid[0]);
 endmodule
