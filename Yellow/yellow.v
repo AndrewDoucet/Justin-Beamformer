@@ -1,23 +1,26 @@
-// Andrew Doucet
+//spencer dugas
 
-module yellow(opCode,A_in,B_in,clk,en,znc_in);
-    // Input Wires
-    input [15:0]A_in;
-    input [15:0]B_in;
-    input [15:0]opCode;
-    
-    // I/O Wires
-    output [2:0]znc_in;
-    wire [2:0]znc_out;
+//This makes sure the yellow circuit works
 
-    // Clock and enable
-    input clk;
-    input en;
+module yellow (RA, RB, ins, znc, out);
+    input [15:0] RA, RB, ins;
+    input [2:0] znc;
+    output [2:0] out;
 
-    // Instructions
-    CMP CMP(A_in,B_in,znc_out);
+    wire [1:0] sel;
+    wire [2:0] cmp,clr,set,znc1;
 
-    // Registers
-    reg3 znc_reg(znc_out,znc_in,clk,en);
+    //Extract the instruction and ZNC from instruction
+    INSTY M1(ins,sel);
+    EXT M2(ins,znc1);
+
+    //do the instructions
+    CMP M3(RA,RB,cmp);
+    SET M4(znc,znc1,set);
+    CLR M5(znc,znc1,clr);
+
+    //Decode the Output
+    DECOY M6(cmp,set,clr,sel,out);
 
 endmodule
+
