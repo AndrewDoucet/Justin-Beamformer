@@ -1,11 +1,4 @@
-C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Green/BR.v {1 {vlog -work work -stats=none C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Green/BR.v
-Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
--- Compiling module BR
-
-Top level modules:
-	BR
-
-} {} {}} C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Yellow/instruction/CMP.v {1 {vlog -work work -stats=none C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Yellow/instruction/CMP.v
+C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Yellow/instruction/CMP.v {1 {vlog -work work -stats=none C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Yellow/instruction/CMP.v
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
 -- Compiling module CMP
 
@@ -33,19 +26,19 @@ Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 
 Top level modules:
 	MOV
 
-} {} {}} C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Blue/Instructions/DECO.v {1 {vlog -work work -stats=none C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Blue/Instructions/DECO.v
-Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
--- Compiling module DECO
-
-Top level modules:
-	DECO
-
 } {} {}} C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Main/becode.v {1 {vlog -work work -stats=none C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Main/becode.v
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
 -- Compiling module becode
 
 Top level modules:
 	becode
+
+} {} {}} C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Blue/Instructions/DECO.v {1 {vlog -work work -stats=none C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Blue/Instructions/DECO.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module DECO
+
+Top level modules:
+	DECO
 
 } {} {}} C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Yellow/yellow.v {1 {vlog -work work -stats=none C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Yellow/yellow.v
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
@@ -166,19 +159,19 @@ Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 
 Top level modules:
 	AND
 
-} {} {}} C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Blue/blue.v {1 {vlog -work work -stats=none C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Blue/blue.v
-Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
--- Compiling module blue
-
-Top level modules:
-	blue
-
 } {} {}} C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Green/ST.v {1 {vlog -work work -stats=none C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Green/ST.v
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
 -- Compiling module ST
 
 Top level modules:
 	ST
+
+} {} {}} C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Blue/blue.v {1 {vlog -work work -stats=none C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Blue/blue.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module blue
+
+Top level modules:
+	blue
 
 } {} {}} C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Green/LD.v {1 {vlog -work work -stats=none C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Green/LD.v
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
