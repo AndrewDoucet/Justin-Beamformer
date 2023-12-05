@@ -1,3 +1,303 @@
-# 0 compiles, 36 failed with no errors.
-# Error opening C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Green/INC.v
-# Path name 'C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Green/INC.v' doesn't exist.
+# Compile of main.v was successful.
+# Compile of reg16.v was successful.
+# Compile of ADD.v was successful.
+# Compile of AND.v was successful.
+# Compile of DECO.v was successful.
+# Compile of EXCH.v was successful.
+# Compile of INST.v was successful.
+# Compile of MOV.v was successful.
+# Compile of OR.v was successful.
+# Compile of SHR.v was successful.
+# Compile of SUB.v was successful.
+# Compile of XOR.v was successful.
+# Compile of blue.v failed with 1 errors.
+# Compile of instruction.v was successful.
+# Compile of PC.v was successful.
+# Compile of red.v was successful.
+# Compile of ROM.v was successful.
+# Compile of carry.v was successful.
+# Compile of negative.v was successful.
+# Compile of zero.v was successful.
+# Compile of reg3.v was successful.
+# Compile of becode.v was successful.
+# Compile of yellow.v was successful.
+# Compile of CLR.v was successful.
+# Compile of CMP.v was successful.
+# Compile of DECOY.v was successful.
+# Compile of EXT.v was successful.
+# Compile of INSTY.v was successful.
+# Compile of SET.v was successful.
+# Compile of green.v was successful.
+# Compile of RAM.v was successful.
+# Compile of ST.v was successful.
+# Compile of LD.v was successful.
+# Compile of BR.v was successful.
+# Compile of DECOG.v was successful.
+# Compile of INC.v was successful.
+# 36 compiles, 1 failed with 1 error.
+# Compile of blue.v failed with 1 errors.
+# Compile of main.v was successful.
+# Compile of reg16.v was successful.
+# Compile of ADD.v was successful.
+# Compile of AND.v was successful.
+# Compile of DECO.v was successful.
+# Compile of EXCH.v was successful.
+# Compile of INST.v was successful.
+# Compile of MOV.v was successful.
+# Compile of OR.v was successful.
+# Compile of SHR.v was successful.
+# Compile of SUB.v was successful.
+# Compile of XOR.v was successful.
+# Compile of blue.v was successful.
+# Compile of instruction.v was successful.
+# Compile of PC.v was successful.
+# Compile of red.v was successful.
+# Compile of ROM.v was successful.
+# Compile of carry.v was successful.
+# Compile of negative.v was successful.
+# Compile of zero.v was successful.
+# Compile of reg3.v was successful.
+# Compile of becode.v was successful.
+# Compile of yellow.v was successful.
+# Compile of CLR.v was successful.
+# Compile of CMP.v was successful.
+# Compile of DECOY.v was successful.
+# Compile of EXT.v was successful.
+# Compile of INSTY.v was successful.
+# Compile of SET.v was successful.
+# Compile of green.v was successful.
+# Compile of RAM.v was successful.
+# Compile of ST.v was successful.
+# Compile of LD.v was successful.
+# Compile of BR.v was successful.
+# Compile of DECOG.v was successful.
+# Compile of INC.v was successful.
+# 36 compiles, 0 failed with no errors.
+vsim work.main
+# vsim work.main 
+# Start time: 22:45:03 on Dec 04,2023
+# Loading work.main
+# Loading work.red
+# Loading work.reg16
+# Loading work.PC_reg
+# Loading work.ROM
+# Loading work.ADD
+# Loading work.blue
+# Loading work.instruction
+# Loading work.INST
+# Loading work.SUB
+# Loading work.OR
+# Loading work.AND
+# Loading work.XOR
+# Loading work.SHR
+# Loading work.MOV
+# Loading work.EXCH
+# Loading work.DECO
+# Loading work.zero
+# Loading work.negative
+# Loading work.carry
+# Loading work.yellow
+# Loading work.CMP
+# Loading work.reg3
+# Loading work.green
+# Loading work.BR
+# Loading work.INC
+# Loading work.LD
+# Loading work.ST
+# Loading work.RAM
+# Loading work.DECOG
+# Loading work.becode
+# ** Warning: (vsim-3015) [PCDPC] - Port size (16) does not match connection size (32) for port 'RB'. The port definition is at: C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Blue/Instructions/ADD.v(5).
+#    Time: 0 ps  Iteration: 0  Instance: /main/red/ADD File: C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Red/red.v Line: 19
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'yellow'.  Expected 6, found 5.
+#    Time: 0 ps  Iteration: 0  Instance: /main/yellow File: C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Main/main.v Line: 40
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (3) for port 'clk'. The port definition is at: C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Yellow/yellow.v(3).
+#    Time: 0 ps  Iteration: 0  Instance: /main/yellow File: C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Main/main.v Line: 40
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (3) for port 'en'. The port definition is at: C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Yellow/yellow.v(3).
+#    Time: 0 ps  Iteration: 0  Instance: /main/yellow File: C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Main/main.v Line: 40
+# ** Warning: (vsim-3722) C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Main/main.v(40): [TFMPC] - Missing connection for port 'znc_in'.
+add wave -position end  sim:/main/clk
+force -freeze sim:/main/clk 1 0, 0 {50 ps} -r 100
+mem load -i C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Programs/FunctionTesting/Test.mem /main/red/ROM/memory
+run
+# WARNING: No extended dataflow license exists
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Warning: (vsim-3015) [PCDPC] - Port size (16) does not match connection size (32) for port 'RB'. The port definition is at: C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Blue/Instructions/ADD.v(5).
+#    Time: 0 ps  Iteration: 0  Instance: /main/red/ADD File: C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Red/red.v Line: 19
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'yellow'.  Expected 6, found 5.
+#    Time: 0 ps  Iteration: 0  Instance: /main/yellow File: C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Main/main.v Line: 40
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (3) for port 'clk'. The port definition is at: C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Yellow/yellow.v(3).
+#    Time: 0 ps  Iteration: 0  Instance: /main/yellow File: C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Main/main.v Line: 40
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (3) for port 'en'. The port definition is at: C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Yellow/yellow.v(3).
+#    Time: 0 ps  Iteration: 0  Instance: /main/yellow File: C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Main/main.v Line: 40
+# ** Warning: (vsim-3722) C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Main/main.v(40): [TFMPC] - Missing connection for port 'znc_in'.
+add wave -position end  sim:/main/A_out
+noforce sim:/main/clk
+force -freeze sim:/main/clk 1 0, 0 {50 ps} -r 100
+mem load -i C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Programs/FunctionTesting/Test.mem /main/red/ROM/memory
+run
+add wave -position end  sim:/main/A_green
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Warning: (vsim-3015) [PCDPC] - Port size (16) does not match connection size (32) for port 'RB'. The port definition is at: C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Blue/Instructions/ADD.v(5).
+#    Time: 0 ps  Iteration: 0  Instance: /main/red/ADD File: C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Red/red.v Line: 19
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'yellow'.  Expected 6, found 5.
+#    Time: 0 ps  Iteration: 0  Instance: /main/yellow File: C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Main/main.v Line: 40
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (3) for port 'clk'. The port definition is at: C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Yellow/yellow.v(3).
+#    Time: 0 ps  Iteration: 0  Instance: /main/yellow File: C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Main/main.v Line: 40
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (3) for port 'en'. The port definition is at: C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Yellow/yellow.v(3).
+#    Time: 0 ps  Iteration: 0  Instance: /main/yellow File: C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Main/main.v Line: 40
+# ** Warning: (vsim-3722) C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Main/main.v(40): [TFMPC] - Missing connection for port 'znc_in'.
+force -freeze sim:/main/clk 1 0, 0 {50 ps} -r 100
+mem load -i C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Programs/FunctionTesting/Test.mem /main/red/ROM/memory
+run
+# Compile of RAM.v failed with 2 errors.
+# Compile of RAM.v was successful.
+vsim work.main
+# End time: 22:52:55 on Dec 04,2023, Elapsed time: 0:07:52
+# Errors: 0, Warnings: 8
+# vsim work.main 
+# Start time: 22:52:55 on Dec 04,2023
+# Loading work.main
+# Loading work.red
+# Loading work.reg16
+# Loading work.PC_reg
+# Loading work.ROM
+# Loading work.ADD
+# Loading work.blue
+# Loading work.instruction
+# Loading work.INST
+# Loading work.SUB
+# Loading work.OR
+# Loading work.AND
+# Loading work.XOR
+# Loading work.SHR
+# Loading work.MOV
+# Loading work.EXCH
+# Loading work.DECO
+# Loading work.zero
+# Loading work.negative
+# Loading work.carry
+# Loading work.yellow
+# Loading work.CMP
+# Loading work.reg3
+# Loading work.green
+# Loading work.BR
+# Loading work.INC
+# Loading work.LD
+# Loading work.ST
+# Loading work.RAM
+# Loading work.DECOG
+# Loading work.becode
+# ** Warning: (vsim-3015) [PCDPC] - Port size (16) does not match connection size (32) for port 'RB'. The port definition is at: C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Blue/Instructions/ADD.v(5).
+#    Time: 0 ps  Iteration: 0  Instance: /main/red/ADD File: C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Red/red.v Line: 19
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'yellow'.  Expected 6, found 5.
+#    Time: 0 ps  Iteration: 0  Instance: /main/yellow File: C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Main/main.v Line: 40
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (3) for port 'clk'. The port definition is at: C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Yellow/yellow.v(3).
+#    Time: 0 ps  Iteration: 0  Instance: /main/yellow File: C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Main/main.v Line: 40
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (3) for port 'en'. The port definition is at: C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Yellow/yellow.v(3).
+#    Time: 0 ps  Iteration: 0  Instance: /main/yellow File: C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Main/main.v Line: 40
+# ** Warning: (vsim-3722) C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Main/main.v(40): [TFMPC] - Missing connection for port 'znc_in'.
+add wave -position end  sim:/main/clk
+force -freeze sim:/main/clk 1 0, 0 {50 ps} -r 100
+mem load -i C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Programs/FunctionTesting/Test.mem /main/red/ROM/memory
+run
+add wave -position end  sim:/main/A_green
+add wave -position end  sim:/main/A_out
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Warning: (vsim-3015) [PCDPC] - Port size (16) does not match connection size (32) for port 'RB'. The port definition is at: C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Blue/Instructions/ADD.v(5).
+#    Time: 0 ps  Iteration: 0  Instance: /main/red/ADD File: C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Red/red.v Line: 19
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'yellow'.  Expected 6, found 5.
+#    Time: 0 ps  Iteration: 0  Instance: /main/yellow File: C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Main/main.v Line: 40
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (3) for port 'clk'. The port definition is at: C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Yellow/yellow.v(3).
+#    Time: 0 ps  Iteration: 0  Instance: /main/yellow File: C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Main/main.v Line: 40
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (3) for port 'en'. The port definition is at: C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Yellow/yellow.v(3).
+#    Time: 0 ps  Iteration: 0  Instance: /main/yellow File: C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Main/main.v Line: 40
+# ** Warning: (vsim-3722) C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Main/main.v(40): [TFMPC] - Missing connection for port 'znc_in'.
+force -freeze sim:/main/clk 1 0, 0 {50 ps} -r 100
+mem load -i C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Programs/FunctionTesting/Test.mem /main/red/ROM/memory
+run
+add wave -position end  sim:/main/A_green
+add wave -position end  sim:/main/A_yellow
+add wave -position end  sim:/main/A_blue
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Warning: (vsim-3015) [PCDPC] - Port size (16) does not match connection size (32) for port 'RB'. The port definition is at: C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Blue/Instructions/ADD.v(5).
+#    Time: 0 ps  Iteration: 0  Instance: /main/red/ADD File: C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Red/red.v Line: 19
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'yellow'.  Expected 6, found 5.
+#    Time: 0 ps  Iteration: 0  Instance: /main/yellow File: C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Main/main.v Line: 40
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (3) for port 'clk'. The port definition is at: C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Yellow/yellow.v(3).
+#    Time: 0 ps  Iteration: 0  Instance: /main/yellow File: C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Main/main.v Line: 40
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (3) for port 'en'. The port definition is at: C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Yellow/yellow.v(3).
+#    Time: 0 ps  Iteration: 0  Instance: /main/yellow File: C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Main/main.v Line: 40
+# ** Warning: (vsim-3722) C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Main/main.v(40): [TFMPC] - Missing connection for port 'znc_in'.
+force -freeze sim:/main/clk 1 0, 0 {50 ps} -r 100
+mem load -i C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Programs/FunctionTesting/Test.mem /main/red/ROM/memory
+run
+add wave -position end sim:/main/green/*
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Warning: (vsim-3015) [PCDPC] - Port size (16) does not match connection size (32) for port 'RB'. The port definition is at: C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Blue/Instructions/ADD.v(5).
+#    Time: 0 ps  Iteration: 0  Instance: /main/red/ADD File: C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Red/red.v Line: 19
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'yellow'.  Expected 6, found 5.
+#    Time: 0 ps  Iteration: 0  Instance: /main/yellow File: C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Main/main.v Line: 40
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (3) for port 'clk'. The port definition is at: C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Yellow/yellow.v(3).
+#    Time: 0 ps  Iteration: 0  Instance: /main/yellow File: C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Main/main.v Line: 40
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (3) for port 'en'. The port definition is at: C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Yellow/yellow.v(3).
+#    Time: 0 ps  Iteration: 0  Instance: /main/yellow File: C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Main/main.v Line: 40
+# ** Warning: (vsim-3722) C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Main/main.v(40): [TFMPC] - Missing connection for port 'znc_in'.
+force -freeze sim:/main/clk 1 0, 0 {50 ps} -r 100
+mem load -i C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Programs/FunctionTesting/Test.mem /main/red/ROM/memory
+run
+# Compile of RAM.v was successful.
+vsim work.main
+# End time: 22:59:19 on Dec 04,2023, Elapsed time: 0:06:24
+# Errors: 0, Warnings: 7
+# vsim work.main 
+# Start time: 22:59:19 on Dec 04,2023
+# Loading work.main
+# Loading work.red
+# Loading work.reg16
+# Loading work.PC_reg
+# Loading work.ROM
+# Loading work.ADD
+# Loading work.blue
+# Loading work.instruction
+# Loading work.INST
+# Loading work.SUB
+# Loading work.OR
+# Loading work.AND
+# Loading work.XOR
+# Loading work.SHR
+# Loading work.MOV
+# Loading work.EXCH
+# Loading work.DECO
+# Loading work.zero
+# Loading work.negative
+# Loading work.carry
+# Loading work.yellow
+# Loading work.CMP
+# Loading work.reg3
+# Loading work.green
+# Loading work.BR
+# Loading work.INC
+# Loading work.LD
+# Loading work.ST
+# Loading work.RAM
+# Loading work.DECOG
+# Loading work.becode
+# ** Warning: (vsim-3015) [PCDPC] - Port size (16) does not match connection size (32) for port 'RB'. The port definition is at: C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Blue/Instructions/ADD.v(5).
+#    Time: 0 ps  Iteration: 0  Instance: /main/red/ADD File: C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Red/red.v Line: 19
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'yellow'.  Expected 6, found 5.
+#    Time: 0 ps  Iteration: 0  Instance: /main/yellow File: C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Main/main.v Line: 40
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (3) for port 'clk'. The port definition is at: C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Yellow/yellow.v(3).
+#    Time: 0 ps  Iteration: 0  Instance: /main/yellow File: C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Main/main.v Line: 40
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (3) for port 'en'. The port definition is at: C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Yellow/yellow.v(3).
+#    Time: 0 ps  Iteration: 0  Instance: /main/yellow File: C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Main/main.v Line: 40
+# ** Warning: (vsim-3722) C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Main/main.v(40): [TFMPC] - Missing connection for port 'znc_in'.
+add wave -position end  sim:/main/clk
+force -freeze sim:/main/clk 1 0, 0 {50 ps} -r 100
+mem load -i C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Programs/FunctionTesting/Test.mem /main/red/ROM/memory
+run
