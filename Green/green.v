@@ -16,6 +16,7 @@ module green(clk,en,WE,opCode,A_in,B_in,ZNC_in,A_out,B_out,ZNC_out,BR_out);
     output [15:0]B_out;
     output BR_out;
     output [2:0] ZNC_out;
+    wire [2:0] ZNC_mid;
 
     wire [15:0] A_inc;
     wire [15:0] B_inc;
@@ -31,6 +32,10 @@ module green(clk,en,WE,opCode,A_in,B_in,ZNC_in,A_out,B_out,ZNC_out,BR_out);
     LD LD(ram_out,opCode,address,LD_out,A_in,B_in);
     ST ST(A_in,B_in,opCode,ram_in,address);
     RAM RAM(address, ram_in, ram_out, ~clk, WE);
-    DECOG DECOG(A_in, B_in, A_inc, B_inc, LD_out, BR_in, opCode, A_out, B_out, WE, BR_out);
+    DECOG DECOG(A_in, B_in, A_inc, B_inc, LD_out, BR_in, opCode, A_out, B_out, WE, BR_out,ZNC_in,ZNC_mid,ZNC_out);
+
+    zero zero(A_out,ZNC_mid[2]);
+    negative negative(A_out,ZNC_mid[1]);
+    carry carry(A_in,B_in,A_out,ZNC_mid[0]);
 
 endmodule

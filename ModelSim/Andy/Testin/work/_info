@@ -1,0 +1,178 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Users/andre/OneDrive/Documents/GitHub/S-Machine/ModelSim/Andy/Main
+vBR
+Z0 !s110 1701741997
+!i10b 1
+!s100 m?PcaRAi01YSz1iez<gjh1
+Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I>FVJ3BkCgXcKPgMCBf^gk1
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+Z3 dC:/Users/andre/OneDrive/Documents/GitHub/S-Machine/ModelSim/Andy/Testin
+w1701741607
+8C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Green/BR.v
+FC:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Green/BR.v
+!i122 11
+L0 3 36
+Z4 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z5 !s108 1701741997.000000
+!s107 C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Green/BR.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Green/BR.v|
+!i113 1
+Z6 o-work work
+Z7 tCvgOpt 0
+n@b@r
+vDECOG
+R0
+!i10b 1
+!s100 TP?RlWN]B<RgzZIdV5=bD2
+R1
+IZI@H0<_oQe^4U[h>WJ>IP3
+R2
+R3
+w1701741873
+8C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Green/DECOG.v
+FC:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Green/DECOG.v
+!i122 12
+L0 5 36
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Green/DECOG.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Green/DECOG.v|
+!i113 1
+R6
+R7
+n@d@e@c@o@g
+vgreen
+R0
+!i10b 1
+!s100 N8=^Hh4XiWTM8VYRb8haT3
+R1
+Il]g8?@iA:gh2n_a4^M`=h0
+R2
+R3
+w1701741831
+8C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Green/green.v
+FC:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Green/green.v
+!i122 13
+L0 3 39
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Green/green.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Green/green.v|
+!i113 1
+R6
+R7
+vINC
+Z8 !s110 1701741998
+!i10b 1
+!s100 942>7O@i4=<Bm_nX3OLmM2
+R1
+IHQPm7LAdl=Tzk?;ZQ^gmU2
+R2
+R3
+w1701562613
+8C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Green/INC.v
+FC:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Green/INC.v
+!i122 14
+L0 5 8
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Green/INC.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Green/INC.v|
+!i113 1
+R6
+R7
+n@i@n@c
+vLD
+R8
+!i10b 1
+!s100 =gZR7`[hLb8z`^2>O:VC32
+R1
+IA`Hm=lkMSGEQWjRiReI_40
+R2
+R3
+w1701567300
+8C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Green/LD.v
+FC:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Green/LD.v
+!i122 15
+L0 5 24
+R4
+r1
+!s85 0
+31
+Z9 !s108 1701741998.000000
+!s107 C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Green/LD.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Green/LD.v|
+!i113 1
+R6
+R7
+n@l@d
+vRAM
+R8
+!i10b 1
+!s100 0XmiCZicJAOJ<=6Rlgkz]1
+R1
+Ia^i7k19N;bznc0Jd`Ijk?1
+R2
+R3
+w1701544574
+8C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Green/RAM.v
+FC:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Green/RAM.v
+!i122 16
+L0 3 16
+R4
+r1
+!s85 0
+31
+R9
+!s107 C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Green/RAM.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Green/RAM.v|
+!i113 1
+R6
+R7
+n@r@a@m
+vST
+R8
+!i10b 1
+!s100 3n2WAF1AzzkH?GRg4z^;31
+R1
+IZPzG6hh?h8ePO2<gaI32n0
+R2
+R3
+w1701562694
+8C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Green/ST.v
+FC:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Green/ST.v
+!i122 17
+L0 4 8
+R4
+r1
+!s85 0
+31
+R9
+!s107 C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Green/ST.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Green/ST.v|
+!i113 1
+R6
+R7
+n@s@t

@@ -1,0 +1,33 @@
+# Compile of BR.v was successful.
+# Compile of DECOG.v was successful.
+# Compile of green.v was successful.
+# Compile of INC.v was successful.
+# Compile of LD.v was successful.
+# Compile of RAM.v was successful.
+# Compile of ST.v was successful.
+# 7 compiles, 0 failed with no errors.
+vsim work.green
+# vsim work.green 
+# Start time: 22:06:47 on Dec 04,2023
+# Loading work.green
+# Loading work.BR
+# Loading work.INC
+# Loading work.LD
+# Loading work.ST
+# Loading work.RAM
+# Loading work.DECOG
+# ** Error: (vsim-3033) Instantiation of 'zero' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /green File: C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Green/green.v Line: 37
+#         Searched libraries:
+#             C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/ModelSim/Andy/Testin/work
+# ** Error: (vsim-3033) Instantiation of 'negative' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /green File: C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Green/green.v Line: 38
+#         Searched libraries:
+#             C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/ModelSim/Andy/Testin/work
+# ** Error: (vsim-3033) Instantiation of 'carry' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /green File: C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/Green/green.v Line: 39
+#         Searched libraries:
+#             C:/Users/andre/OneDrive/Documents/GitHub/S-Machine/ModelSim/Andy/Testin/work
+# Error loading design
+# End time: 22:06:49 on Dec 04,2023, Elapsed time: 0:00:02
+# Errors: 3, Warnings: 3
